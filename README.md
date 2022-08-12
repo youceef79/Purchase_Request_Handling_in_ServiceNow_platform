@@ -15,9 +15,7 @@
   <h3> Catalog items & Forms </h3>
  
 ![four](https://user-images.githubusercontent.com/47604307/184391780-fd93eef5-4b43-4f4f-b3b8-1e127bfbc172.png)
-<hr/>
 ![four_it](https://user-images.githubusercontent.com/47604307/184391781-753438ee-d234-4d2f-ad74-bd7f82f90424.png)
-<hr/>
 ![mat](https://user-images.githubusercontent.com/47604307/184391784-a6e63f84-7f72-4610-9375-3709fb7d8fde.png)
 <hr/>
 ![mat_it](https://user-images.githubusercontent.com/47604307/184391786-4954f992-2b43-4eb6-b13a-843226f4e8c8.png)
