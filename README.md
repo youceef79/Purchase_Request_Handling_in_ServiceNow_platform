@@ -17,7 +17,7 @@
  ![four](https://user-images.githubusercontent.com/47604307/184387872-bee1db33-eae5-435e-8781-95827eb5aa21.png)
   <hr/>
 ![mat](https://user-images.githubusercontent.com/47604307/184387874-5f35acdb-6dd1-48b4-a1d1-1451eec9a0cf.png)
-  <hr/>
+  <hr>
 ![perte_item](https://user-images.githubusercontent.com/47604307/184387878-6ede97d2-5776-4acc-85ac-1f3a764eba46.png)
 <hr/>
 ![four_it](https://user-images.githubusercontent.com/47604307/184387976-03440a03-d3b5-4f70-b5c1-9d7ce7a7e0d4.png)
