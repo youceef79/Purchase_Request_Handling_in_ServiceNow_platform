@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-08-12 14:53:58">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>#STRY0010012-RHY-02</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>ea1f92652f3201102f8baa5df699b6d5</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:53:57</sys_created_on>
+<sys_id>782b6b8d97111110a0a43d400153afab</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:53:57</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_script_include_94eb066947320110a06c690cd36d430d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.requestedForControls&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;requestedForControls&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var requestedForControls = Class.create();
+requestedForControls.prototype = {
+    initialize: function() {},
+
+    getUsers: function(cur) {
+
+        var choice = cur.variables.i_want_to_request_this.toString();
+
+        var gr = new GlideRecord('sys_user');
+        gr.addQuery('sys_id', gs.getUserID());
+        gr.query();
+        gr.next();
+		
+        if (choice === "manager") {
+            return "manager=" + gr.sys_id;
+        }
+
+        if (choice === "myself") {
+            return "sys_id=" + gr.sys_id;
+        } else {
+            return "sys_id!=" + gr.sys_id +"^active=true";
+        }
+
+    },
+    type: 'requestedForControls'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-04-11 14:39:34&lt;/sys_created_on&gt;&lt;sys_id&gt;94eb066947320110a06c690cd36d430d&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;requestedForControls&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_94eb066947320110a06c690cd36d430d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-04-11 15:27:19&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1821442098</payload_hash>
+<remote_update_set display_value="#STRY0010012-RHY-02">782b6b8d97111110a0a43d400153afab</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:53:57</sys_created_on>
+<sys_id>3c2b6b8d97111110a0a43d400153afab</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>180195c0e2a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:53:57</sys_updated_on>
+<table/>
+<target_name>requestedForControls</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>0237d6218672011036fb046e217aaf2d</update_guid>
+<update_guid_history>0237d6218672011036fb046e217aaf2d:1821442098,624c0669c3320110e0e3da0e18f02715:228080890</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

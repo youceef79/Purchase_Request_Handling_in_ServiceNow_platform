@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-08-12 14:34:20">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>#STRY0010029-RHY-05</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>be5e68412fa411102f8baa5df699b6a3</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:34:20</sys_created_on>
+<sys_id>19a66f8997111110a0a43d400153af98</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:34:20</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sn_hr_core_service_5f6631dc47245110a06c690cd36d4310</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_hr_core_service"><sn_hr_core_service action="INSERT_OR_UPDATE"><active>true</active><approval_options/><at_a_glance_view display_value="At a Glance" name="ataglance">bca2a4f3b73333001d69c2daee11a9bb</at_a_glance_view><auto_close_case>false</auto_close_case><auto_close_offset/><badge display_value="HR">6439a617c3b00300b599b4ad81d3ae57</badge><case_creation_service_config/><case_options/><close_when/><description/><flow display_value="hr_congé">74a73d1047645110a06c690cd36d43be</flow><fulfillment_instructions/><fulfillment_type>flow</fulfillment_type><header_config_opened_for display_value="Default for opened for/approver">86d9872eb3900300f5302ddc16a8dc8b</header_config_opened_for><header_config_subject_person display_value="Default for subject person/task assigned to">c4e9872eb3900300f5302ddc16a8dc91</header_config_subject_person><hr_criteria/><le_type/><name>Congé administratif</name><producer display_value="Congé administratif">6ad9ad1447245110a06c690cd36d4316</producer><service_table>sn_hr_core_case_workforce_admin</service_table><service_table_fields/><subject_person_access>true</subject_person_access><subject_person_related_lists/><sys_class_name>sn_hr_core_service</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-03 15:45:28</sys_created_on><sys_domain>global</sys_domain><sys_id>5f6631dc47245110a06c690cd36d4310</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Congé administratif</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sn_hr_core_service_5f6631dc47245110a06c690cd36d4310</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-05 18:20:52</sys_updated_on><template/><topic_detail display_value="Congé administratif">394679dc47245110a06c690cd36d4307</topic_detail><value>cong_administratif</value><workflow_detail/></sn_hr_core_service><sys_translated_text action="delete_multiple" query="documentkey=5f6631dc47245110a06c690cd36d4310"/></record_update>]]></payload>
+<payload_hash>-1891817128</payload_hash>
+<remote_update_set display_value="#STRY0010029-RHY-05">19a66f8997111110a0a43d400153af98</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:34:20</sys_created_on>
+<sys_id>d9a66f8997111110a0a43d400153af98</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181cf99136c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:34:20</sys_updated_on>
+<table/>
+<target_name>Congé administratif</target_name>
+<type>HR Service</type>
+<update_domain>global</update_domain>
+<update_guid>511ea409942011105a57ba36f7056486</update_guid>
+<update_guid_history>511ea409942011105a57ba36f7056486:-1891817128,580da8c5e820111062ca3562d57460aa:-1637664073,befc60c577201110948323ffd8da737d:-227656225,318ce0c5b0201110e4fdbc1a1d757f44:-1637664073,1a187d101a645110da27e396e007b051:-1891817128,d557f510a0645110eb8debd9172e2e8b:957467604</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

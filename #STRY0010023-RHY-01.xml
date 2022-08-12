@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-08-12 14:40:18">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>#STRY0010023-RHY-01</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>2f25ff932fb301102f8baa5df699b6b1</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:40:18</sys_created_on>
+<sys_id>bc08e30d97111110a0a43d400153afbf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:40:18</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_sys_user_u_team_leader</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_team_leader" table="sys_user"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>encode_utf8=false</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Team leader</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_team_leader</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>sys_user</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="sys_user">sys_user</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:51</sys_created_on><sys_id>dd061b5347730110a06c690cd36d4320</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Team leader</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_sys_user_u_team_leader</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:51</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1563543338</payload_hash>
+<remote_update_set display_value="#STRY0010023-RHY-01">bc08e30d97111110a0a43d400153afbf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:40:18</sys_created_on>
+<sys_id>3408e30d97111110a0a43d400153afc0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18136b45f100000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:40:18</sys_updated_on>
+<table>sys_user</table>
+<target_name>User.Team leader</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>e9061b53407301106487ee15cdf83c6d</update_guid>
+<update_guid_history>e9061b53407301106487ee15cdf83c6d:-1563543338</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>catalog_script_client_c8f9b34e47c70110a06c690cd36d4375</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;set&lt;/applies_to&gt;&lt;cat_item/&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;saveGlobalForm&amp;amp;accessControl&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    this.parent_form = g_form;
+	
+    var ga = new GlideAjax('RequestAsControls');
+
+    g_form.setDisabled("i_want_to_request_this", true);
+
+    ga.addParam('sysparm_name', 'getAnswers');
+
+    ga.getXML(callback);
+
+}
+
+function callback(response) {
+
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+	
+	answer = JSON.parse(answer);
+
+    if (!answer.as_manager) {
+        g_form.removeOption("i_want_to_request_this", "manager");
+    }
+    if (!answer.as_direct) {
+        g_form.removeOption("i_want_to_request_this", "direct_report");
+    }
+    if (!answer.as_team) {
+        g_form.removeOption("i_want_to_request_this", "team_leader");
+    }
+    if (!answer.as_operator) {
+        g_form.removeOption("i_want_to_request_this", "operator");
+    }
+
+    g_form.setDisabled("i_want_to_request_this", false);
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-04-25 22:11:43&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c8f9b34e47c70110a06c690cd36d4375&lt;/sys_id&gt;&lt;sys_mod_count&gt;22&lt;/sys_mod_count&gt;&lt;sys_name&gt;saveGlobalForm&amp;amp;accessControl&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_c8f9b34e47c70110a06c690cd36d4375&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-06-06 01:46:28&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set display_value="Request for"&gt;8e8986e547320110a06c690cd36d431c&lt;/variable_set&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-166152333</payload_hash>
+<remote_update_set display_value="#STRY0010023-RHY-01">bc08e30d97111110a0a43d400153afbf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:40:18</sys_created_on>
+<sys_id>7008e30d97111110a0a43d400153afc0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18136b45f440000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:40:18</sys_updated_on>
+<table/>
+<target_name>saveGlobalForm&amp;accessControl</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>44647b5b03b301104450a42fa6cc027a</update_guid>
+<update_guid_history>44647b5b03b301104450a42fa6cc027a:-166152333,c9443f5b37b3011076e51dee9c0e32b7:1403812330,ac8eef172eb30110501567248f46a476:-122214158,294ca393bbb301100e378de5ff787052:-1933991213,acfa239327b30110051007abc3c9daeb:-2087104622,0ab9a7df9c730110ea95364520e25761:620317690,73f72fdfc7730110442ab2a45081550d:633811190,3537631ffd7301105e7149bed56444bd:1394897748,af26e39f06730110d0e982f660a252c3:-831820335,1426af1fa173011055ec757be4c02073:554575164,48a56b5f6e73011059a9384e4c1486c3:-2057144309,3405275f92730110e2b61861f6c5c241:-1536196592,0d84af1f4a7301103291949287c4122e:1462048952,c9042b1fde730110eb425d7fb4f31527:1943279389,be632f9b887301104d28f4df7e4d5d73:-104183962,78c1235b0c730110c41b03a9f350ba8a:1700025956,986fdf1b367301105293824c1e9a0076:341270806,c11cd3570a730110eb4bdb8f8121398d:-1537788072,1e7a53577973011063435e86dd6e81f4:1462845068,dfd757934e730110f0760c85c598bff3:98917696,c0e58526ddc74110b3bcca311c5b436c:1525086592,cb7bb3ce04c70110060d49da4fdabd61:-1872236987,d60a3346cfc70110217f1dd3f9c0272c:405792618</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_ui_section_5134502bc611227c019dbdc4d7e32319</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="5134502bc611227c019dbdc4d7e32319" sys_domain="global" table="sys_user" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>user_name</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>2d061b5347730110a06c690cd36d436f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>first_name</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>ad061b5347730110a06c690cd36d436f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>last_name</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>21061b5347730110a06c690cd36d4370</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>title</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>a1061b5347730110a06c690cd36d4370</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>department</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>25061b5347730110a06c690cd36d4370</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>user_password</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>a5061b5347730110a06c690cd36d4370</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>password_needs_reset</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>29061b5347730110a06c690cd36d4370</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>locked_out</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>a9061b5347730110a06c690cd36d4370</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>active</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>2d061b5347730110a06c690cd36d4370</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>web_service_access_only</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>ad061b5347730110a06c690cd36d4370</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>internal_integration_user</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>21061b5347730110a06c690cd36d4371</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>a1061b5347730110a06c690cd36d4371</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>email</element><position>12</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>25061b5347730110a06c690cd36d4371</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>roles</element><position>13</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>a5061b5347730110a06c690cd36d4371</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>preferred_language</element><position>14</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>29061b5347730110a06c690cd36d4371</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>notification</element><position>15</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>a9061b5347730110a06c690cd36d4371</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>calendar_integration</element><position>16</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>2d061b5347730110a06c690cd36d4371</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>time_zone</element><position>17</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>ad061b5347730110a06c690cd36d4371</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>date_format</element><position>18</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>21061b5347730110a06c690cd36d4372</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>phone</element><position>19</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>a1061b5347730110a06c690cd36d4372</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>mobile_phone</element><position>20</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>25061b5347730110a06c690cd36d4372</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>photo</element><position>21</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>a5061b5347730110a06c690cd36d4372</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>manager</element><position>22</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>29061b5347730110a06c690cd36d4372</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>23</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>a9061b5347730110a06c690cd36d4372</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_report_to</element><position>24</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>2d061b5347730110a06c690cd36d4372</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_team_leader</element><position>25</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:52</sys_created_on><sys_id>ad061b5347730110a06c690cd36d4372</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:52</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>sys_user</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>GUEST</sys_created_by><sys_created_on>2004-05-02 00:00:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>5134502bc611227c019dbdc4d7e32319</sys_id><sys_mod_count>3</sys_mod_count><sys_name>sys_user</sys_name><sys_overrides/><sys_package display_value="Non Interactive Sessions" source="com.glide.security.non_interactive_users">b7b2ae6aa5b40110c0a0e1db2cdc95fa</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_5134502bc611227c019dbdc4d7e32319</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2012-07-24 20:17:36</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-1956635256</payload_hash>
+<remote_update_set display_value="#STRY0010023-RHY-01">bc08e30d97111110a0a43d400153afbf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:40:18</sys_created_on>
+<sys_id>7c08e30d97111110a0a43d400153afc0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18136b45f320000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:40:18</sys_updated_on>
+<table>sys_user</table>
+<target_name>User</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>29061b5348730110e9092b98b0f7b275</update_guid>
+<update_guid_history>29061b5348730110e9092b98b0f7b275:-1956635256,6fb47d15182301103ac5ed0034c228de:-1362521831,36415e6d2e320110a654400b7f9bcf39:1105435940,a3572c2b50e601107a2e1e056fd6ab9b:1055527499,ab5760673be60110675a753d4efdfcba:578819981,b482b2a0baba4110fe4ab3b492e15a66:-1442083807,6082726c0d7a41108a14f1a0ecb46a5d:578819981</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_script_include_b1186fdf47730110a06c690cd36d43ab</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.RequestAsControls&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;RequestAsControls&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var RequestAsControls = Class.create();
+RequestAsControls.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+    getAnswers: function() {
+
+        var answer = {
+            as_manager: false,
+            as_operator: false,
+            as_team: false,
+			as_direct: false
+        };
+
+        var gr = new GlideRecord('sys_user');
+        gr.get(gs.getUserID());
+
+        if (gr.u_report_to != "") {
+            answer.as_direct = true;
+        }
+
+        gr = new GlideRecord('sys_user');
+        gr.query();
+
+        while (gr.next()) {
+
+            if (gr.manager == gs.getUserID()) {
+                answer.as_manager = true;
+            }
+            if (gr.u_team_leader == gs.getUserID()) {
+                answer.as_team = true;
+            }
+            if (answer.as_manager &amp;&amp; answer.as_team)
+                break;
+        }
+
+        gr = new GlideRecord('u_purchase_family');
+        gr.get('24ef160c477a4110a06c690cd36d43d6');
+		
+        var family_approvals = gr.u_family_approvals;
+
+        gr = new GlideRecord('sys_user_group');
+        gr.addQuery('sys_id', 'IN', family_approvals);
+
+        gr.query();
+
+        while (gr.next()) {
+            if (gr.manager == gs.getUserID()) {
+                answer.as_operator = true;
+            }
+
+            if (answer.as_operator)
+                break;
+        }
+
+        return JSON.stringify(answer);
+    },
+    type: 'RequestAsControls'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-06-06 00:59:19&lt;/sys_created_on&gt;&lt;sys_id&gt;b1186fdf47730110a06c690cd36d43ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;RequestAsControls&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_b1186fdf47730110a06c690cd36d43ab&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-06-06 01:36:49&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-224430961</payload_hash>
+<remote_update_set display_value="#STRY0010023-RHY-01">bc08e30d97111110a0a43d400153afbf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:40:18</sys_created_on>
+<sys_id>b808e30d97111110a0a43d400153afc0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18136b45f3d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:40:18</sys_updated_on>
+<table/>
+<target_name>RequestAsControls</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>62227bd72bb30110c5333421ba463ce6</update_guid>
+<update_guid_history>62227bd72bb30110c5333421ba463ce6:-224430961,34e13b577bb3011049f3129b27fdb666:-2081248800,311037974fb30110957ecd6c3f5798ff:-224430961,ffcca3d314b3011008b3dc6e51f922e2:-65534110,f799ef13adb30110a2129fddd2149c65:1599895920,55992fdf24730110622fb3ce6ac34bb2:1173280607</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_documentation_sys_user_u_team_leader_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_team_leader" label="Team leader" language="en" table="sys_user"><sys_documentation action="INSERT_OR_UPDATE"><element>u_team_leader</element><help/><hint/><label>Team leader</label><language>en</language><name>sys_user</name><plural>Team leaders</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:33:51</sys_created_on><sys_id>51061b5347730110a06c690cd36d4355</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Team leader</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_sys_user_u_team_leader_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:33:51</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>135291367</payload_hash>
+<remote_update_set display_value="#STRY0010023-RHY-01">bc08e30d97111110a0a43d400153afbf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:40:18</sys_created_on>
+<sys_id>f408e30d97111110a0a43d400153afc0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18136b45f2b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:40:18</sys_updated_on>
+<table>sys_user</table>
+<target_name>User.Team leader</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>61061b53aa73011069f1c4185b514b6f</update_guid>
+<update_guid_history>61061b53aa73011069f1c4185b514b6f:135291367</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

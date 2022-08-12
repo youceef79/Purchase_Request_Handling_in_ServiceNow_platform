@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-08-12 14:42:51">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>#STRY0010022-RHY-04</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>9dc83e452fb301102f8baa5df699b654</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>b598eb0d97111110a0a43d400153af35</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_purchase_family_datas_u_pf_code</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_pf_code" table="u_purchase_family_datas"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>import_attribute_name=PF_CODE</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>PF_CODE</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_pf_code</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Integer">integer</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_purchase_family_datas</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:24:07</sys_created_on><sys_id>f835768d47b30110a06c690cd36d438d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PF_CODE</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_purchase_family_datas_u_pf_code</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:24:07</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>460257702</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>31982f0d97111110a0a43d400153afd6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2bf0a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table>u_purchase_family_datas</table>
+<target_name>purchase_family_datas.PF_CODE</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>b835768d96b30110f515c45b440b039f</update_guid>
+<update_guid_history>b835768d96b30110f515c45b440b039f:460257702</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sc_category_ab94be4d47b30110a06c690cd36d4320</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="Request catalog">037f9c2b47a60110a06c690cd36d43d9</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:21:35</sys_created_on><sys_id>ab94be4d47b30110a06c690cd36d4320</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MATÉRIEL INFORMATIQUES &amp; RÉSEAU</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_ab94be4d47b30110a06c690cd36d4320</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:21:35</sys_updated_on><title>MATÉRIEL INFORMATIQUES &amp; RÉSEAU</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=ab94be4d47b30110a06c690cd36d4320"/></record_update>]]></payload>
+<payload_hash>-170149676</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>3198eb0d97111110a0a43d400153af38</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2bed60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>MATÉRIEL INFORMATIQUES &amp; RÉSEAU</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>2794be4da6b3011003f2b09a6f243322</update_guid>
+<update_guid_history>2794be4da6b3011003f2b09a6f243322:-170149676</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_purchase_family_datas_u_cat_id</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_cat_id" table="u_purchase_family_datas"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>import_attribute_name=CAT_ID</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>CAT_ID</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_cat_id</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Integer">integer</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_purchase_family_datas</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:24:07</sys_created_on><sys_id>fc35768d47b30110a06c690cd36d4389</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CAT_ID</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_purchase_family_datas_u_cat_id</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:24:07</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-412946882</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>35982f0d97111110a0a43d400153afd5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2bef40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table>u_purchase_family_datas</table>
+<target_name>purchase_family_datas.CAT_ID</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>bc35768d83b301100a052694a7efd89b</update_guid>
+<update_guid_history>bc35768d83b301100a052694a7efd89b:-412946882</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sc_category_9794be4d47b30110a06c690cd36d4303</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="Request catalog">037f9c2b47a60110a06c690cd36d43d9</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:21:34</sys_created_on><sys_id>9794be4d47b30110a06c690cd36d4303</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HABILLEMENT</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_9794be4d47b30110a06c690cd36d4303</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:21:34</sys_updated_on><title>HABILLEMENT</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=9794be4d47b30110a06c690cd36d4303"/></record_update>]]></payload>
+<payload_hash>1052447718</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>3598eb0d97111110a0a43d400153af37</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2be910000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>HABILLEMENT</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>1394be4d0ab3011096aaae769548f005</update_guid>
+<update_guid_history>1394be4d0ab3011096aaae769548f005:1052447718</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_custom_categories_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="" extends="sys_import_set_row" table="u_custom_categories"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element/><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Collection">collection</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_custom_categories</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:18:39</sys_created_on><sys_id>acf3364d47b30110a06c690cd36d435a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_custom_categories</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_custom_categories_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:18:39</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1417003226</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>39982f0d97111110a0a43d400153afd4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2be1c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table>u_custom_categories</table>
+<target_name>custom_categories</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>ecf3364d40b301101d26e7cfb14b2e6c</update_guid>
+<update_guid_history>ecf3364d40b301101d26e7cfb14b2e6c:-1417003226,e418564537730110fac164cb63d2ca35:240581100,254c9124693b0110a75b7642aaec7952:-1417003226</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sc_category_57947e4d47b30110a06c690cd36d43f5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="Request catalog">037f9c2b47a60110a06c690cd36d43d9</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:21:34</sys_created_on><sys_id>57947e4d47b30110a06c690cd36d43f5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>COMMUNICATION</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_57947e4d47b30110a06c690cd36d43f5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:21:34</sys_updated_on><title>COMMUNICATION</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=57947e4d47b30110a06c690cd36d43f5"/></record_update>]]></payload>
+<payload_hash>-750009332</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>3998eb0d97111110a0a43d400153af36</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2be6f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>COMMUNICATION</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>d3947e4d0fb301102da87ab9af6bf4f8</update_guid>
+<update_guid_history>d3947e4d0fb301102da87ab9af6bf4f8:-750009332</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_data_source_e435be0d47b30110a06c690cd36d4373</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_data_source"&gt;&lt;sys_data_source action="INSERT_OR_UPDATE"&gt;&lt;batch_size&gt;1000&lt;/batch_size&gt;&lt;category/&gt;&lt;connection_timeout&gt;0&lt;/connection_timeout&gt;&lt;connection_url&gt;attachment://sys_data_source:e435be0d47b30110a06c690cd36d4373/pf.xlsx&lt;/connection_url&gt;&lt;connection_url_parameters/&gt;&lt;csv_delimiter/&gt;&lt;data_in_single_column&gt;false&lt;/data_in_single_column&gt;&lt;data_loader&gt;&lt;![CDATA[(function loadData(import_set_table) {
+
+	// Add your code here to insert data to import_set_table
+
+})(import_set_table);]]&gt;&lt;/data_loader&gt;&lt;database_name/&gt;&lt;database_port/&gt;&lt;discard_arrays&gt;true&lt;/discard_arrays&gt;&lt;expand_node_children&gt;false&lt;/expand_node_children&gt;&lt;file_path&gt;pf.xlsx&lt;/file_path&gt;&lt;file_retrieval_method&gt;Attachment&lt;/file_retrieval_method&gt;&lt;format&gt;Excel&lt;/format&gt;&lt;glide_keystore&gt;false&lt;/glide_keystore&gt;&lt;header_row&gt;1&lt;/header_row&gt;&lt;import_set_table_label/&gt;&lt;import_set_table_name&gt;u_purchase_family_datas&lt;/import_set_table_name&gt;&lt;instance_name/&gt;&lt;jdbc_password/&gt;&lt;jdbc_server/&gt;&lt;jdbc_user_name/&gt;&lt;jpath_root_node/&gt;&lt;last_run_database_field/&gt;&lt;last_run_datetime/&gt;&lt;last_success_import_time/&gt;&lt;ldap_target/&gt;&lt;ldapprobe_result_set_rows&gt;200&lt;/ldapprobe_result_set_rows&gt;&lt;limit/&gt;&lt;maximum_rows/&gt;&lt;mid_server/&gt;&lt;name&gt;pf.xlsx (Uploaded)&lt;/name&gt;&lt;offset&gt;0&lt;/offset&gt;&lt;oracle_port&gt;1521&lt;/oracle_port&gt;&lt;oracle_sid&gt;orcl&lt;/oracle_sid&gt;&lt;parsing_script&gt;&lt;![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"// The function uses result variable to return parse result back. (function(line,lineNumber,result) {	// add code here})(line,lineNumber,result);]]&gt;&lt;/parsing_script&gt;&lt;properties/&gt;&lt;query&gt;All Rows from Table&lt;/query&gt;&lt;query_timeout&gt;0&lt;/query_timeout&gt;&lt;request_action/&gt;&lt;scp_authentication&gt;Username and Password&lt;/scp_authentication&gt;&lt;scp_password/&gt;&lt;scp_port/&gt;&lt;scp_server/&gt;&lt;scp_user_name/&gt;&lt;sheet_number&gt;1&lt;/sheet_number&gt;&lt;sql_statement/&gt;&lt;ssh_keyfile_path/&gt;&lt;support_pagination&gt;false&lt;/support_pagination&gt;&lt;sys_class_name&gt;sys_data_source&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-29 21:24:06&lt;/sys_created_on&gt;&lt;sys_id&gt;e435be0d47b30110a06c690cd36d4373&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;pf.xlsx (Uploaded)&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_data_source_e435be0d47b30110a06c690cd36d4373&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-29 21:24:07&lt;/sys_updated_on&gt;&lt;table_name/&gt;&lt;type&gt;File&lt;/type&gt;&lt;use_batch_import&gt;false&lt;/use_batch_import&gt;&lt;use_integrated_authentication&gt;false&lt;/use_integrated_authentication&gt;&lt;use_last_run_datetime&gt;false&lt;/use_last_run_datetime&gt;&lt;xpath_root_node/&gt;&lt;zipped&gt;false&lt;/zipped&gt;&lt;/sys_data_source&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2101650879</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>3998eb0d97111110a0a43d400153af39</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2bf1b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>pf.xlsx (Uploaded)</target_name>
+<type>Data Source</type>
+<update_domain>global</update_domain>
+<update_guid>3435768dccb30110709b855569f6a2b9</update_guid>
+<update_guid_history>3435768dccb30110709b855569f6a2b9:2101650879,3035768d04b3011097c9120ca35665b8:-1874693729</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_transform_entry_fe54be0d47b30110a06c690cd36d436c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;true&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="map_categories"&gt;1af3764d47b30110a06c690cd36d4365&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_cat_name&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_custom_categories&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-29 21:20:26&lt;/sys_created_on&gt;&lt;sys_id&gt;fe54be0d47b30110a06c690cd36d436c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_cat_name&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_fe54be0d47b30110a06c690cd36d436c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-29 21:21:21&lt;/sys_updated_on&gt;&lt;target_field&gt;title&lt;/target_field&gt;&lt;target_table&gt;sc_category&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1989497813</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>3d982f0d97111110a0a43d400153afd6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2be680000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>u_cat_name</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>d094b60d3bb301109d716adf7f8439ae</update_guid>
+<update_guid_history>d094b60d3bb301109d716adf7f8439ae:-1989497813,3654be0d1db301109b07753a6d53826f:1195098984</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sc_category_2394be4d47b30110a06c690cd36d4312</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="Request catalog">037f9c2b47a60110a06c690cd36d43d9</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:21:34</sys_created_on><sys_id>2394be4d47b30110a06c690cd36d4312</sys_id><sys_mod_count>0</sys_mod_count><sys_name>LOGISTIQUES ET TRANSPORT</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_2394be4d47b30110a06c690cd36d4312</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:21:34</sys_updated_on><title>LOGISTIQUES ET TRANSPORT</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=2394be4d47b30110a06c690cd36d4312"/></record_update>]]></payload>
+<payload_hash>-1692813694</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>3d98eb0d97111110a0a43d400153af35</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2beb50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>LOGISTIQUES ET TRANSPORT</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>ab94be4ddbb30110deefda43e592fe13</update_guid>
+<update_guid_history>ab94be4ddbb30110deefda43e592fe13:-1692813694</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sc_category_e794be4d47b30110a06c690cd36d4314</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="Request catalog">037f9c2b47a60110a06c690cd36d43d9</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:21:34</sys_created_on><sys_id>e794be4d47b30110a06c690cd36d4314</sys_id><sys_mod_count>0</sys_mod_count><sys_name>LOYER</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_e794be4d47b30110a06c690cd36d4314</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:21:34</sys_updated_on><title>LOYER</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=e794be4d47b30110a06c690cd36d4314"/></record_update>]]></payload>
+<payload_hash>103636966</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>3d98eb0d97111110a0a43d400153af38</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2beba0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>LOYER</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>6394be4d45b30110e542c341eac96016</update_guid>
+<update_guid_history>6394be4d45b30110e542c341eac96016:103636966</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_purchase_family_datas_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="" extends="sys_import_set_row" table="u_purchase_family_datas"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element/><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Collection">collection</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_purchase_family_datas</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:24:07</sys_created_on><sys_id>ac35768d47b30110a06c690cd36d4382</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_purchase_family_datas</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_purchase_family_datas_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:24:07</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1507441820</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>71982f0d97111110a0a43d400153afd5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2bee20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table>u_purchase_family_datas</table>
+<target_name>purchase_family_datas</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>fc35768d7cb3011090aa624cc90dc097</update_guid>
+<update_guid_history>fc35768d7cb3011090aa624cc90dc097:-1507441820</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sc_category_6b94be4d47b30110a06c690cd36d430f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="Request catalog">037f9c2b47a60110a06c690cd36d43d9</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:21:34</sys_created_on><sys_id>6b94be4d47b30110a06c690cd36d430f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HYGIÈNE, SÉCURITÉ ET ENVIRONNEMENT (HSE)</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_6b94be4d47b30110a06c690cd36d430f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:21:34</sys_updated_on><title>HYGIÈNE, SÉCURITÉ ET ENVIRONNEMENT (HSE)</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=6b94be4d47b30110a06c690cd36d430f"/></record_update>]]></payload>
+<payload_hash>1277515490</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>7198eb0d97111110a0a43d400153af37</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2beb00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>HYGIÈNE, SÉCURITÉ ET ENVIRONNEMENT (HSE)</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>e394be4dbbb30110bdd57a0e3adb8c11</update_guid>
+<update_guid_history>e394be4dbbb30110bdd57a0e3adb8c11:1277515490</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sc_category_53947e4d47b30110a06c690cd36d43fc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="Request catalog">037f9c2b47a60110a06c690cd36d43d9</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:21:34</sys_created_on><sys_id>53947e4d47b30110a06c690cd36d43fc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MÉDECINE DU TRAVAIL</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_53947e4d47b30110a06c690cd36d43fc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:21:34</sys_updated_on><title>MÉDECINE DU TRAVAIL</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=53947e4d47b30110a06c690cd36d43fc"/></record_update>]]></payload>
+<payload_hash>1526237872</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>7598eb0d97111110a0a43d400153af36</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2be7c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>MÉDECINE DU TRAVAIL</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>db947e4d3db30110919cf539a7e99afd</update_guid>
+<update_guid_history>db947e4d3db30110919cf539a7e99afd:1526237872</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_app_module_3cf3364d47b30110a06c690cd36d4388</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>custom_categories</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_custom_categories</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:18:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3cf3364d47b30110a06c690cd36d4388</sys_id><sys_mod_count>0</sys_mod_count><sys_name>custom_categories</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_3cf3364d47b30110a06c690cd36d4388</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:18:39</sys_updated_on><timeline_page/><title>custom_categories</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-611504451</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>7598eb0d97111110a0a43d400153af39</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2be550000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table>u_custom_categories</table>
+<target_name>custom_categories</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>b4f3364d66b301104c4df5735d48f08b</update_guid>
+<update_guid_history>b4f3364d66b301104c4df5735d48f08b:-611504451</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_transform_entry_c6a5b28d47b30110a06c690cd36d4302</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="map_families"&gt;f1353a4d47b30110a06c690cd36d43ee&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_pf_name&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_purchase_family_datas&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-29 21:26:08&lt;/sys_created_on&gt;&lt;sys_id&gt;c6a5b28d47b30110a06c690cd36d4302&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_pf_name&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_c6a5b28d47b30110a06c690cd36d4302&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-29 21:26:08&lt;/sys_updated_on&gt;&lt;target_field&gt;u_family_name&lt;/target_field&gt;&lt;target_table&gt;u_purchase_family&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1265231645</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>79982f0d97111110a0a43d400153afd6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2bf460000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>u_pf_name</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>8aa5b28d68b3011026c3729aefe78303</update_guid>
+<update_guid_history>8aa5b28d68b3011026c3729aefe78303:1265231645</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sc_category_1b947e4d47b30110a06c690cd36d43fe</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="Request catalog">037f9c2b47a60110a06c690cd36d43d9</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:21:34</sys_created_on><sys_id>1b947e4d47b30110a06c690cd36d43fe</sys_id><sys_mod_count>0</sys_mod_count><sys_name>FORMATIONS</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_1b947e4d47b30110a06c690cd36d43fe</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:21:34</sys_updated_on><title>FORMATIONS</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=1b947e4d47b30110a06c690cd36d43fe"/></record_update>]]></payload>
+<payload_hash>1419186786</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>7998eb0d97111110a0a43d400153af35</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2be830000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>FORMATIONS</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>9394be4d2ab30110e6a0bf94be8fc400</update_guid>
+<update_guid_history>9394be4d2ab30110e6a0bf94be8fc400:1419186786</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sc_category_e394be4d47b30110a06c690cd36d431e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="Request catalog">037f9c2b47a60110a06c690cd36d43d9</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:21:35</sys_created_on><sys_id>e394be4d47b30110a06c690cd36d431e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>DATA CENTER</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_e394be4d47b30110a06c690cd36d431e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:21:35</sys_updated_on><title>DATA CENTER</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=e394be4d47b30110a06c690cd36d431e"/></record_update>]]></payload>
+<payload_hash>-2095159370</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>7998eb0d97111110a0a43d400153af38</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2bed00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>DATA CENTER</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>6f94be4d29b301108569d6de4e829e1f</update_guid>
+<update_guid_history>6f94be4d29b301108569d6de4e829e1f:-2095159370</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_purchase_family_datas_u_f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_f" table="u_purchase_family_datas"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=F</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>F</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_f</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>75</max_length><name>u_purchase_family_datas</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:24:07</sys_created_on><sys_id>fc35768d47b30110a06c690cd36d438e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>F</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_purchase_family_datas_u_f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:24:07</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1317950074</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>7d982f0d97111110a0a43d400153afd5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2bf120000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table>u_purchase_family_datas</table>
+<target_name>purchase_family_datas.F</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>bc35768dc6b30110b198f8a4e567b2a0</update_guid>
+<update_guid_history>bc35768dc6b30110b198f8a4e567b2a0:-1317950074</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sc_category_a794be4d47b30110a06c690cd36d4323</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="Request catalog">037f9c2b47a60110a06c690cd36d43d9</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:21:35</sys_created_on><sys_id>a794be4d47b30110a06c690cd36d4323</sys_id><sys_mod_count>0</sys_mod_count><sys_name>FOURNITURE DE BUREAU</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_a794be4d47b30110a06c690cd36d4323</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:21:35</sys_updated_on><title>FOURNITURE DE BUREAU</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=a794be4d47b30110a06c690cd36d4323"/></record_update>]]></payload>
+<payload_hash>-519301854</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>7d98eb0d97111110a0a43d400153af37</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2bedc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>FOURNITURE DE BUREAU</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>2394be4dedb30110f5ca918ec299c525</update_guid>
+<update_guid_history>2394be4dedb30110f5ca918ec299c525:-519301854</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_transform_map_f1353a4d47b30110a06c690cd36d43ee</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;map_families&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;u_purchase_family_datas&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-29 21:24:50&lt;/sys_created_on&gt;&lt;sys_id&gt;f1353a4d47b30110a06c690cd36d43ee&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;map_families&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_f1353a4d47b30110a06c690cd36d43ee&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-29 21:24:50&lt;/sys_updated_on&gt;&lt;target_table&gt;u_purchase_family&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-542372544</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>b1982f0d97111110a0a43d400153afd7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2bf320000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>map_families</target_name>
+<type>Table Transform Map</type>
+<update_domain>global</update_domain>
+<update_guid>1755fe4defb3011089b546fba76057f8</update_guid>
+<update_guid_history>1755fe4defb3011089b546fba76057f8:-542372544</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sc_category_2f94be4d47b30110a06c690cd36d431b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="Request catalog">037f9c2b47a60110a06c690cd36d43d9</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:21:35</sys_created_on><sys_id>2f94be4d47b30110a06c690cd36d431b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>RÉCEPTION EN EXTERNE</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_2f94be4d47b30110a06c690cd36d431b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:21:35</sys_updated_on><title>RÉCEPTION EN EXTERNE</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=2f94be4d47b30110a06c690cd36d431b"/></record_update>]]></payload>
+<payload_hash>-1375158398</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>b198eb0d97111110a0a43d400153af36</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2becb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>RÉCEPTION EN EXTERNE</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>a794be4da1b30110c843d48c12103e1d</update_guid>
+<update_guid_history>a794be4da1b30110c843d48c12103e1d:-1375158398</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_app_module_3435768d47b30110a06c690cd36d43ba</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>purchase_family_datas</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_purchase_family_datas</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:24:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3435768d47b30110a06c690cd36d43ba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>purchase_family_datas</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_3435768d47b30110a06c690cd36d43ba</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:24:08</sys_updated_on><timeline_page/><title>purchase_family_datas</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-2127863431</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>b198eb0d97111110a0a43d400153af39</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2bf240000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table>u_purchase_family_datas</table>
+<target_name>purchase_family_datas</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>7c35768ddbb30110c5e139606ade7dbb</update_guid>
+<update_guid_history>7c35768ddbb30110c5e139606ade7dbb:-2127863431</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_transform_entry_c2a5b28d47b30110a06c690cd36d4300</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;true&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="map_families"&gt;f1353a4d47b30110a06c690cd36d43ee&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_pf_code&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_purchase_family_datas&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-29 21:26:07&lt;/sys_created_on&gt;&lt;sys_id&gt;c2a5b28d47b30110a06c690cd36d4300&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_pf_code&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_c2a5b28d47b30110a06c690cd36d4300&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-29 21:27:02&lt;/sys_updated_on&gt;&lt;target_field&gt;u_family_code&lt;/target_field&gt;&lt;target_table&gt;u_purchase_family&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1333991362</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>b5982f0d97111110a0a43d400153afd6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2bf4f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>u_pf_code</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>a7d5b28d59b301104a0c6b9b17e06407</update_guid>
+<update_guid_history>a7d5b28d59b301104a0c6b9b17e06407:-1333991362,8aa5b28d8fb30110f97a7eb2efc0b201:-1939730245</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sc_category_df94be4d47b30110a06c690cd36d4300</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="Request catalog">037f9c2b47a60110a06c690cd36d43d9</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:21:34</sys_created_on><sys_id>df94be4d47b30110a06c690cd36d4300</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ASSURANCES</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_df94be4d47b30110a06c690cd36d4300</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:21:34</sys_updated_on><title>ASSURANCES</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=df94be4d47b30110a06c690cd36d4300"/></record_update>]]></payload>
+<payload_hash>17408226</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>b598eb0d97111110a0a43d400153af38</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2be8a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>ASSURANCES</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>5b94be4d02b30110bd8e99fdbc44af02</update_guid>
+<update_guid_history>5b94be4d02b30110bd8e99fdbc44af02:17408226</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_purchase_family_datas_u_e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_e" table="u_purchase_family_datas"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=E</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>E</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_e</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_purchase_family_datas</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:24:07</sys_created_on><sys_id>f435768d47b30110a06c690cd36d438c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>E</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_purchase_family_datas_u_e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:24:07</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1300564249</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>b9982f0d97111110a0a43d400153afd5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2bf010000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table>u_purchase_family_datas</table>
+<target_name>purchase_family_datas.E</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>b435768d73b301103400157629f9a29e</update_guid>
+<update_guid_history>b435768d73b301103400157629f9a29e:-1300564249</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sc_category_a394be4d47b30110a06c690cd36d430d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="Request catalog">037f9c2b47a60110a06c690cd36d43d9</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:21:34</sys_created_on><sys_id>a394be4d47b30110a06c690cd36d430d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>FACILITY MANAGEMENT</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_a394be4d47b30110a06c690cd36d430d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:21:34</sys_updated_on><title>FACILITY MANAGEMENT</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=a394be4d47b30110a06c690cd36d430d"/></record_update>]]></payload>
+<payload_hash>1289945888</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>b998eb0d97111110a0a43d400153af37</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2beaa0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>FACILITY MANAGEMENT</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>2f94be4de3b3011016d1bb092f77970e</update_guid>
+<update_guid_history>2f94be4de3b3011016d1bb092f77970e:1289945888</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_custom_categories_u_cat_name</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_cat_name" table="u_custom_categories"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=CAT_NAME</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>CAT_NAME</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_cat_name</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_custom_categories</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:18:39</sys_created_on><sys_id>e0f3364d47b30110a06c690cd36d4362</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CAT_NAME</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_custom_categories_u_cat_name</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:18:39</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>863272208</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>bd982f0d97111110a0a43d400153afd4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2be4c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table>u_custom_categories</table>
+<target_name>custom_categories.CAT_NAME</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>e4f3364dd9b3011050d73cd110f64071</update_guid>
+<update_guid_history>e4f3364dd9b3011050d73cd110f64071:863272208,e8185645a2730110014258ae290c8e4d:511952324,254c9124a63b0110d8799fd09155af56:863272208</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sc_category_6794be4d47b30110a06c690cd36d4319</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="Request catalog">037f9c2b47a60110a06c690cd36d43d9</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:21:35</sys_created_on><sys_id>6794be4d47b30110a06c690cd36d4319</sys_id><sys_mod_count>0</sys_mod_count><sys_name>VOYAGES &amp; DÉPLACEMENTS</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_6794be4d47b30110a06c690cd36d4319</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:21:35</sys_updated_on><title>VOYAGES &amp; DÉPLACEMENTS</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=6794be4d47b30110a06c690cd36d4319"/></record_update>]]></payload>
+<payload_hash>-1569618846</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>bd98eb0d97111110a0a43d400153af36</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2bec50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>VOYAGES &amp; DÉPLACEMENTS</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>ef94be4d21b301105c0bbfa5af5f3c1a</update_guid>
+<update_guid_history>ef94be4d21b301105c0bbfa5af5f3c1a:-1569618846</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_db_object_6035768d47b30110a06c690cd36d437f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>purchase_family_datas</label><live_feed_enabled>false</live_feed_enabled><name>u_purchase_family_datas</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">6ced16e2a5300110c0a0e1db2cdc9574</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:24:07</sys_created_on><sys_id>6035768d47b30110a06c690cd36d437f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Purchase Family Datas</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_6035768d47b30110a06c690cd36d437f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:24:07</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>1660508269</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>bd98eb0d97111110a0a43d400153af39</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2bee70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table>u_purchase_family_datas</table>
+<target_name>purchase_family_datas</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>3435768d3ab301109fd185968c12c499</update_guid>
+<update_guid_history>3435768d3ab301109fd185968c12c499:1660508269</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_purchase_family_datas_u_pf_name</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_pf_name" table="u_purchase_family_datas"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=PF_NAME</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>PF_NAME</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_pf_name</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>45</max_length><name>u_purchase_family_datas</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:24:07</sys_created_on><sys_id>3435768d47b30110a06c690cd36d4388</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PF_NAME</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_purchase_family_datas_u_pf_name</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:24:07</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1232403551</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>f1982f0d97111110a0a43d400153afd6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2beed0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table>u_purchase_family_datas</table>
+<target_name>purchase_family_datas.PF_NAME</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>7835768df5b301104c02ec1911588f9a</update_guid>
+<update_guid_history>7835768df5b301104c02ec1911588f9a:1232403551</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sc_category_af94be4d47b30110a06c690cd36d4316</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="Request catalog">037f9c2b47a60110a06c690cd36d43d9</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:21:34</sys_created_on><sys_id>af94be4d47b30110a06c690cd36d4316</sys_id><sys_mod_count>0</sys_mod_count><sys_name>RESTAURATION ET RÉCEPTION EN INTERNE</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_af94be4d47b30110a06c690cd36d4316</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:21:34</sys_updated_on><title>RESTAURATION ET RÉCEPTION EN INTERNE</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=af94be4d47b30110a06c690cd36d4316"/></record_update>]]></payload>
+<payload_hash>-439431102</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>f198eb0d97111110a0a43d400153af38</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2bec00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>RESTAURATION ET RÉCEPTION EN INTERNE</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>2b94be4d5ab301108367605c2aaee618</update_guid>
+<update_guid_history>2b94be4d5ab301108367605c2aaee618:-439431102</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_purchase_family_datas_u_d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_d" table="u_purchase_family_datas"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=D</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>D</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_d</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_purchase_family_datas</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:24:07</sys_created_on><sys_id>f035768d47b30110a06c690cd36d438b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>D</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_purchase_family_datas_u_d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:24:07</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>967602090</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>f5982f0d97111110a0a43d400153afd5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2befa0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table>u_purchase_family_datas</table>
+<target_name>purchase_family_datas.D</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>b035768dcdb30110fb71ece3449aab9d</update_guid>
+<update_guid_history>b035768dcdb30110fb71ece3449aab9d:967602090</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sc_category_9b947e4d47b30110a06c690cd36d43f9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="Request catalog">037f9c2b47a60110a06c690cd36d43d9</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:21:34</sys_created_on><sys_id>9b947e4d47b30110a06c690cd36d43f9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ACCÈS AUX PLATEFORMES WEB</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_9b947e4d47b30110a06c690cd36d43f9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:21:34</sys_updated_on><title>ACCÈS AUX PLATEFORMES WEB</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=9b947e4d47b30110a06c690cd36d43f9"/></record_update>]]></payload>
+<payload_hash>22506296</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>f598eb0d97111110a0a43d400153af37</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2be760000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>ACCÈS AUX PLATEFORMES WEB</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>17947e4dd4b30110213e356e1baf3ffb</update_guid>
+<update_guid_history>17947e4dd4b30110213e356e1baf3ffb:22506296</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_custom_categories_u_cat_id</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_cat_id" table="u_custom_categories"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>import_attribute_name=CAT_ID</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>CAT_ID</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_cat_id</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Integer">integer</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_custom_categories</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:18:39</sys_created_on><sys_id>e4f3364d47b30110a06c690cd36d4360</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CAT_ID</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_custom_categories_u_cat_id</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:18:39</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1346208446</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>f9982f0d97111110a0a43d400153afd4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2be440000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table>u_custom_categories</table>
+<target_name>custom_categories.CAT_ID</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>acf3364d60b30110374a7a2114b2c86f</update_guid>
+<update_guid_history>acf3364d60b30110374a7a2114b2c86f:-1346208446,ac1856452873011034179010e3bd6f44:1761330190,ed4c9124f53b011068f3fedf578c5454:-1346208446</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sc_category_5f94be4d47b30110a06c690cd36d4305</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="Request catalog">037f9c2b47a60110a06c690cd36d43d9</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:21:34</sys_created_on><sys_id>5f94be4d47b30110a06c690cd36d4305</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SOUS-TRAITANCE (PROJET)</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_5f94be4d47b30110a06c690cd36d4305</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:21:34</sys_updated_on><title>SOUS-TRAITANCE (PROJET)</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=5f94be4d47b30110a06c690cd36d4305"/></record_update>]]></payload>
+<payload_hash>-5304970</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>f998eb0d97111110a0a43d400153af36</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2be990000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>SOUS-TRAITANCE (PROJET)</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>e794be4db2b301102692ed447651b207</update_guid>
+<update_guid_history>e794be4db2b301102692ed447651b207:-5304970</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_db_object_2cf3f24d47b30110a06c690cd36d43f2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>custom_categories</label><live_feed_enabled>false</live_feed_enabled><name>u_custom_categories</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">6ced16e2a5300110c0a0e1db2cdc9574</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:18:38</sys_created_on><sys_id>2cf3f24d47b30110a06c690cd36d43f2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Custom Categories</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_2cf3f24d47b30110a06c690cd36d43f2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:18:38</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-1316182898</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>f998eb0d97111110a0a43d400153af39</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2be3d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table>u_custom_categories</table>
+<target_name>custom_categories</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>68f3364dd3b30110964697053c44f16e</update_guid>
+<update_guid_history>68f3364dd3b30110964697053c44f16e:-1316182898</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_transform_map_1af3764d47b30110a06c690cd36d4365</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;map_categories&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;u_custom_categories&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-29 21:19:37&lt;/sys_created_on&gt;&lt;sys_id&gt;1af3764d47b30110a06c690cd36d4365&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;map_categories&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_1af3764d47b30110a06c690cd36d4365&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-29 21:19:37&lt;/sys_updated_on&gt;&lt;target_table&gt;sc_category&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2122433363</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>fd982f0d97111110a0a43d400153afd6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2be5f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>map_categories</target_name>
+<type>Table Transform Map</type>
+<update_domain>global</update_domain>
+<update_guid>fa24760d99b30110169f147d652f5f74</update_guid>
+<update_guid_history>fa24760d99b30110169f147d652f5f74:-2122433363</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sc_category_2794be4d47b30110a06c690cd36d4308</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="Request catalog">037f9c2b47a60110a06c690cd36d43d9</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:21:34</sys_created_on><sys_id>2794be4d47b30110a06c690cd36d4308</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HONORAIRES</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_2794be4d47b30110a06c690cd36d4308</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:21:34</sys_updated_on><title>HONORAIRES</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=2794be4d47b30110a06c690cd36d4308"/></record_update>]]></payload>
+<payload_hash>743447010</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>fd98eb0d97111110a0a43d400153af35</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2be9f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>HONORAIRES</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>af94be4de6b30110d4467a6372fa6209</update_guid>
+<update_guid_history>af94be4de6b30110d4467a6372fa6209:743447010</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sc_category_eb94be4d47b30110a06c690cd36d430a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="Request catalog">037f9c2b47a60110a06c690cd36d43d9</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 21:21:34</sys_created_on><sys_id>eb94be4d47b30110a06c690cd36d430a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AGENCEMENT DES ESPACES DE TRAVAIL</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_eb94be4d47b30110a06c690cd36d430a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 21:21:34</sys_updated_on><title>AGENCEMENT DES ESPACES DE TRAVAIL</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=eb94be4d47b30110a06c690cd36d430a"/></record_update>]]></payload>
+<payload_hash>1118679582</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-04">b598eb0d97111110a0a43d400153af35</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:50</sys_created_on>
+<sys_id>fd98eb0d97111110a0a43d400153af38</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18111c2bea50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:50</sys_updated_on>
+<table/>
+<target_name>AGENCEMENT DES ESPACES DE TRAVAIL</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>6794be4d5bb301104fd05bb6fc2c120c</update_guid>
+<update_guid_history>6794be4d5bb301104fd05bb6fc2c120c:1118679582</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

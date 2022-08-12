@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-08-12 14:43:48">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>#STRY0010022-RHY-01</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>a5c992892f3301102f8baa5df699b6d0</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:43:48</sys_created_on>
+<sys_id>c0d8af0d97111110a0a43d400153af39</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:43:48</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_ui_section_0e58739fc0a8016400e2e29c13e3798d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="0e58739fc0a8016400e2e29c13e3798d" sys_domain="global" table="sys_user_group" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>name</element><position>0</position><sys_created_by>glide.maint</sys_created_by><sys_created_on>2007-04-16 05:17:17</sys_created_on><sys_id>f8d2d1ea0a4700d201c09abae09edd2d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user_group" sys_domain="global" view="Default view">0e58739fc0a8016400e2e29c13e3798d</sys_ui_section><sys_updated_by>glide.maint</sys_updated_by><sys_updated_on>2007-04-16 05:17:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>manager</element><position>1</position><sys_created_by>glide.maint</sys_created_by><sys_created_on>2007-04-16 05:17:17</sys_created_on><sys_id>f8d2d1fe0a4700d2017d90f63052b94b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user_group" sys_domain="global" view="Default view">0e58739fc0a8016400e2e29c13e3798d</sys_ui_section><sys_updated_by>glide.maint</sys_updated_by><sys_updated_on>2007-04-16 05:17:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>glide.maint</sys_created_by><sys_created_on>2007-04-16 05:17:17</sys_created_on><sys_id>f8d2d2080a4700d20145b9bc84546025</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user_group" sys_domain="global" view="Default view">0e58739fc0a8016400e2e29c13e3798d</sys_ui_section><sys_updated_by>glide.maint</sys_updated_by><sys_updated_on>2007-04-16 05:17:17</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>email</element><position>3</position><sys_created_by>glide.maint</sys_created_by><sys_created_on>2007-04-16 05:17:17</sys_created_on><sys_id>f8d2d2080a4700d20042a983e31d2775</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user_group" sys_domain="global" view="Default view">0e58739fc0a8016400e2e29c13e3798d</sys_ui_section><sys_updated_by>glide.maint</sys_updated_by><sys_updated_on>2007-04-16 05:17:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>parent</element><position>4</position><sys_created_by>glide.maint</sys_created_by><sys_created_on>2007-04-16 05:17:17</sys_created_on><sys_id>f8d2d2120a4700d20069be913d8fe00d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user_group" sys_domain="global" view="Default view">0e58739fc0a8016400e2e29c13e3798d</sys_ui_section><sys_updated_by>glide.maint</sys_updated_by><sys_updated_on>2007-04-16 05:17:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>5</position><sys_created_by>glide.maint</sys_created_by><sys_created_on>2007-04-16 05:17:17</sys_created_on><sys_id>f8d2d2120a4700d201ff81fd8d1c1904</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user_group" sys_domain="global" view="Default view">0e58739fc0a8016400e2e29c13e3798d</sys_ui_section><sys_updated_by>glide.maint</sys_updated_by><sys_updated_on>2007-04-16 05:17:17</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>6</position><sys_created_by>glide.maint</sys_created_by><sys_created_on>2007-04-16 05:17:17</sys_created_on><sys_id>f8d2d21c0a4700d200e5e7fed96cc8a6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user_group" sys_domain="global" view="Default view">0e58739fc0a8016400e2e29c13e3798d</sys_ui_section><sys_updated_by>glide.maint</sys_updated_by><sys_updated_on>2007-04-16 05:17:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_group_code</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-27 22:51:39</sys_created_on><sys_id>2f06746847770110a06c690cd36d4361</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user_group" sys_domain="global" view="Default view">0e58739fc0a8016400e2e29c13e3798d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-27 22:51:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>sys_user_group</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2005-02-14 00:50:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>0e58739fc0a8016400e2e29c13e3798d</sys_id><sys_mod_count>3</sys_mod_count><sys_name>sys_user_group</sys_name><sys_overrides/><sys_package display_value="Contextual Security: Role Management" source="com.glide.role_management">60dd56a2a5300110c0a0e1db2cdc951f</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_0e58739fc0a8016400e2e29c13e3798d</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-01-05 08:24:30</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-1171346058</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-01">c0d8af0d97111110a0a43d400153af39</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:43:48</sys_created_on>
+<sys_id>08d8af0d97111110a0a43d400153af3a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1811146c1080000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:43:48</sys_updated_on>
+<table>sys_user_group</table>
+<target_name>Group</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>e706bc68c5770110cf40be312ead722f</update_guid>
+<update_guid_history>e706bc68c5770110cf40be312ead722f:-1171346058</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_sys_user_group_u_group_code</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_group_code" table="sys_user_group"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Group code&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_group_code&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;sys_user_group&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-27 22:51:39&lt;/sys_created_on&gt;&lt;sys_id&gt;a3a5386847770110a06c690cd36d43f6&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Group code&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_sys_user_group_u_group_code&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-27 22:54:13&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;true&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1853680050</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-01">c0d8af0d97111110a0a43d400153af39</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:43:48</sys_created_on>
+<sys_id>0cd8af0d97111110a0a43d400153af39</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1811146c13d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:43:48</sys_updated_on>
+<table>sys_user_group</table>
+<target_name>Group.Group code</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>c9a6f4a85e770110e8d3009d7e642680</update_guid>
+<update_guid_history>c9a6f4a85e770110e8d3009d7e642680:-1853680050,6306bc6840770110c8dfa5b5878c3131:1553647289</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_script_7189f9f1c0a8016601ea8dbd3a092a0b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sys_dictionary&lt;/collection&gt;&lt;condition&gt;current.unique.changes();&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;SNC Create Unique Index&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority/&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[var tableName = current.getValue('name');
+var elementName = current.getValue('element');
+
+var success = gs.ensureIndex(tableName, elementName);
+if (!success) {
+  var reset = new GlideRecord('sys_dictionary');
+  reset.get(current.sys_id.toString());
+  reset.unique = false;
+  reset.setWorkflow(false);
+  reset.update();
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;glide.maint&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2006-02-16 06:26:41&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;7189f9f1c0a8016601ea8dbd3a092a0b&lt;/sys_id&gt;&lt;sys_mod_count&gt;33&lt;/sys_mod_count&gt;&lt;sys_name&gt;SNC Create Unique Index&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="System (glidesoft)" source="glidesoft"&gt;46ad9e22a5300110c0a0e1db2cdc95f4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_7189f9f1c0a8016601ea8dbd3a092a0b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-28 00:02:04&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=7189f9f1c0a8016601ea8dbd3a092a0b"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1479654795</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-01">c0d8af0d97111110a0a43d400153af39</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:43:48</sys_created_on>
+<sys_id>44d8af0d97111110a0a43d400153af3a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1811146c14a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:43:48</sys_updated_on>
+<table>sys_dictionary</table>
+<target_name>SNC Create Unique Index</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>832601e093f70110baedcee907ae3224</update_guid>
+<update_guid_history>832601e093f70110baedcee907ae3224:-1479654795,c7430da8feb701107c3626c4d093700e:1123965756,03714d28a9b70110cc57b2c8a540761f:-1479654795,0f710de49ab7011009b945736c314132:1123965756</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_cmdb_ci_correlation_id</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="correlation_id" table="cmdb_ci"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Correlation ID</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>correlation_id</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>512</max_length><name>cmdb_ci</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2022-01-05 08:28:20</sys_created_on><sys_id>2cbe96eea5300110c0a0e1db2cdc9505</sys_id><sys_mod_count>15</sys_mod_count><sys_name>Correlation ID</sys_name><sys_package display_value="Configuration Management (CMDB)" source="com.snc.cmdb">abaed2eea5300110c0a0e1db2cdc953d</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_cmdb_ci_correlation_id</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-28 00:02:30</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>true</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>729053661</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-01">c0d8af0d97111110a0a43d400153af39</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:43:48</sys_created_on>
+<sys_id>48d8af0d97111110a0a43d400153af39</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1811146c1520000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:43:48</sys_updated_on>
+<table>cmdb_ci</table>
+<target_name>Configuration Item.Correlation ID</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>1d56cde068f70110317e41d83266e35e</update_guid>
+<update_guid_history>1d56cde068f70110317e41d83266e35e:729053661,c44501ec1fb701100e3455cf2c963f5f:729053661,fe73cde8bfb70110764e3f0c2f687d86:14013706,eeb1896878b701106155c657d696054c:729053661,72fe74a4dab70110cb692ff3842ee945:14013706,8cdd3824a1b7011053194b5cea49fc75:-1078611460,436d78a015b70110aa6b03fc8ca1f9c2:-189030197,1e97f82cf977011092cf3ec9ea5caeed:729053661,9c87b0a81b770110987a4f559fe8b502:1940970275</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_documentation_sys_user_group_u_group_code_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_group_code" label="Group code" language="en" table="sys_user_group"><sys_documentation action="INSERT_OR_UPDATE"><element>u_group_code</element><help/><hint/><label>Group code</label><language>en</language><name>sys_user_group</name><plural>Group codes</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-27 22:51:39</sys_created_on><sys_id>6306bc6847770110a06c690cd36d4333</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Group code</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_sys_user_group_u_group_code_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-27 22:51:39</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-358649473</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-01">c0d8af0d97111110a0a43d400153af39</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:43:48</sys_created_on>
+<sys_id>80d8af0d97111110a0a43d400153af3a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1811146c12d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:43:48</sys_updated_on>
+<table>sys_user_group</table>
+<target_name>Group.Group code</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>2706bc68f57701104ebd1d8f455d7b3f</update_guid>
+<update_guid_history>2706bc68f57701104ebd1d8f455d7b3f:-358649473</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_db_object_91ad1e22a5300110c0a0e1db2cdc953d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Group</label><live_feed_enabled>false</live_feed_enabled><name>sys_user_group</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>system</sys_created_by><sys_created_on>2022-01-05 08:23:44</sys_created_on><sys_id>91ad1e22a5300110c0a0e1db2cdc953d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Group</sys_name><sys_package display_value="System (apps/system_user)" source="apps/system_user">c1adda22a5300110c0a0e1db2cdc95a6</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_91ad1e22a5300110c0a0e1db2cdc953d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-27 22:51:40</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>856369362</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-01">c0d8af0d97111110a0a43d400153af39</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:43:48</sys_created_on>
+<sys_id>84d8af0d97111110a0a43d400153af39</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1811146c1360000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:43:48</sys_updated_on>
+<table>sys_user_group</table>
+<target_name>Group</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>3b06bc683c7701108f483c4a12fdfd45</update_guid>
+<update_guid_history>3b06bc683c7701108f483c4a12fdfd45:856369362,7706bc6867770110cbb3b6c0285b0a41:-1579445725</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_purchase_family_u_family_code</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_family_code" table="u_purchase_family"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Family code&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_family_code&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_purchase_family&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-04-06 15:44:55&lt;/sys_created_on&gt;&lt;sys_id&gt;3bea20c047364110a06c690cd36d433d&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Family code&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_purchase_family_u_family_code&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-27 22:55:36&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;true&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1752542760</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-01">c0d8af0d97111110a0a43d400153af39</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:43:48</sys_created_on>
+<sys_id>ccd8af0d97111110a0a43d400153af39</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1811146c1430000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:43:48</sys_updated_on>
+<table>u_purchase_family</table>
+<target_name>Purchase family.Family code</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>d1f63ca8e1770110bf4142f140f13bd1</update_guid>
+<update_guid_history>d1f63ca8e1770110bf4142f140f13bd1:-1752542760,ef4ba4c09e3641109296dedd28708916:393935983,db4b64c055364110749f9c3e5a37fae7:393935983,f0aaa8804f364110551586082cbc8cff:-1865468125,5f0154c827b2411049e48bc83a68ffa7:393935983,8dffc848afb24110333914e632ac831c:-1865468125,c48e7f7b3c624110af2cf9bee147e199:393935983,514cbff71a62411081a795a0a3ae019a:-1865468125,8247bdf3cbea01107711b65648dd3258:393935983,cfe23933ddea01106ae4dbd89860ef76:-1865468125,fdf9e13bcfaa0110c67363de671ed450:393935983,2e686db72caa0110826cc435bd0d7d66:-1865468125,fb45e1f3dfaa0110d4259a66839837e9:393935983,d1a2693339aa0110749ecf3e9dd9da1b:875335815,3f0c1d7bae6a011041263a8fac5fd094:-2097580869,7b0c1d7b066a0110db8e3e158ed4984b:393935983,e8fad93b676a0110ebfb25252a795acb:-1865468125,f8384d3bad2a01104c519c39a59101f7:393935983,ab3681f7292a0110ee533fc3176c79d4:-1865468125,aedc3cbf3ee60110c9050aa223f64e98:393935983,caeb7c7fb8e601101c2553273ae576bc:875335815,79fa88a33da60110f168e6b1e668d37f:-2097580869,f1fa88a3b0a601100499589470e45f4e:393935983,9b0ac86378a601106fd28a579fd213b2:-1865468125,a80844ef31660110f02a1a43c59d4d58:393935983,09dbff572b66011002e454aac7d2d595:-1865468125,0d327b1fc6260110355796d83eadc4b6:393935983,6f4033db0d260110bb6b3339a9187521:-1865468125,7576d2d74522011055d3660a8a095abf:393935983</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

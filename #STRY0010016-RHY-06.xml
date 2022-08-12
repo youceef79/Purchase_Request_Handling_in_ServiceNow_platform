@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-08-12 14:44:24">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>#STRY0010016-RHY-06</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>080f877a2f2f81102f8baa5df699b622</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:44:24</sys_created_on>
+<sys_id>bcf86f0d97111110a0a43d400153afaa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:44:24</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_ui_script_b55e894047e70110a06c690cd36d4327</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;name&gt;attachmentsControl&lt;/name&gt;&lt;script&gt;&lt;![CDATA[function getAttached(){
+	//angular.element("#sc_cat_item").scope().c.data.sc_cat_item.mandatory_attachment = isMandatory;
+		var len; 
+	try {
+		len = angular.element("#sc_cat_item").scope().attachments.length;	
+		if(len &gt; 0){
+           return true;
+           }
+			return false;
+		
+	} catch(e) {
+
+         return false;   	
+		
+	}	
+     
+ }]]&gt;&lt;/script&gt;&lt;script_name/&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-14 01:06:03&lt;/sys_created_on&gt;&lt;sys_id&gt;b55e894047e70110a06c690cd36d4327&lt;/sys_id&gt;&lt;sys_mod_count&gt;40&lt;/sys_mod_count&gt;&lt;sys_name&gt;attachmentsControl&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_b55e894047e70110a06c690cd36d4327&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-22 23:28:24&lt;/sys_updated_on&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;use_scoped_format&gt;false&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>812015602</payload_hash>
+<remote_update_set display_value="#STRY0010016-RHY-06">bcf86f0d97111110a0a43d400153afaa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:44:24</sys_created_on>
+<sys_id>70f86f0d97111110a0a43d400153afab</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>180ee1ba6d10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:44:24</sys_updated_on>
+<table/>
+<target_name>attachmentsControl</target_name>
+<type>UI Script</type>
+<update_domain>global</update_domain>
+<update_guid>498e0372c0630110a4733a0189f50a35</update_guid>
+<update_guid_history>498e0372c0630110a4733a0189f50a35:812015602,cfca57f908230110d8ae3c8821cd6be3:159588018,e39a57f9dd230110c44554f86d011bbc:-1444790288,2e6a9bb93e2301108160a5b9331907e8:-1248388880,6b3a57f9c423011083e9a886a1ae0eb6:1817054255,064957b9c32301100d3cf7aa1818b8aa:539363766,a1095b79a223011062f6d9e06968779c:935251632,7fb8d7791223011062c3c2c4dceb882d:1229208898,06585f79142301107787385a4740913b:1522258506,1138db7990230110ade15255f0393d86:539521083,ba081779ca230110c23eab14d2824810:1497075753,8ed71f39e9230110df1413bfcd8177d4:1339148077,2897d3799423011064f6d73c4803fc4f:-1969637467,87479bb576230110f9a0affb5c86d5bc:650827907,d1079bf56a2301104b5d61eac4e464fd:1460702042,c115df7596230110302d9cd4485870e4:-1159763332,02d45bb55423011070534134f81975dc:-1237636357,fb63db756f230110c6f8e09e31864fd0:1305962045,d913db751d23011059ae544b28181757:2077742627,48a01bf1bd2301105848580f7bab6a84:-1725760337,8aaa47a1d72701100de007f0df323519:2008943172,9c28c3210827011085658395b7821d7d:846935088,7b5783218227011001c7ca2558ab1362:1478129090,f5d24be9bfe30110e537a5b8e0fb1125:-226427438,11db62a9d6a30110dc245a447d3122e9:1684857635,a47b2a29baa30110e66bc4115f728dc4:392028545,3a77e2a59ca3011043cb0d7667b6c61e:1153005477,3507a2a52ea30110f3fdceae5ffbf582:-937366812,8bb6ea656aa301105eda5fd061e22f30:1667316267,c3c5a2652da301109abb3948b1df4135:-510898110,d9d4a22571a30110e3c9e8d5562491b6:1809676126,a0a4a2e14ea301108281649f1c955670:-1836427544,3c342ae11ca3011066c487b9cd8282a6:-510898110,8f14eea146a30110c9513ae02db56392:-311597852,2b03aaa14ea30110b174888f2a0d48fd:-109401698,3be1eaede7630110cb920bbbd47b626f:400010432,04d122612ea30110438806469b038d6d:477217417,9ed78a2db6230110b9e8b2780cdccd3e:-286092190,e9140a6951230110cbb3bb3269c2a190:1382243471,6270d58001e7011061cd4c83ef1549f1:-656341508,bf8ec1cc5aa70110f0f52feee007c65e:-1153770848</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

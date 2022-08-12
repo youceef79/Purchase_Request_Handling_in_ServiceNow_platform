@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-08-12 14:42:31">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>#STRY0010022-RHY-05</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>89c5b3812f7701102f8baa5df699b627</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>0188eb0d97111110a0a43d400153af6c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_gammes_datas_u_quantity_max</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_quantity_max" table="u_gammes_datas"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>import_attribute_name=QUANTITY_MAX</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>QUANTITY_MAX</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_quantity_max</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Integer">integer</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_gammes_datas</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 23:04:24</sys_created_on><sys_id>352cc3cd47f30110a06c690cd36d434f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>QUANTITY_MAX</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_gammes_datas_u_quantity_max</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 23:04:24</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1528672916</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>0188eb0d97111110a0a43d400153af6f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b9020000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table>u_gammes_datas</table>
+<target_name>Gammes_datas.QUANTITY_MAX</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>b52cc3cde9f301100396fe3582e48968</update_guid>
+<update_guid_history>b52cc3cde9f301100396fe3582e48968:-1528672916</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_transform_map_08f297c147370110a06c690cd36d4330</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;map_hr_classes&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;u_hr_class_datas&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-29 23:34:38&lt;/sys_created_on&gt;&lt;sys_id&gt;08f297c147370110a06c690cd36d4330&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;map_hr_classes&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_08f297c147370110a06c690cd36d4330&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-29 23:34:38&lt;/sys_updated_on&gt;&lt;target_table&gt;sys_user_group&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-744149890</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>0188eb0d97111110a0a43d400153af72</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b9ca0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table/>
+<target_name>map_hr_classes</target_name>
+<type>Table Transform Map</type>
+<update_domain>global</update_domain>
+<update_guid>6413df4df1f3011009e8f6ce2f754c1a</update_guid>
+<update_guid_history>6413df4df1f3011009e8f6ce2f754c1a:-744149890</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_gammes_datas_u_h</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_h" table="u_gammes_datas"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=H</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>H</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_h</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_gammes_datas</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 23:04:24</sys_created_on><sys_id>3d2cc3cd47f30110a06c690cd36d4351</sys_id><sys_mod_count>0</sys_mod_count><sys_name>H</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_gammes_datas_u_h</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 23:04:24</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1636161976</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>0588eb0d97111110a0a43d400153af6e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b9150000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table>u_gammes_datas</table>
+<target_name>Gammes_datas.H</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>bd2cc3cdf9f3011093236a37e53b086a</update_guid>
+<update_guid_history>bd2cc3cdf9f3011093236a37e53b086a:1636161976</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_transform_entry_354dc7cd47f30110a06c690cd36d433a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="map_gammes"&gt;913ccf4d47b30110a06c690cd36d4351&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_quantity_max&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_gammes_datas&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-29 23:09:19&lt;/sys_created_on&gt;&lt;sys_id&gt;354dc7cd47f30110a06c690cd36d433a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_quantity_max&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_354dc7cd47f30110a06c690cd36d433a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-29 23:09:19&lt;/sys_updated_on&gt;&lt;target_field&gt;u_max_quantity&lt;/target_field&gt;&lt;target_table&gt;u_gamme&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1092444086</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>0588eb0d97111110a0a43d400153af71</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b9740000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table/>
+<target_name>u_quantity_max</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>f14dc7cd66f30110ae259abf990dfa3b</update_guid>
+<update_guid_history>f14dc7cd66f30110ae259abf990dfa3b:-1092444086</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_db_object_5156db8547370110a06c690cd36d43fd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>packages_datas</label><live_feed_enabled>false</live_feed_enabled><name>u_packages_datas</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">6ced16e2a5300110c0a0e1db2cdc9574</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 23:48:53</sys_created_on><sys_id>5156db8547370110a06c690cd36d43fd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Packages Datas</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_5156db8547370110a06c690cd36d43fd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 23:48:53</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-507420141</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>0988eb0d97111110a0a43d400153af6d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b9e10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table>u_packages_datas</table>
+<target_name>packages_datas</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>5d561f852e3701102473b1e1e972a45b</update_guid>
+<update_guid_history>5d561f852e3701102473b1e1e972a45b:-507420141</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_packages_datas_u_hr_class_id</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_hr_class_id" table="u_packages_datas"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>import_attribute_name=HR_CLASS_ID</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>HR_CLASS_ID</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_hr_class_id</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Integer">integer</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_packages_datas</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 23:48:53</sys_created_on><sys_id>99561f8547370110a06c690cd36d4352</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HR_CLASS_ID</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_packages_datas_u_hr_class_id</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 23:48:53</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-837380233</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>0988eb0d97111110a0a43d400153af70</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b9f20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table>u_packages_datas</table>
+<target_name>packages_datas.HR_CLASS_ID</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>95561f85c237011084626c338f6d4b5e</update_guid>
+<update_guid_history>95561f85c237011084626c338f6d4b5e:-837380233</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_data_source_18e29f8147370110a06c690cd36d4321</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_data_source"&gt;&lt;sys_data_source action="INSERT_OR_UPDATE"&gt;&lt;batch_size&gt;1000&lt;/batch_size&gt;&lt;category/&gt;&lt;connection_timeout&gt;0&lt;/connection_timeout&gt;&lt;connection_url&gt;attachment://sys_data_source:18e29f8147370110a06c690cd36d4321/hr classes.xlsx&lt;/connection_url&gt;&lt;connection_url_parameters/&gt;&lt;csv_delimiter/&gt;&lt;data_in_single_column&gt;false&lt;/data_in_single_column&gt;&lt;data_loader&gt;&lt;![CDATA[(function loadData(import_set_table) {
+
+	// Add your code here to insert data to import_set_table
+
+})(import_set_table);]]&gt;&lt;/data_loader&gt;&lt;database_name/&gt;&lt;database_port/&gt;&lt;discard_arrays&gt;true&lt;/discard_arrays&gt;&lt;expand_node_children&gt;false&lt;/expand_node_children&gt;&lt;file_path&gt;hr classes.xlsx&lt;/file_path&gt;&lt;file_retrieval_method&gt;Attachment&lt;/file_retrieval_method&gt;&lt;format&gt;Excel&lt;/format&gt;&lt;glide_keystore&gt;false&lt;/glide_keystore&gt;&lt;header_row&gt;1&lt;/header_row&gt;&lt;import_set_table_label/&gt;&lt;import_set_table_name&gt;u_hr_class_datas&lt;/import_set_table_name&gt;&lt;instance_name/&gt;&lt;jdbc_password/&gt;&lt;jdbc_server/&gt;&lt;jdbc_user_name/&gt;&lt;jpath_root_node/&gt;&lt;last_run_database_field/&gt;&lt;last_run_datetime/&gt;&lt;last_success_import_time/&gt;&lt;ldap_target/&gt;&lt;ldapprobe_result_set_rows&gt;200&lt;/ldapprobe_result_set_rows&gt;&lt;limit/&gt;&lt;maximum_rows/&gt;&lt;mid_server/&gt;&lt;name&gt;hr classes.xlsx (Uploaded)&lt;/name&gt;&lt;offset&gt;0&lt;/offset&gt;&lt;oracle_port&gt;1521&lt;/oracle_port&gt;&lt;oracle_sid&gt;orcl&lt;/oracle_sid&gt;&lt;parsing_script&gt;&lt;![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"// The function uses result variable to return parse result back. (function(line,lineNumber,result) {	// add code here})(line,lineNumber,result);]]&gt;&lt;/parsing_script&gt;&lt;properties/&gt;&lt;query&gt;All Rows from Table&lt;/query&gt;&lt;query_timeout&gt;0&lt;/query_timeout&gt;&lt;request_action/&gt;&lt;scp_authentication&gt;Username and Password&lt;/scp_authentication&gt;&lt;scp_password/&gt;&lt;scp_port/&gt;&lt;scp_server/&gt;&lt;scp_user_name/&gt;&lt;sheet_number&gt;1&lt;/sheet_number&gt;&lt;sql_statement/&gt;&lt;ssh_keyfile_path/&gt;&lt;support_pagination&gt;false&lt;/support_pagination&gt;&lt;sys_class_name&gt;sys_data_source&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-29 23:33:48&lt;/sys_created_on&gt;&lt;sys_id&gt;18e29f8147370110a06c690cd36d4321&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;hr classes.xlsx (Uploaded)&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_data_source_18e29f8147370110a06c690cd36d4321&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-29 23:33:48&lt;/sys_updated_on&gt;&lt;table_name/&gt;&lt;type&gt;File&lt;/type&gt;&lt;use_batch_import&gt;false&lt;/use_batch_import&gt;&lt;use_integrated_authentication&gt;false&lt;/use_integrated_authentication&gt;&lt;use_last_run_datetime&gt;false&lt;/use_last_run_datetime&gt;&lt;xpath_root_node/&gt;&lt;zipped&gt;false&lt;/zipped&gt;&lt;/sys_data_source&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-372408442</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>0d88eb0d97111110a0a43d400153af6c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b9be0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table/>
+<target_name>hr classes.xlsx (Uploaded)</target_name>
+<type>Data Source</type>
+<update_domain>global</update_domain>
+<update_guid>60e253057c370110f211f18a24d97bfd</update_guid>
+<update_guid_history>60e253057c370110f211f18a24d97bfd:-372408442,e0e25305403701104d634bae1187d4fc:-1038843324</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_hr_class_datas_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="" extends="sys_import_set_row" table="u_hr_class_datas"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element/><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Collection">collection</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_hr_class_datas</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 23:33:48</sys_created_on><sys_id>dce2530547370110a06c690cd36d43ad</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_hr_class_datas</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_hr_class_datas_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 23:33:48</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1942293405</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>0d88eb0d97111110a0a43d400153af6f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b9990000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table>u_hr_class_datas</table>
+<target_name>hr_class_datas</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>2ce25305ba370110dd589d60db312aee</update_guid>
+<update_guid_history>2ce25305ba370110dd589d60db312aee:1942293405</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_transform_script_2b7d87cd47b30110a06c690cd36d432c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_script"&gt;&lt;sys_transform_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;map display_value="map_gammes"&gt;913ccf4d47b30110a06c690cd36d4351&lt;/map&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	var family = new GlideRecord('u_purchase_family');
+	family.addQuery("u_family_code", source.u_pf_id);
+	family.query();
+	
+	if(family.next()){
+       target.u_purchase_family = family.sys_id;	
+	}
+
+})(source, map, log, target);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_transform_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-29 23:17:04&lt;/sys_created_on&gt;&lt;sys_id&gt;2b7d87cd47b30110a06c690cd36d432c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;onBefore&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_script_2b7d87cd47b30110a06c690cd36d432c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-29 23:17:04&lt;/sys_updated_on&gt;&lt;when&gt;onBefore&lt;/when&gt;&lt;/sys_transform_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1244354284</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>0d88eb0d97111110a0a43d400153af72</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b97d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table/>
+<target_name>onBefore</target_name>
+<type>Transform Script</type>
+<update_domain>global</update_domain>
+<update_guid>1f0fcf4da9f30110b12481885b427df8</update_guid>
+<update_guid_history>1f0fcf4da9f30110b12481885b427df8:1244354284</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_gammes_datas_u_g</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_g" table="u_gammes_datas"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=G</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>G</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_g</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_gammes_datas</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 23:04:24</sys_created_on><sys_id>392cc3cd47f30110a06c690cd36d4350</sys_id><sys_mod_count>0</sys_mod_count><sys_name>G</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_gammes_datas_u_g</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 23:04:24</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>394499221</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>4188eb0d97111110a0a43d400153af6e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b90b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table>u_gammes_datas</table>
+<target_name>Gammes_datas.G</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>b92cc3cdc4f30110f3154909972e6969</update_guid>
+<update_guid_history>b92cc3cdc4f30110f3154909972e6969:394499221</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_transform_entry_314dc7cd47f30110a06c690cd36d433c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;true&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="map_gammes"&gt;913ccf4d47b30110a06c690cd36d4351&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_range_id&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_gammes_datas&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-29 23:09:19&lt;/sys_created_on&gt;&lt;sys_id&gt;314dc7cd47f30110a06c690cd36d433c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_range_id&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_314dc7cd47f30110a06c690cd36d433c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-29 23:24:36&lt;/sys_updated_on&gt;&lt;target_field&gt;correlation_id&lt;/target_field&gt;&lt;target_table&gt;u_gamme&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>920481029</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>4188eb0d97111110a0a43d400153af71</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b98e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table/>
+<target_name>u_range_id</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>e5c09781b33701101d5f17f97660c105</update_guid>
+<update_guid_history>e5c09781b33701101d5f17f97660c105:920481029,fd4dc7cd5bf30110062bb899a27e723c:-156390718</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_db_object_252c83cd47f30110a06c690cd36d43db</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Gammes_datas</label><live_feed_enabled>false</live_feed_enabled><name>u_gammes_datas</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">6ced16e2a5300110c0a0e1db2cdc9574</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 23:04:24</sys_created_on><sys_id>252c83cd47f30110a06c690cd36d43db</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Gammes Datas</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_252c83cd47f30110a06c690cd36d43db</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 23:04:24</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>442497506</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>4588eb0d97111110a0a43d400153af6d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b8da0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table>u_gammes_datas</table>
+<target_name>Gammes_datas</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>b12cc3cd65f3011010dbd7dab022f663</update_guid>
+<update_guid_history>b12cc3cd65f3011010dbd7dab022f663:442497506</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_packages_datas_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="" extends="sys_import_set_row" table="u_packages_datas"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element/><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Collection">collection</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_packages_datas</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 23:48:53</sys_created_on><sys_id>5d561f8547370110a06c690cd36d4300</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_packages_datas</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_packages_datas_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 23:48:53</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1947947167</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>4588eb0d97111110a0a43d400153af70</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b9d90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table>u_packages_datas</table>
+<target_name>packages_datas</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>19561f851a37011009caad9e27af525a</update_guid>
+<update_guid_history>19561f851a37011009caad9e27af525a:1947947167</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_ui_section_3513af8947370110a06c690cd36d4339</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="3513af8947370110a06c690cd36d4339" sys_domain="global" table="u_packages_datas" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-30 00:44:37</sys_created_on><sys_id>fd13a30147770110a06c690cd36d43af</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_packages_datas" sys_domain="global" view="Default view">3513af8947370110a06c690cd36d4339</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-30 00:44:37</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_range_id</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-30 00:44:37</sys_created_on><sys_id>7513a30147770110a06c690cd36d43b0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_packages_datas" sys_domain="global" view="Default view">3513af8947370110a06c690cd36d4339</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-30 00:44:37</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-30 00:44:37</sys_created_on><sys_id>f513a30147770110a06c690cd36d43b0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_packages_datas" sys_domain="global" view="Default view">3513af8947370110a06c690cd36d4339</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-30 00:44:37</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_hr_class_id</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-30 00:44:37</sys_created_on><sys_id>7913a30147770110a06c690cd36d43b0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_packages_datas" sys_domain="global" view="Default view">3513af8947370110a06c690cd36d4339</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-30 00:44:37</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-30 00:44:37</sys_created_on><sys_id>f913a30147770110a06c690cd36d43b0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_packages_datas" sys_domain="global" view="Default view">3513af8947370110a06c690cd36d4339</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-30 00:44:37</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_packages_datas</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-30 00:44:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3513af8947370110a06c690cd36d4339</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_packages_datas</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_3513af8947370110a06c690cd36d4339</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-30 00:44:37</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>700119021</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>4588eb0d97111110a0a43d400153af73</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6ba280000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table>u_packages_datas</table>
+<target_name>packages_datas</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>fd13a301cd770110c133646e42767fb1</update_guid>
+<update_guid_history>fd13a301cd770110c133646e42767fb1:700119021,3913a301ad770110f1c3263cd19ee1ac:-642520057</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_app_module_e9561f8547370110a06c690cd36d436d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>packages_datas</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_packages_datas</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 23:48:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e9561f8547370110a06c690cd36d436d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>packages_datas</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_e9561f8547370110a06c690cd36d436d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 23:48:54</sys_updated_on><timeline_page/><title>packages_datas</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-177816191</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>4988eb0d97111110a0a43d400153af6c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6ba0c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table>u_packages_datas</table>
+<target_name>packages_datas</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>61561f85a8370110d7c42788cab5fa6f</update_guid>
+<update_guid_history>61561f85a8370110d7c42788cab5fa6f:-177816191</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_gammes_datas_u_sla</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_sla" table="u_gammes_datas"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>import_attribute_name=SLA</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>SLA</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_sla</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Integer">integer</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_gammes_datas</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 23:04:24</sys_created_on><sys_id>312cc3cd47f30110a06c690cd36d4353</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SLA</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_gammes_datas_u_sla</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 23:04:24</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-362573890</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>4988eb0d97111110a0a43d400153af6f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b91e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table>u_gammes_datas</table>
+<target_name>Gammes_datas.SLA</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>b12cc3cdb8f30110d14490cedd49736c</update_guid>
+<update_guid_history>b12cc3cdb8f30110d14490cedd49736c:-362573890</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_transform_script_21ed63c547770110a06c690cd36d43d7</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_script"&gt;&lt;sys_transform_script action="DELETE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;map display_value="map_packages"&gt;e2569b0547370110a06c690cd36d43cb&lt;/map&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	var gamme = new GlideRecord('u_gamme');
+    gamme.addQuery("correlation_id", source.u_range_id);
+
+    gamme.query();
+
+    if (gamme.next()) {
+
+        var group = new GlideRecord('sys_user_group');
+        group.addQuery("u_group_code", source.u_hr_class_id);
+
+        group.query();
+
+        if (group.next()) {
+            var listArr = gamme.u_hr_class.toString().split(',');
+            listArr.push(group.sys_id.toString());
+            gamme.setValue("u_hr_class", listArr.join(','));
+        }
+    }
+
+})(source, map, log, target);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_transform_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-30 01:32:07&lt;/sys_created_on&gt;&lt;sys_id&gt;21ed63c547770110a06c690cd36d43d7&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;onBefore&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_script_21ed63c547770110a06c690cd36d43d7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-30 01:34:19&lt;/sys_updated_on&gt;&lt;when&gt;onBefore&lt;/when&gt;&lt;/sys_transform_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>156479700</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>4988eb0d97111110a0a43d400153af72</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6ba510000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table/>
+<target_name>onBefore</target_name>
+<type>Transform Script</type>
+<update_domain>global</update_domain>
+<update_guid>aa6fa7498e7701102f31063dd434996e</update_guid>
+<update_guid_history>aa6fa7498e7701102f31063dd434996e:156479700,7d7e27c5b677011021738a897f1f0fbb:1676689352,e9fd67096d770110c71834db10a67b89:907598114</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_gammes_datas_u_pf_id</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_pf_id" table="u_gammes_datas"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>import_attribute_name=PF_ID</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>PF_ID</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_pf_id</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Integer">integer</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_gammes_datas</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 23:04:24</sys_created_on><sys_id>392cc3cd47f30110a06c690cd36d4355</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PF_ID</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_gammes_datas_u_pf_id</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 23:04:24</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>730619130</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>4d88eb0d97111110a0a43d400153af6e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b9330000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table>u_gammes_datas</table>
+<target_name>Gammes_datas.PF_ID</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>b92cc3cd05f301103f699ced55fd9f6e</update_guid>
+<update_guid_history>b92cc3cd05f301103f699ced55fd9f6e:730619130</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_transform_entry_f14dc7cd47f30110a06c690cd36d4337</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="map_gammes"&gt;913ccf4d47b30110a06c690cd36d4351&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_range_name&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_gammes_datas&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-29 23:09:19&lt;/sys_created_on&gt;&lt;sys_id&gt;f14dc7cd47f30110a06c690cd36d4337&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_range_name&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_f14dc7cd47f30110a06c690cd36d4337&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-29 23:09:19&lt;/sys_updated_on&gt;&lt;target_field&gt;name&lt;/target_field&gt;&lt;target_table&gt;u_gamme&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1680741391</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>4d88eb0d97111110a0a43d400153af71</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b9670000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table/>
+<target_name>u_range_name</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>b54dc7cd81f301105f01bb1e1fc22339</update_guid>
+<update_guid_history>b54dc7cd81f301105f01bb1e1fc22339:1680741391</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_data_source_e12c030147f30110a06c690cd36d43d1</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_data_source"&gt;&lt;sys_data_source action="INSERT_OR_UPDATE"&gt;&lt;batch_size&gt;1000&lt;/batch_size&gt;&lt;category/&gt;&lt;connection_timeout&gt;0&lt;/connection_timeout&gt;&lt;connection_url&gt;attachment://sys_data_source:e12c030147f30110a06c690cd36d43d1/gammes.xlsx&lt;/connection_url&gt;&lt;connection_url_parameters/&gt;&lt;csv_delimiter/&gt;&lt;data_in_single_column&gt;false&lt;/data_in_single_column&gt;&lt;data_loader&gt;&lt;![CDATA[(function loadData(import_set_table) {
+
+	// Add your code here to insert data to import_set_table
+
+})(import_set_table);]]&gt;&lt;/data_loader&gt;&lt;database_name/&gt;&lt;database_port/&gt;&lt;discard_arrays&gt;true&lt;/discard_arrays&gt;&lt;expand_node_children&gt;false&lt;/expand_node_children&gt;&lt;file_path&gt;gammes.xlsx&lt;/file_path&gt;&lt;file_retrieval_method&gt;Attachment&lt;/file_retrieval_method&gt;&lt;format&gt;Excel&lt;/format&gt;&lt;glide_keystore&gt;false&lt;/glide_keystore&gt;&lt;header_row&gt;1&lt;/header_row&gt;&lt;import_set_table_label/&gt;&lt;import_set_table_name&gt;u_gammes_datas&lt;/import_set_table_name&gt;&lt;instance_name/&gt;&lt;jdbc_password/&gt;&lt;jdbc_server/&gt;&lt;jdbc_user_name/&gt;&lt;jpath_root_node/&gt;&lt;last_run_database_field/&gt;&lt;last_run_datetime/&gt;&lt;last_success_import_time/&gt;&lt;ldap_target/&gt;&lt;ldapprobe_result_set_rows&gt;200&lt;/ldapprobe_result_set_rows&gt;&lt;limit/&gt;&lt;maximum_rows/&gt;&lt;mid_server/&gt;&lt;name&gt;gammes.xlsx (Uploaded)&lt;/name&gt;&lt;offset&gt;0&lt;/offset&gt;&lt;oracle_port&gt;1521&lt;/oracle_port&gt;&lt;oracle_sid&gt;orcl&lt;/oracle_sid&gt;&lt;parsing_script&gt;&lt;![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"// The function uses result variable to return parse result back. (function(line,lineNumber,result) {	// add code here})(line,lineNumber,result);]]&gt;&lt;/parsing_script&gt;&lt;properties/&gt;&lt;query&gt;All Rows from Table&lt;/query&gt;&lt;query_timeout&gt;0&lt;/query_timeout&gt;&lt;request_action/&gt;&lt;scp_authentication&gt;Username and Password&lt;/scp_authentication&gt;&lt;scp_password/&gt;&lt;scp_port/&gt;&lt;scp_server/&gt;&lt;scp_user_name/&gt;&lt;sheet_number&gt;1&lt;/sheet_number&gt;&lt;sql_statement/&gt;&lt;ssh_keyfile_path/&gt;&lt;support_pagination&gt;false&lt;/support_pagination&gt;&lt;sys_class_name&gt;sys_data_source&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-29 23:04:23&lt;/sys_created_on&gt;&lt;sys_id&gt;e12c030147f30110a06c690cd36d43d1&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;gammes.xlsx (Uploaded)&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_data_source_e12c030147f30110a06c690cd36d43d1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-29 23:04:25&lt;/sys_updated_on&gt;&lt;table_name/&gt;&lt;type&gt;File&lt;/type&gt;&lt;use_batch_import&gt;false&lt;/use_batch_import&gt;&lt;use_integrated_authentication&gt;false&lt;/use_integrated_authentication&gt;&lt;use_last_run_datetime&gt;false&lt;/use_last_run_datetime&gt;&lt;xpath_root_node/&gt;&lt;zipped&gt;false&lt;/zipped&gt;&lt;/sys_data_source&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2002044099</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>8188eb0d97111110a0a43d400153af6d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b93e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table/>
+<target_name>gammes.xlsx (Uploaded)</target_name>
+<type>Data Source</type>
+<update_domain>global</update_domain>
+<update_guid>8e2cc3cda1f301101cc0a4e65cfe628d</update_guid>
+<update_guid_history>8e2cc3cda1f301101cc0a4e65cfe628d:2002044099,8e2cc3cd29f30110c0a05c023d3d778c:-1511505471</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_hr_class_datas_u_hr_class_name</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_hr_class_name" table="u_hr_class_datas"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=HR_CLASS_NAME</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>HR_CLASS_NAME</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_hr_class_name</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_hr_class_datas</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 23:33:48</sys_created_on><sys_id>90e2530547370110a06c690cd36d43e5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HR_CLASS_NAME</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_hr_class_datas_u_hr_class_name</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 23:33:48</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>576713877</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>8188eb0d97111110a0a43d400153af70</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b9ad0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table>u_hr_class_datas</table>
+<target_name>hr_class_datas.HR_CLASS_NAME</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>a4e2530505370110bb674ec0fbc08bf1</update_guid>
+<update_guid_history>a4e2530505370110bb674ec0fbc08bf1:576713877</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_transform_script_db60f78947770110a06c690cd36d438f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_script"&gt;&lt;sys_transform_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;map display_value="map_packages"&gt;e2569b0547370110a06c690cd36d43cb&lt;/map&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	var gamme = new GlideRecord('u_gamme');
+    gamme.addQuery("correlation_id", source.u_range_id);
+
+    gamme.query();
+
+    if (gamme.next()) {
+
+        var group = new GlideRecord('sys_user_group');
+        group.addQuery("u_group_code", source.u_hr_class_id);
+
+        group.query();
+
+        if (group.next()) {
+            var listArr = gamme.u_hr_class.toString().split(',');
+            listArr.push(group.sys_id.toString());
+            gamme.setValue("u_hr_class", listArr.join(','));
+			gamme.update();
+        }
+    }
+
+})(source, map, log, target);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_transform_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-30 01:43:26&lt;/sys_created_on&gt;&lt;sys_id&gt;db60f78947770110a06c690cd36d438f&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;onBefore&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_script_db60f78947770110a06c690cd36d438f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-30 02:02:39&lt;/sys_updated_on&gt;&lt;when&gt;onBefore&lt;/when&gt;&lt;/sys_transform_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2047786159</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>8188eb0d97111110a0a43d400153af73</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6ba660000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table/>
+<target_name>onBefore</target_name>
+<type>Transform Script</type>
+<update_domain>global</update_domain>
+<update_guid>fcf4ff4dac7701109107850178142415</update_guid>
+<update_guid_history>fcf4ff4dac7701109107850178142415:-2047786159,fee4bb4d277701108742a0ebc3c82cb7:949615370,5093734d49770110f3f1cbe699692251:-2047786159,d7803789f5770110c361012dedc91c83:1676689352</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_app_module_822cc3cd47f30110a06c690cd36d438f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Gammes_datas</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_gammes_datas</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 23:04:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>822cc3cd47f30110a06c690cd36d438f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Gammes_datas</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_822cc3cd47f30110a06c690cd36d438f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 23:04:25</sys_updated_on><timeline_page/><title>Gammes_datas</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-98397813</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>8588eb0d97111110a0a43d400153af6c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b94b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table>u_gammes_datas</table>
+<target_name>Gammes_datas</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>8a2cc3cd9df301100f10d284a80e0991</update_guid>
+<update_guid_history>8a2cc3cd9df301100f10d284a80e0991:-98397813</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_gammes_datas_u_range_name</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_range_name" table="u_gammes_datas"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=RANGE_NAME</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>RANGE_NAME</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_range_name</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>65</max_length><name>u_gammes_datas</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 23:04:24</sys_created_on><sys_id>312cc3cd47f30110a06c690cd36d434e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>RANGE_NAME</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_gammes_datas_u_range_name</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 23:04:24</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1130525020</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>8588eb0d97111110a0a43d400153af6f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b8f60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table>u_gammes_datas</table>
+<target_name>Gammes_datas.RANGE_NAME</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>b12cc3cd56f3011015218b2e44af7b67</update_guid>
+<update_guid_history>b12cc3cd56f3011015218b2e44af7b67:1130525020</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_transform_map_e2569b0547370110a06c690cd36d43cb</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;map_packages&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	var gamme = new GlideRecord('u_gamme');
+    gamme.addQuery("correlation_id", source.u_range_id);
+
+    gamme.query();
+
+    if (gamme.next()) {
+
+        var group = new GlideRecord('sys_user_group');
+        group.addQuery("u_group_code", source.u_hr_class_id);
+
+        group.query();
+
+        if (group.next()) {
+            var listArr = gamme.u_hr_class.toString().split(',');
+            listArr.push(group.sys_id.toString());
+            gamme.setValue("u_hr_class", listArr.join(','));
+        }
+    }
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;u_packages_datas&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-29 23:49:41&lt;/sys_created_on&gt;&lt;sys_id&gt;e2569b0547370110a06c690cd36d43cb&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;map_packages&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_e2569b0547370110a06c690cd36d43cb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-30 02:02:09&lt;/sys_updated_on&gt;&lt;target_table&gt;u_gamme&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1463184421</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>8588eb0d97111110a0a43d400153af72</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6ba5d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table/>
+<target_name>map_packages</target_name>
+<type>Table Transform Map</type>
+<update_domain>global</update_domain>
+<update_guid>25d47f4dca770110b68114200cd03cf8</update_guid>
+<update_guid_history>25d47f4dca770110b68114200cd03cf8:1463184421,bbc4f78d32770110196fd449c345ac7f:1777102018,6563774d25770110eae5611db11d75ea:1463184421,1290378903770110016f634ec5ae77cf:-984725596,afffaf49fb770110805d5aa07e9f4c65:-1641860029,0d8fef092a770110672c154625e2c634:-1839989854,418693c1d73701106c977132f6614654:159612720</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_gammes_datas_u_measuring_unit</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_measuring_unit" table="u_gammes_datas"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>import_attribute_name=MEASURING_UNIT</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>MEASURING_UNIT</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_measuring_unit</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Integer">integer</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_gammes_datas</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 23:04:24</sys_created_on><sys_id>7d2cc3cd47f30110a06c690cd36d434a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MEASURING_UNIT</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_gammes_datas_u_measuring_unit</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 23:04:24</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-777804540</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>8988eb0d97111110a0a43d400153af6e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b8e20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table>u_gammes_datas</table>
+<target_name>Gammes_datas.MEASURING_UNIT</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>392cc3cdf7f30110b8f5507b4fbfe764</update_guid>
+<update_guid_history>392cc3cdf7f30110b8f5507b4fbfe764:-777804540</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_transform_entry_eb33970547370110a06c690cd36d431d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="map_hr_classes"&gt;08f297c147370110a06c690cd36d4330&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_hr_class_name&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_hr_class_datas&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-29 23:35:23&lt;/sys_created_on&gt;&lt;sys_id&gt;eb33970547370110a06c690cd36d431d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_hr_class_name&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_eb33970547370110a06c690cd36d431d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-29 23:35:23&lt;/sys_updated_on&gt;&lt;target_field&gt;name&lt;/target_field&gt;&lt;target_table&gt;sys_user_group&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-359082636</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>8988eb0d97111110a0a43d400153af71</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b9cf0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table/>
+<target_name>u_hr_class_name</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>ab3397053f37011094321daa4672551e</update_guid>
+<update_guid_history>ab3397053f37011094321daa4672551e:-359082636</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_gammes_datas_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="" extends="sys_import_set_row" table="u_gammes_datas"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element/><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Collection">collection</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_gammes_datas</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 23:04:24</sys_created_on><sys_id>ed2c83cd47f30110a06c690cd36d43df</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_gammes_datas</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_gammes_datas_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 23:04:24</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1959260302</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>8d88eb0d97111110a0a43d400153af6d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b8ba0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table>u_gammes_datas</table>
+<target_name>Gammes_datas</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>b92cc3cd3bf301102650a409927ae061</update_guid>
+<update_guid_history>b92cc3cd3bf301102650a409927ae061:1959260302</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_transform_entry_23335b8147370110a06c690cd36d437e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;true&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="map_hr_classes"&gt;08f297c147370110a06c690cd36d4330&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_hr_class_code&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_hr_class_datas&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-29 23:35:23&lt;/sys_created_on&gt;&lt;sys_id&gt;23335b8147370110a06c690cd36d437e&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_hr_class_code&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_23335b8147370110a06c690cd36d437e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-29 23:35:41&lt;/sys_updated_on&gt;&lt;target_field&gt;u_group_code&lt;/target_field&gt;&lt;target_table&gt;sys_user_group&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-477071103</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>8d88eb0d97111110a0a43d400153af70</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b9d40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table/>
+<target_name>u_hr_class_code</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>c45397053e3701100d55b84a1e79f73e</update_guid>
+<update_guid_history>c45397053e3701100d55b84a1e79f73e:-477071103,af3397050937011091674260915cce1c:1408443236</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_app_module_20e2530547370110a06c690cd36d43fe</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>hr_class_datas</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_hr_class_datas</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 23:33:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>20e2530547370110a06c690cd36d43fe</sys_id><sys_mod_count>0</sys_mod_count><sys_name>hr_class_datas</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_20e2530547370110a06c690cd36d43fe</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 23:33:48</sys_updated_on><timeline_page/><title>hr_class_datas</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>1625300501</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>c188eb0d97111110a0a43d400153af6c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b9c40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table>u_hr_class_datas</table>
+<target_name>hr_class_datas</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>a4e25305dd37011023ddbfc6ecebdbff</update_guid>
+<update_guid_history>a4e25305dd37011023ddbfc6ecebdbff:1625300501</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_gammes_datas_u_range_id</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_range_id" table="u_gammes_datas"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>import_attribute_name=RANGE_ID</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>RANGE_ID</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_range_id</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Integer">integer</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_gammes_datas</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 23:04:24</sys_created_on><sys_id>3d2cc3cd47f30110a06c690cd36d434c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>RANGE_ID</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_gammes_datas_u_range_id</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 23:04:24</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1763507557</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>c188eb0d97111110a0a43d400153af6f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b8eb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table>u_gammes_datas</table>
+<target_name>Gammes_datas.RANGE_ID</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>3d2cc3cd65f30110ba0825ded9d8bb65</update_guid>
+<update_guid_history>3d2cc3cd65f30110ba0825ded9d8bb65:1763507557</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_transform_map_913ccf4d47b30110a06c690cd36d4351</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;map_gammes&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;u_gammes_datas&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-29 23:05:35&lt;/sys_created_on&gt;&lt;sys_id&gt;913ccf4d47b30110a06c690cd36d4351&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;map_gammes&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_913ccf4d47b30110a06c690cd36d4351&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-29 23:05:35&lt;/sys_updated_on&gt;&lt;target_table&gt;u_gamme&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1481624181</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>c188eb0d97111110a0a43d400153af72</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b95a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table/>
+<target_name>map_gammes</target_name>
+<type>Table Transform Map</type>
+<update_domain>global</update_domain>
+<update_guid>836c038d07f30110815d70f3bcf28719</update_guid>
+<update_guid_history>836c038d07f30110815d70f3bcf28719:-1481624181</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_gammes_datas_u_i</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_i" table="u_gammes_datas"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=I</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>I</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_i</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_gammes_datas</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 23:04:24</sys_created_on><sys_id>352cc3cd47f30110a06c690cd36d4354</sys_id><sys_mod_count>0</sys_mod_count><sys_name>I</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_gammes_datas_u_i</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 23:04:24</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1417142565</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>c588eb0d97111110a0a43d400153af6e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b9270000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table>u_gammes_datas</table>
+<target_name>Gammes_datas.I</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>b52cc3cdd1f30110ea3d6051cab3336d</update_guid>
+<update_guid_history>b52cc3cdd1f30110ea3d6051cab3336d:-1417142565</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_transform_entry_3c4b1b4947370110a06c690cd36d4319</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="DELETE"&gt;&lt;choice_action&gt;ignore&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="map_packages"&gt;e2569b0547370110a06c690cd36d43cb&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;[Script]&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+		
+    var gamme = new GlideRecord('u_gamme');
+    gamme.addQuery("correlation_id", source.u_range_id);
+
+    gamme.query();
+
+    if (gamme.next()) {
+
+        var group = new GlideRecord('sys_user_group');
+        group.addQuery("u_group_code", source.u_hr_class_id);
+
+        group.query();
+
+        if (group.next()) {
+            var listArr = gamme.u_hr_class.toString().split(',');
+            listArr.push(group.sys_id.toString());
+            return listArr.join(',');
+        }
+    }
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_packages_datas&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-30 00:12:26&lt;/sys_created_on&gt;&lt;sys_id&gt;3c4b1b4947370110a06c690cd36d4319&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;[Script]&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_3c4b1b4947370110a06c690cd36d4319&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-30 01:26:03&lt;/sys_updated_on&gt;&lt;target_field&gt;u_hr_class&lt;/target_field&gt;&lt;target_table&gt;u_gamme&lt;/target_table&gt;&lt;use_source_script&gt;true&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1623326374</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>c588eb0d97111110a0a43d400153af71</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6ba3d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table/>
+<target_name>[Script]</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>24dd67c5087701105658ddf50af66b1a</update_guid>
+<update_guid_history>24dd67c5087701105658ddf50af66b1a:-1623326374,249ceb45547701109e54c4e342541f60:-425371546,bc2c6345c5770110176540012f5091fc:442258821,0ca96fc108770110eb0d146b1a77d26a:-1241796626,736727415a7701101377c87ddc191a31:-438293628,9844e7cdb8370110beeeed439e150132:1493094957,dabb5789e93701109690a65d0bd2f475:-227594991</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_db_object_d0e2530547370110a06c690cd36d43aa</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>hr_class_datas</label><live_feed_enabled>false</live_feed_enabled><name>u_hr_class_datas</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">6ced16e2a5300110c0a0e1db2cdc9574</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 23:33:48</sys_created_on><sys_id>d0e2530547370110a06c690cd36d43aa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HR Class Datas</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_d0e2530547370110a06c690cd36d43aa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 23:33:48</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-1142792110</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>c988eb0d97111110a0a43d400153af6d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b9a30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table>u_hr_class_datas</table>
+<target_name>hr_class_datas</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>60e253055f370110a717299e8c3a57f0</update_guid>
+<update_guid_history>60e253055f370110a717299e8c3a57f0:-1142792110</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_packages_datas_u_range_id</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_range_id" table="u_packages_datas"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>import_attribute_name=RANGE_ID</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>RANGE_ID</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_range_id</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Integer">integer</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_packages_datas</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 23:48:53</sys_created_on><sys_id>9d561f8547370110a06c690cd36d4350</sys_id><sys_mod_count>0</sys_mod_count><sys_name>RANGE_ID</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_packages_datas_u_range_id</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 23:48:53</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1024312517</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>c988eb0d97111110a0a43d400153af70</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b9e90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table>u_packages_datas</table>
+<target_name>packages_datas.RANGE_ID</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>91561f85893701109fd7d8efb5928f5d</update_guid>
+<update_guid_history>91561f85893701109fd7d8efb5928f5d:1024312517</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_data_source_dd561b0547370110a06c690cd36d4373</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_data_source"&gt;&lt;sys_data_source action="INSERT_OR_UPDATE"&gt;&lt;batch_size&gt;1000&lt;/batch_size&gt;&lt;category/&gt;&lt;connection_timeout&gt;0&lt;/connection_timeout&gt;&lt;connection_url&gt;attachment://sys_data_source:dd561b0547370110a06c690cd36d4373/packages.xlsx&lt;/connection_url&gt;&lt;connection_url_parameters/&gt;&lt;csv_delimiter/&gt;&lt;data_in_single_column&gt;false&lt;/data_in_single_column&gt;&lt;data_loader&gt;&lt;![CDATA[(function loadData(import_set_table) {
+
+	// Add your code here to insert data to import_set_table
+
+})(import_set_table);]]&gt;&lt;/data_loader&gt;&lt;database_name/&gt;&lt;database_port/&gt;&lt;discard_arrays&gt;true&lt;/discard_arrays&gt;&lt;expand_node_children&gt;false&lt;/expand_node_children&gt;&lt;file_path&gt;packages.xlsx&lt;/file_path&gt;&lt;file_retrieval_method&gt;Attachment&lt;/file_retrieval_method&gt;&lt;format&gt;Excel&lt;/format&gt;&lt;glide_keystore&gt;false&lt;/glide_keystore&gt;&lt;header_row&gt;1&lt;/header_row&gt;&lt;import_set_table_label/&gt;&lt;import_set_table_name&gt;u_packages_datas&lt;/import_set_table_name&gt;&lt;instance_name/&gt;&lt;jdbc_password/&gt;&lt;jdbc_server/&gt;&lt;jdbc_user_name/&gt;&lt;jpath_root_node/&gt;&lt;last_run_database_field/&gt;&lt;last_run_datetime/&gt;&lt;last_success_import_time/&gt;&lt;ldap_target/&gt;&lt;ldapprobe_result_set_rows&gt;200&lt;/ldapprobe_result_set_rows&gt;&lt;limit/&gt;&lt;maximum_rows/&gt;&lt;mid_server/&gt;&lt;name&gt;packages.xlsx (Uploaded)&lt;/name&gt;&lt;offset&gt;0&lt;/offset&gt;&lt;oracle_port&gt;1521&lt;/oracle_port&gt;&lt;oracle_sid&gt;orcl&lt;/oracle_sid&gt;&lt;parsing_script&gt;&lt;![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"// The function uses result variable to return parse result back. (function(line,lineNumber,result) {	// add code here})(line,lineNumber,result);]]&gt;&lt;/parsing_script&gt;&lt;properties/&gt;&lt;query&gt;All Rows from Table&lt;/query&gt;&lt;query_timeout&gt;0&lt;/query_timeout&gt;&lt;request_action/&gt;&lt;scp_authentication&gt;Username and Password&lt;/scp_authentication&gt;&lt;scp_password/&gt;&lt;scp_port/&gt;&lt;scp_server/&gt;&lt;scp_user_name/&gt;&lt;sheet_number&gt;1&lt;/sheet_number&gt;&lt;sql_statement/&gt;&lt;ssh_keyfile_path/&gt;&lt;support_pagination&gt;false&lt;/support_pagination&gt;&lt;sys_class_name&gt;sys_data_source&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-29 23:48:53&lt;/sys_created_on&gt;&lt;sys_id&gt;dd561b0547370110a06c690cd36d4373&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;packages.xlsx (Uploaded)&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_data_source_dd561b0547370110a06c690cd36d4373&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-29 23:48:53&lt;/sys_updated_on&gt;&lt;table_name/&gt;&lt;type&gt;File&lt;/type&gt;&lt;use_batch_import&gt;false&lt;/use_batch_import&gt;&lt;use_integrated_authentication&gt;false&lt;/use_integrated_authentication&gt;&lt;use_last_run_datetime&gt;false&lt;/use_last_run_datetime&gt;&lt;xpath_root_node/&gt;&lt;zipped&gt;false&lt;/zipped&gt;&lt;/sys_data_source&gt;&lt;/record_update&gt;</payload>
+<payload_hash>678942946</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>cd88eb0d97111110a0a43d400153af6c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b9fd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table/>
+<target_name>packages.xlsx (Uploaded)</target_name>
+<type>Data Source</type>
+<update_domain>global</update_domain>
+<update_guid>2d561f853a370110cc657e1a3221956c</update_guid>
+<update_guid_history>2d561f853a370110cc657e1a3221956c:678942946,ad561f85c7370110509844593fb6c16b:-1270106400</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_u_hr_class_datas_u_hr_class_code</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_hr_class_code" table="u_hr_class_datas"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>import_attribute_name=HR_CLASS_CODE</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>HR_CLASS_CODE</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_hr_class_code</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Integer">integer</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_hr_class_datas</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-29 23:33:48</sys_created_on><sys_id>9ce2530547370110a06c690cd36d43e6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HR_CLASS_CODE</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_hr_class_datas_u_hr_class_code</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-29 23:33:48</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1197472885</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>cd88eb0d97111110a0a43d400153af6f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6b9b40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table>u_hr_class_datas</table>
+<target_name>hr_class_datas.HR_CLASS_CODE</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>e8e25305c93701109b87e26aa52931f2</update_guid>
+<update_guid_history>e8e25305c93701109b87e26aa52931f2:1197472885</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_transform_script_47d61b0547370110a06c690cd36d438d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_script"&gt;&lt;sys_transform_script action="DELETE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;map display_value="map_packages"&gt;e2569b0547370110a06c690cd36d43cb&lt;/map&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+    var gamme = new GlideRecord('u_gamme');
+    gamme.addQuery("correlation_id", source.u_range_id);
+
+    gamme.query();
+
+    if (gamme.next()) {
+
+        var group = new GlideRecord('sys_user_group');
+        group.addQuery("u_group_code", source.u_hr_class_id);
+
+        group.query();
+
+        if (group.next()) {
+         gamme.setValue('u_hr_class', gamme.getValue('u_hr_class') + ',' + group.sys_id);
+
+        gamme.update(); 
+        }
+    }
+
+})(source, map, log, target);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_transform_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-30 00:03:25&lt;/sys_created_on&gt;&lt;sys_id&gt;47d61b0547370110a06c690cd36d438d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;onBefore&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_script_47d61b0547370110a06c690cd36d438d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-30 00:03:25&lt;/sys_updated_on&gt;&lt;when&gt;onBefore&lt;/when&gt;&lt;/sys_transform_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1969787429</payload_hash>
+<remote_update_set display_value="#STRY0010022-RHY-05">0188eb0d97111110a0a43d400153af6c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:42:31</sys_created_on>
+<sys_id>cd88eb0d97111110a0a43d400153af72</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18112b6ba190000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:42:31</sys_updated_on>
+<table/>
+<target_name>onBefore</target_name>
+<type>Transform Script</type>
+<update_domain>global</update_domain>
+<update_guid>fe3b1b49ec3701108d7de01fb84e7617</update_guid>
+<update_guid_history>fe3b1b49ec3701108d7de01fb84e7617:-1969787429,8aa9934906370110d72b9ba05efaf5fa:-1978370201</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

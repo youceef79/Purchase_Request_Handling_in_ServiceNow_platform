@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-08-12 14:55:25">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>#STRY0010011-RHY-01</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>456016a82f7241102f8baa5df699b626</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:25</sys_created_on>
+<sys_id>167bef8d97111110a0a43d400153af6f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:25</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>user_criteria_47ae86ec47720110a06c690cd36d435c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="user_criteria"&gt;&lt;user_criteria action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;company/&gt;&lt;department/&gt;&lt;group/&gt;&lt;location/&gt;&lt;match_all&gt;false&lt;/match_all&gt;&lt;name&gt;Item  visibilité&lt;/name&gt;&lt;role/&gt;&lt;script&gt;&lt;![CDATA[/** Scripted User Criteria is not cached, and evaluated everytime, so performance is dependent on the script.
+* Populate `answer` with true/false or evaluate to true/false
+* The script is evaluated in the scope the user criteria is defined
+* Don't use `current` in the script or populate the variable
+* Don't use `gs.getUser()` or  `gs.getUserID()`, 
+* instead use `user_id` which contains the user sys_id against whom the evaluation is happening.
+*/
+var userGR = new GlideRecord('sys_user');
+userGR.get(user_id);
+if(userGR.preferred_language == 'fr') {
+answer = true;
+}
+else {
+answer = false;
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;user_criteria&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-04-08 12:16:34&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;47ae86ec47720110a06c690cd36d435c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Item  visibilité&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;user_criteria_47ae86ec47720110a06c690cd36d435c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-04-08 12:16:34&lt;/sys_updated_on&gt;&lt;user/&gt;&lt;/user_criteria&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-5127962</payload_hash>
+<remote_update_set display_value="#STRY0010011-RHY-01">167bef8d97111110a0a43d400153af6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:25</sys_created_on>
+<sys_id>9a7bef8d97111110a0a43d400153af6f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>180092134440000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:25</sys_updated_on>
+<table/>
+<target_name>Item  visibilité</target_name>
+<type>User Criteria</type>
+<update_domain>global</update_domain>
+<update_guid>3ecec6202ab201108e8be5206c2d1c07</update_guid>
+<update_guid_history>3ecec6202ab201108e8be5206c2d1c07:-5127962</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sc_cat_item_user_criteria_mtom_3ecec62047b20110a06c690cd36d4308</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Matériel informatique">0f7bafd0477a0110a06c690cd36d4330</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 12:16:34</sys_created_on><sys_id>3ecec62047b20110a06c690cd36d4308</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Matériel informatique.Item  visibilité</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_3ecec62047b20110a06c690cd36d4308</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 12:16:34</sys_updated_on><user_criteria display_value="Item  visibilité">47ae86ec47720110a06c690cd36d435c</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+<payload_hash>-598013958</payload_hash>
+<remote_update_set display_value="#STRY0010011-RHY-01">167bef8d97111110a0a43d400153af6f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:25</sys_created_on>
+<sys_id>d67bef8d97111110a0a43d400153af6f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>180092134640000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:25</sys_updated_on>
+<table/>
+<target_name>Matériel informatique.Item  visibilité</target_name>
+<type>Catalog Item Available for</type>
+<update_domain>global</update_domain>
+<update_guid>becec62034b20110d2d80637f4a6f40a</update_guid>
+<update_guid_history>becec62034b20110d2d80637f4a6f40a:-598013958</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

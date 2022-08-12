@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-08-12 14:37:00">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>#STRY0010025-RHY-03</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>253500882f9091102f8baa5df699b655</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:36:59</sys_created_on>
+<sys_id>50472f8997111110a0a43d400153af1e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:36:59</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>catalog_script_client_3b088c1d47001110a06c690cd36d435b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Déclaration Perte / Vol"&gt;7246284947001110a06c690cd36d4389&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;remove operator&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+
+    g_form.removeOption("i_want_to_request_this", "operator");
+    
+	g_form.setReadOnly("articles_perdus_passe", true);
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-06-11 13:45:21&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3b088c1d47001110a06c690cd36d435b&lt;/sys_id&gt;&lt;sys_mod_count&gt;37&lt;/sys_mod_count&gt;&lt;sys_name&gt;remove operator&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_3b088c1d47001110a06c690cd36d435b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-06-20 02:29:47&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2090156736</payload_hash>
+<remote_update_set display_value="#STRY0010025-RHY-03">50472f8997111110a0a43d400153af1e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:36:59</sys_created_on>
+<sys_id>14472f8997111110a0a43d400153af1e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1817ef480e20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:36:59</sys_updated_on>
+<table/>
+<target_name>remove operator</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>1f84000c00d09110fbb7d374da0a649d</update_guid>
+<update_guid_history>1f84000c00d09110fbb7d374da0a649d:-2090156736,118444c844d09110ee3800f7d54f2607:59962400,57dbfb3729c09110b227d5fa52cd6b7b:-2090156736,3e7a7bf3d5c09110be91e747562e09d3:-451628896,940afbb3d7c09110f0c286521910392f:-1966404281,f8593773a5c09110572decc5c3c4a65a:1119902358,f5c8b3b3bfc09110cd1b6cb193b0b074:-740571015,9598ff7399c091100691c28a1cc52be3:378960422,3067bbffdf809110432162a6a0c48f5c:200491616,a526bfffc28091105a63e09dd16f0710:-56897576,11063fff70809110e4667eea165d712b:1764411477,3bd57bff6f8091104fe9ffe4f4496fd9:1391442003,1795b7fff48091104a94e89b2304da8c:837446478,246ea111be84111092fd1d1dc5177f07:1492788047,4ee50d91760411105cbabb286c460453:1359453925,a8d58991b30411106770ff9668aa5ece:-1617151981,9ab5411105041110e4ed45c4ddabe169:922719008,c58589515a041110d725e98b7ab6c003:-424214060,66644111d3041110bb8ff86783240064:-126704282,1a3085d9ccc01110b330d3305e3917ab:1492788047,3a8eb85983c01110f2780ed03939509b:697397611,19fcf859e2c011100be9b94652705f2e:1062769899,02b33cd10bc0111008a0d024c2e6401a:1280468939,9793b0917dc011101bd9b06832974e1d:1005955286,6201381176c01110ae3d05d429380433:-2042553861,9aeea41176c01110ea78e5bda3881d1f:1299253482,ff4e20ddf2801110a6f0f89bfffad169:-883340522,fecd64dd5c801110179645921c4ec7cf:1916370400,8ab59499e34011100a9101433ef9eaec:-360669752,2db2d8914b40111046853c6c1092d0fe:-990497759,667298d53f401110bd5a33462740e3a0:-226132879,ef22d89144401110af55b0ee9dfeef11:1574327732,5422d8914f40111003ac2df5046b29be:1886046715,10bb88911740111038f087097f1da185:-214570316,863b8c5156401110d0fc03a9fd10fcd4:2117333745,a83a8451cd401110432c8217980f3a7c:333130755,31a94c112e401110bebcf024d0892aff:-50243567,5bd80411cd401110b569c666a60393c2:-1708374505</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_script_include_19a340c847d09110a06c690cd36d43c5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.StolenItemsControl&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;StolenItemsControl&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var StolenItemsControl = Class.create();
+StolenItemsControl.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+    
+	getCmdbCis: function() { 
+
+        var req_for = this.getParameter('requested_for');
+
+        var gr = new GlideRecord('cmdb_ci');
+
+        gr.addEncodedQuery("assigned_to!=^assigned_to=" + req_for + "^install_status=8");
+
+        gr.query();
+
+        var answer = "";
+
+        while (gr.next()) {
+            answer += gr.sys_id + ",";
+        }
+
+        return answer;
+    },
+    type: 'StolenItemsControl'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-06-20 02:26:51&lt;/sys_created_on&gt;&lt;sys_id&gt;19a340c847d09110a06c690cd36d43c5&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;StolenItemsControl&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_19a340c847d09110a06c690cd36d43c5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-06-20 02:29:21&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2134681762</payload_hash>
+<remote_update_set display_value="#STRY0010025-RHY-03">50472f8997111110a0a43d400153af1e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:36:59</sys_created_on>
+<sys_id>5c472f8997111110a0a43d400153af1e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1817ef480d70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:36:59</sys_updated_on>
+<table/>
+<target_name>StolenItemsControl</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>f0740cc8e2d091106e4d82e559e0557f</update_guid>
+<update_guid_history>f0740cc8e2d091106e4d82e559e0557f:-2134681762,7e64ccc852d091103a6dbd7f9116cb2d:-1213467842,8ce30c884ed0911028d3fbfc38959734:-880036372</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>item_option_new_14e52c1947801110a06c690cd36d4303</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Déclaration Perte / Vol">7246284947001110a06c690cd36d4389</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><enable_also_request_for>false</enable_also_request_for><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><hidden>false</hidden><include_none>false</include_none><instructions/><layout>normal</layout><list_table>cmdb_ci</list_table><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><macroponent/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>articles_perdus_passe</name><order>200</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><published_ref/><question_text>Article(s) perdu(s) ou volé (s) dans le passé</question_text><read_only>false</read_only><read_roles/><read_script/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><rich_text/><roles_to_use_also_request_for/><save_script/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-11 15:56:27</sys_created_on><sys_id>14e52c1947801110a06c690cd36d4303</sys_id><sys_mod_count>10</sys_mod_count><sys_name>Article(s) perdu(s) ou volé (s) dans le passé</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_14e52c1947801110a06c690cd36d4303</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-20 02:30:45</sys_updated_on><table/><tooltip/><type>21</type><ui_page/><unique>false</unique><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>advanced</use_reference_qualifier><validate_regex/><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=14e52c1947801110a06c690cd36d4303"/><fx_price action="delete_multiple" query="id=14e52c1947801110a06c690cd36d4303"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>14e52c1947801110a06c690cd36d4303</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-11 15:56:27</sys_created_on><sys_id>6bd6a81947801110a06c690cd36d4386</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-11 15:56:27</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>14e52c1947801110a06c690cd36d4303</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-11 15:56:27</sys_created_on><sys_id>63d6a81947801110a06c690cd36d4385</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-11 15:56:27</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-812620207</payload_hash>
+<remote_update_set display_value="#STRY0010025-RHY-03">50472f8997111110a0a43d400153af1e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:36:59</sys_created_on>
+<sys_id>98472f8997111110a0a43d400153af1e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1817ef480f00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:36:59</sys_updated_on>
+<table/>
+<target_name>Article(s) perdu(s) ou volé (s) dans le passé</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>ddc4440c74d0911067837e086c1618b6</update_guid>
+<update_guid_history>ddc4440c74d0911067837e086c1618b6:-812620207,c5b4040cf2d09110f4ab58c0c4a332d1:195464310,1bbe37f730c09110e46c9aa99b230dd5:-812620207,7e2c54d39f4011101a11300a7830442f:524693095,063ce09d6d801110215f569b8de483ce:89684989,992ca09db98011105f2c782e5bdfe1e2:-152252111,a97a2c1d8a80111092617681f013b6a3:89684989,5e8820d9338011104d7220c098010011:-974264824,f2586c993e80111056d5c41ac59b5666:1378622560,6628a899e98011103ff84c8fe2b458ba:-1299764624,abd6e459d280111059c1970dc5e8b890:1502296870</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>catalog_script_client_5feb737747c09110a06c690cd36d4323</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Déclaration Perte / Vol"&gt;7246284947001110a06c690cd36d4389&lt;/cat_item&gt;&lt;cat_variable&gt;IO:01ea4ee547320110a06c690cd36d4341&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Set stolen items values&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+
+   var ga = new GlideAjax('StolenItemsControl');
+
+    ga.addParam('sysparm_name', 'getCmdbCis');
+
+    ga.addParam('requested_for', newValue);
+
+    ga.getXML(callback);
+
+}
+
+function callback(response) {
+	
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+
+    g_form.setValue("articles_perdus_passe", answer);
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-06-20 01:54:10&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5feb737747c09110a06c690cd36d4323&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set stolen items values&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_5feb737747c09110a06c690cd36d4323&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-06-20 02:29:01&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>126704748</payload_hash>
+<remote_update_set display_value="#STRY0010025-RHY-03">50472f8997111110a0a43d400153af1e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:36:59</sys_created_on>
+<sys_id>d4472f8997111110a0a43d400153af1e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1817ef480b10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:36:59</sys_updated_on>
+<table/>
+<target_name>Set stolen items values</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>bf540cc83cd091104561938ac9f73229</update_guid>
+<update_guid_history>bf540cc83cd091104561938ac9f73229:126704748,d9540cc8e6d09110e94a2b3495132c89:-913058792,95244c887fd09110ebfbae5f69814f97:126704748,9a138c48c9d0911091bd53af09dbfd90:1533139836,6af2848834d09110b8db9cca9c8f9861:-685667893,1671484868d091105179a5e7ce0758d3:1533139836,bb41c448f3d09110eaa45f2334517272:255679081,99314408b0d0911054597e4f643727e5:1533139836,0711480848d091101f8e79f4f5bbf35f:-1707968709,3e700c08cad09110ee6bca5a3c7bdb46:1533139836,b5af333b93c091103ca581e843ae6ab8:-1915728126,959f77f77cc091100dadaf7b4ae683c5:482680102,571ff3f711c09110c1f037cb4ad933b7:528629757,156c337765c0911057dbea250308b1d7:-844798629</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

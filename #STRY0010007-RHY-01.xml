@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-08-12 14:55:56">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>#STRY0010007-RHY-01</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>c1ce3b1c2fba01102f8baa5df699b6a3</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>f59b23cd97111110a0a43d400153afdf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>item_option_new_350c2314477a0110a06c690cd36d43ca</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Matériel informatique">0f7bafd0477a0110a06c690cd36d4330</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><enable_also_request_for>false</enable_also_request_for><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><hidden>false</hidden><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><macroponent/><mandatory>true</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>requested_for</name><order>100</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><published_ref/><question_text>Requested for</question_text><read_only>false</read_only><read_roles/><read_script/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference>sys_user</reference><reference_qual/><reference_qual_condition/><rich_text/><roles_to_use_also_request_for/><save_script/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:26:26</sys_created_on><sys_id>350c2314477a0110a06c690cd36d43ca</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Requested for</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_350c2314477a0110a06c690cd36d43ca</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:41:56</sys_updated_on><table/><tooltip/><type>8</type><ui_page/><unique>false</unique><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><validate_regex/><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=350c2314477a0110a06c690cd36d43ca"/><fx_price action="delete_multiple" query="id=350c2314477a0110a06c690cd36d43ca"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>350c2314477a0110a06c690cd36d43ca</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:26:26</sys_created_on><sys_id>144c2714477a0110a06c690cd36d43b6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:26:26</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>350c2314477a0110a06c690cd36d43ca</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:26:26</sys_created_on><sys_id>d84c2714477a0110a06c690cd36d43b5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:26:26</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-1779900846</payload_hash>
+<remote_update_set display_value="#STRY0010007-RHY-01">f59b23cd97111110a0a43d400153afdf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>319b23cd97111110a0a43d400153afe0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18006dab5250000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<table/>
+<target_name>Requested for</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>6fcfa7d4707a0110d92cba79635dc056</update_guid>
+<update_guid_history>6fcfa7d4707a0110d92cba79635dc056:-1779900846,604c2714897a0110e7da13e17e0b4ebb:-907312615</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sc_cat_item_category_399befd0477a0110a06c690cd36d436a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Matériel informatique">0f7bafd0477a0110a06c690cd36d4330</sc_cat_item><sc_category display_value="Matériel informatiques et réseau">729f1ca347e60110a06c690cd36d4385</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:23:31</sys_created_on><sys_id>399befd0477a0110a06c690cd36d436a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Matériel informatiques et réseau.Matériel informatique</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_399befd0477a0110a06c690cd36d436a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:23:31</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>247209122</payload_hash>
+<remote_update_set display_value="#STRY0010007-RHY-01">f59b23cd97111110a0a43d400153afdf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>319ba3cd97111110a0a43d400153af02</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18006dab4930000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<table/>
+<target_name>Matériel informatiques et réseau.Matériel informatique</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>719befd00d7a0110a178b0faf90cc56d</update_guid>
+<update_guid_history>719befd00d7a0110a178b0faf90cc56d:247209122</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>question_choice_de9d2b54477a0110a06c690cd36d43d2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Request subtype">994d6354477a0110a06c690cd36d4355</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:32:41</sys_created_on><sys_id>de9d2b54477a0110a06c690cd36d43d2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>BCP</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_de9d2b54477a0110a06c690cd36d43d2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:32:41</sys_updated_on><text>BCP</text><value>bcp</value></question_choice><fx_price action="delete_multiple" query="id=de9d2b54477a0110a06c690cd36d43d2"/></record_update>]]></payload>
+<payload_hash>-1181559297</payload_hash>
+<remote_update_set display_value="#STRY0010007-RHY-01">f59b23cd97111110a0a43d400153afdf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>359ba3cd97111110a0a43d400153af01</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18006dab4f50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<table/>
+<target_name>BCP</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>c0bd6b545d7a0110eed094803f134a42</update_guid>
+<update_guid_history>c0bd6b545d7a0110eed094803f134a42:-1181559297</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>question_choice_c2dce314477a0110a06c690cd36d4309</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Type of request">015ce314477a0110a06c690cd36d439a</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:29:28</sys_created_on><sys_id>c2dce314477a0110a06c690cd36d4309</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Exceptional request</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_c2dce314477a0110a06c690cd36d4309</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:29:28</sys_updated_on><text>Exceptional request</text><value>exceptional_request</value></question_choice><fx_price action="delete_multiple" query="id=c2dce314477a0110a06c690cd36d4309"/></record_update>]]></payload>
+<payload_hash>-141684263</payload_hash>
+<remote_update_set display_value="#STRY0010007-RHY-01">f59b23cd97111110a0a43d400153afdf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>399ba3cd97111110a0a43d400153af00</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18006dab4b10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<table/>
+<target_name>Exceptional request</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>f8fce314c07a01108582352531032050</update_guid>
+<update_guid_history>f8fce314c07a01108582352531032050:-141684263</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>item_option_new_ef3f6394477a0110a06c690cd36d433f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Matériel informatique">0f7bafd0477a0110a06c690cd36d4330</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><enable_also_request_for>false</enable_also_request_for><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><hidden>false</hidden><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><macroponent/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>desired_date</name><order>600</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><published_ref/><question_text>Desired date</question_text><read_only>false</read_only><read_roles/><read_script/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><rich_text/><roles_to_use_also_request_for/><save_script/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:40:05</sys_created_on><sys_id>ef3f6394477a0110a06c690cd36d433f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Desired date</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_ef3f6394477a0110a06c690cd36d433f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:42:27</sys_updated_on><table/><tooltip/><type>9</type><ui_page/><unique>false</unique><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><validate_regex/><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=ef3f6394477a0110a06c690cd36d433f"/><fx_price action="delete_multiple" query="id=ef3f6394477a0110a06c690cd36d433f"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>ef3f6394477a0110a06c690cd36d433f</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:40:05</sys_created_on><sys_id>986fab94477a0110a06c690cd36d4362</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:40:05</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>ef3f6394477a0110a06c690cd36d433f</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:40:05</sys_created_on><sys_id>506fab94477a0110a06c690cd36d4362</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:40:05</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1181689678</payload_hash>
+<remote_update_set display_value="#STRY0010007-RHY-01">f59b23cd97111110a0a43d400153afdf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>3d9b23cd97111110a0a43d400153afe0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18006dab54e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<table/>
+<target_name>Desired date</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>43ef27d43e7a01105386cd8505f94a0f</update_guid>
+<update_guid_history>43ef27d43e7a01105386cd8505f94a0f:1181689678,906fef946a7a011052dcd50060df4d76:287315746</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>question_choice_86ec2354477a0110a06c690cd36d432f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Type of request">015ce314477a0110a06c690cd36d439a</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:29:42</sys_created_on><sys_id>86ec2354477a0110a06c690cd36d432f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Delegate request</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_86ec2354477a0110a06c690cd36d432f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:29:42</sys_updated_on><text>Delegate request</text><value>delegate_request</value></question_choice><fx_price action="delete_multiple" query="id=86ec2354477a0110a06c690cd36d432f"/></record_update>]]></payload>
+<payload_hash>463805628</payload_hash>
+<remote_update_set display_value="#STRY0010007-RHY-01">f59b23cd97111110a0a43d400153afdf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>3d9b63cd97111110a0a43d400153afff</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18006dab4ba0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<table/>
+<target_name>Delegate request</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>980de714cf7a0110124861b3970ce3f8</update_guid>
+<update_guid_history>980de714cf7a0110124861b3970ce3f8:463805628</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>question_choice_daccab14477a0110a06c690cd36d43ae</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Type of request">015ce314477a0110a06c690cd36d439a</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:29:13</sys_created_on><sys_id>daccab14477a0110a06c690cd36d43ae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Specific request</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_daccab14477a0110a06c690cd36d43ae</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:29:13</sys_updated_on><text>Specific request</text><value>specific_request</value></question_choice><fx_price action="delete_multiple" query="id=daccab14477a0110a06c690cd36d43ae"/></record_update>]]></payload>
+<payload_hash>745685827</payload_hash>
+<remote_update_set display_value="#STRY0010007-RHY-01">f59b23cd97111110a0a43d400153afdf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>719ba3cd97111110a0a43d400153af01</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18006dab4a90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<table/>
+<target_name>Specific request</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>c9ec2354ae7a0110d2673f68b326142a</update_guid>
+<update_guid_history>c9ec2354ae7a0110d2673f68b326142a:745685827</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>question_choice_b5fce314477a0110a06c690cd36d4355</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Type of request">015ce314477a0110a06c690cd36d439a</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:29:51</sys_created_on><sys_id>b5fce314477a0110a06c690cd36d4355</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Quotation Request</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_b5fce314477a0110a06c690cd36d4355</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:29:51</sys_updated_on><text>Quotation Request</text><value>quotation_request</value></question_choice><fx_price action="delete_multiple" query="id=b5fce314477a0110a06c690cd36d4355"/></record_update>]]></payload>
+<payload_hash>1271121963</payload_hash>
+<remote_update_set display_value="#STRY0010007-RHY-01">f59b23cd97111110a0a43d400153afdf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>759ba3cd97111110a0a43d400153af00</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18006dab4d70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<table/>
+<target_name>Quotation Request</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>aa0da354b87a011095511d30e196fb02</update_guid>
+<update_guid_history>aa0da354b87a011095511d30e196fb02:1271121963</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>item_option_new_e8fe6354477a0110a06c690cd36d4384</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Matériel informatique">0f7bafd0477a0110a06c690cd36d4330</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value>1</default_value><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><enable_also_request_for>false</enable_also_request_for><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><hidden>false</hidden><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><macroponent/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>quantity</name><order>500</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><published_ref/><question_text>Quantity</question_text><read_only>false</read_only><read_roles/><read_script/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><rich_text/><roles_to_use_also_request_for/><save_script/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:39:16</sys_created_on><sys_id>e8fe6354477a0110a06c690cd36d4384</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Quantity</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_e8fe6354477a0110a06c690cd36d4384</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:42:21</sys_updated_on><table/><tooltip/><type>6</type><ui_page/><unique>false</unique><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><validate_regex display_value="Number">556cbfe5876b1300e0ef0cf888cb0be3</validate_regex><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=e8fe6354477a0110a06c690cd36d4384"/><fx_price action="delete_multiple" query="id=e8fe6354477a0110a06c690cd36d4384"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>e8fe6354477a0110a06c690cd36d4384</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:39:16</sys_created_on><sys_id>983f6b94477a0110a06c690cd36d43d7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:39:16</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>e8fe6354477a0110a06c690cd36d4384</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:39:16</sys_created_on><sys_id>503f6b94477a0110a06c690cd36d43d7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:39:16</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-1149354648</payload_hash>
+<remote_update_set display_value="#STRY0010007-RHY-01">f59b23cd97111110a0a43d400153afdf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>799b23cd97111110a0a43d400153afe0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18006dab5440000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<table/>
+<target_name>Quantity</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>b5efe7d46c7a0110e2ec1febdfbd4905</update_guid>
+<update_guid_history>b5efe7d46c7a0110e2ec1febdfbd4905:-1149354648,583f2f94ef7a01105c26d8fa8f1478c7:-926604045</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>question_choice_70bdebd0477a0110a06c690cd36d43b4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Request subtype">994d6354477a0110a06c690cd36d4355</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:33:09</sys_created_on><sys_id>70bdebd0477a0110a06c690cd36d43b4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Standard</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_70bdebd0477a0110a06c690cd36d43b4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:33:09</sys_updated_on><text>Standard</text><value>standard</value></question_choice><fx_price action="delete_multiple" query="id=70bdebd0477a0110a06c690cd36d43b4"/></record_update>]]></payload>
+<payload_hash>-490898955</payload_hash>
+<remote_update_set display_value="#STRY0010007-RHY-01">f59b23cd97111110a0a43d400153afdf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>799b63cd97111110a0a43d400153afff</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18006dab5060000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<table/>
+<target_name>Standard</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>3acde7144f7a011067ce532cc1795aed</update_guid>
+<update_guid_history>3acde7144f7a011067ce532cc1795aed:-490898955</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>item_option_new_015ce314477a0110a06c690cd36d439a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Matériel informatique">0f7bafd0477a0110a06c690cd36d4330</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><enable_also_request_for>false</enable_also_request_for><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><hidden>false</hidden><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><macroponent/><mandatory>true</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>type_of_request</name><order>200</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><published_ref/><question_text>Type of request</question_text><read_only>false</read_only><read_roles/><read_script/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><rich_text/><roles_to_use_also_request_for/><save_script/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:27:18</sys_created_on><sys_id>015ce314477a0110a06c690cd36d439a</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Type of request</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_015ce314477a0110a06c690cd36d439a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:42:08</sys_updated_on><table/><tooltip/><type>5</type><ui_page/><unique>false</unique><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><validate_regex/><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=015ce314477a0110a06c690cd36d439a"/><fx_price action="delete_multiple" query="id=015ce314477a0110a06c690cd36d439a"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>015ce314477a0110a06c690cd36d439a</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:27:18</sys_created_on><sys_id>c97ca714477a0110a06c690cd36d43ac</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:27:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>015ce314477a0110a06c690cd36d439a</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:27:18</sys_created_on><sys_id>817ca714477a0110a06c690cd36d43ac</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:27:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>2080254386</payload_hash>
+<remote_update_set display_value="#STRY0010007-RHY-01">f59b23cd97111110a0a43d400153afdf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>7d9b23cd97111110a0a43d400153afdf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18006dab5300000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<table/>
+<target_name>Type of request</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>12df27d4017a011049f797549fd889ca</update_guid>
+<update_guid_history>12df27d4017a011049f797549fd889ca:2080254386,cd3d2354c97a01102c082ada0990883f:1487154954,497ca714867a0110e72c78128d57d3af:-728529155</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sc_cat_item_catalog_799befd0477a0110a06c690cd36d4367</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Matériel informatique">0f7bafd0477a0110a06c690cd36d4330</sc_cat_item><sc_catalog display_value="Request catalog">037f9c2b47a60110a06c690cd36d43d9</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:23:31</sys_created_on><sys_id>799befd0477a0110a06c690cd36d4367</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Request catalog.Matériel informatique</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_catalog_799befd0477a0110a06c690cd36d4367</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:23:31</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+<payload_hash>-1094458796</payload_hash>
+<remote_update_set display_value="#STRY0010007-RHY-01">f59b23cd97111110a0a43d400153afdf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>7d9ba3cd97111110a0a43d400153af01</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18006dab4700000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<table/>
+<target_name>Request catalog.Matériel informatique</target_name>
+<type>Catalog Items Catalog</type>
+<update_domain>global</update_domain>
+<update_guid>f99befd00e7a01101bf4f1383c62e769</update_guid>
+<update_guid_history>f99befd00e7a01101bf4f1383c62e769:-1094458796</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>question_choice_9a7d6354477a0110a06c690cd36d437a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Request subtype">994d6354477a0110a06c690cd36d4355</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:32:15</sys_created_on><sys_id>9a7d6354477a0110a06c690cd36d437a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Astreinte</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_9a7d6354477a0110a06c690cd36d437a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:32:15</sys_updated_on><text>Astreinte</text><value>astreint</value></question_choice><fx_price action="delete_multiple" query="id=9a7d6354477a0110a06c690cd36d437a"/></record_update>]]></payload>
+<payload_hash>-415592980</payload_hash>
+<remote_update_set display_value="#STRY0010007-RHY-01">f59b23cd97111110a0a43d400153afdf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>b19ba3cd97111110a0a43d400153af00</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18006dab4e40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<table/>
+<target_name>Astreinte</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>6d9d2354947a01108618cf3c6d04f034</update_guid>
+<update_guid_history>6d9d2354947a01108618cf3c6d04f034:-415592980</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>item_option_new_994d6354477a0110a06c690cd36d4355</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Matériel informatique">0f7bafd0477a0110a06c690cd36d4330</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><enable_also_request_for>false</enable_also_request_for><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><hidden>false</hidden><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><macroponent/><mandatory>true</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>request_subtype</name><order>300</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><published_ref/><question_text>Request subtype</question_text><read_only>false</read_only><read_roles/><read_script/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><rich_text/><roles_to_use_also_request_for/><save_script/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:31:35</sys_created_on><sys_id>994d6354477a0110a06c690cd36d4355</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Request subtype</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_994d6354477a0110a06c690cd36d4355</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:42:13</sys_updated_on><table/><tooltip/><type>5</type><ui_page/><unique>false</unique><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><validate_regex/><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=994d6354477a0110a06c690cd36d4355"/><fx_price action="delete_multiple" query="id=994d6354477a0110a06c690cd36d4355"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>994d6354477a0110a06c690cd36d4355</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:31:35</sys_created_on><sys_id>b76dab14477a0110a06c690cd36d43b3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:31:35</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>994d6354477a0110a06c690cd36d4355</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:31:35</sys_created_on><sys_id>7f6dab14477a0110a06c690cd36d43b2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:31:35</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-852999761</payload_hash>
+<remote_update_set display_value="#STRY0010007-RHY-01">f59b23cd97111110a0a43d400153afdf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>b59b23cd97111110a0a43d400153afe0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18006dab53a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<table/>
+<target_name>Request subtype</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>27dfe7d4d97a01100208a194d6d6fe17</update_guid>
+<update_guid_history>27dfe7d4d97a01100208a194d6d6fe17:-852999761,776dab14857a01100851873179f737b7:1881581766</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>question_choice_419ce314477a0110a06c690cd36d43e4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Type of request">015ce314477a0110a06c690cd36d439a</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:28:56</sys_created_on><sys_id>419ce314477a0110a06c690cd36d43e4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Employee request</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_419ce314477a0110a06c690cd36d43e4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:28:56</sys_updated_on><text>Employee request</text><value>employee_request</value></question_choice><fx_price action="delete_multiple" query="id=419ce314477a0110a06c690cd36d43e4"/></record_update>]]></payload>
+<payload_hash>2016441783</payload_hash>
+<remote_update_set display_value="#STRY0010007-RHY-01">f59b23cd97111110a0a43d400153afdf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>b59b63cd97111110a0a43d400153afff</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18006dab49d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<table/>
+<target_name>Employee request</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>c5dce3140a7a0110c98f755542060904</update_guid>
+<update_guid_history>c5dce3140a7a0110c98f755542060904:2016441783</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>catalog_script_client_b430fbd4477a0110a06c690cd36d43a1</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;true&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Matériel informatique"&gt;0f7bafd0477a0110a06c690cd36d4330&lt;/cat_item&gt;&lt;cat_variable&gt;IO:015ce314477a0110a06c690cd36d439a&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;infoItemControls&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+
+    if (isLoading || newValue == '') {
+        g_form.setValue("type_of_request", "");
+        return;
+    }
+
+    var options = initOptions();
+
+    g_form.setMandatory("request_subtype", true);
+    g_form.setDisplay("request_subtype", true);
+
+    for (var i = 0; i &lt; options.length; i++) {
+        g_form.addOption("request_subtype", options[i].value, options[i].label, i);
+    }
+
+    if (newValue == 'employee_request' || newValue == 'delegate_request') {
+
+        for (i = 0; i &lt; options.length; i++) {
+
+            if (options[i].value === 'ad_hoc') {
+                g_form.removeOption("request_subtype", options[i].value);
+            }
+        }
+
+    } else if (newValue == 'specific_request') {
+
+        for (i = 0; i &lt; options.length; i++) {
+
+            if (options[i].value === 'ad_hoc' ||
+                options[i].value === 'standard') {
+                // nothing
+            } else
+                g_form.removeOption("request_subtype", options[i].value);
+
+        }
+    } else if (newValue == 'exceptional_request' || newValue == 'quotation_request') {
+        g_form.clearOptions("request_subtype");
+        g_form.setMandatory("request_subtype", false);
+        g_form.setDisplay("request_subtype", false);
+    }
+}
+
+function initOptions() {
+    return [{
+            label: "Astreinte",
+            value: "astreint"
+        },
+        {
+            label: "Facturé",
+            value: "facture"
+        },
+        {
+            label: "BCP",
+            value: "bcp"
+        },
+        {
+            label: "Prêt",
+            value: "pret"
+        },
+        {
+            label: "Standard",
+            value: "standard"
+        },
+        {
+            label: "Ad hoc",
+            value: "ad_hoc"
+        },
+        {
+            label: "Perte",
+            value: "perte"
+        },
+        {
+            label: "Vol",
+            value: "vol"
+        }
+    ];
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-04-08 00:47:10&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b430fbd4477a0110a06c690cd36d43a1&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;infoItemControls&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_b430fbd4477a0110a06c690cd36d43a1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-04-08 00:57:02&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>383110772</payload_hash>
+<remote_update_set display_value="#STRY0010007-RHY-01">f59b23cd97111110a0a43d400153afdf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>b99b23cd97111110a0a43d400153afdf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18006dab56c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<table/>
+<target_name>infoItemControls</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>b4433b58de7a01105192e6bd91db0c71</update_guid>
+<update_guid_history>b4433b58de7a01105192e6bd91db0c71:383110772,c801b794327a01100e7b80973e3bec36:-832578891</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sc_cat_item_0f7bafd0477a0110a06c690cd36d4330</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item"><sc_cat_item action="INSERT_OR_UPDATE"><access_type>restricted</access_type><active>true</active><availability>on_desktop</availability><billable>false</billable><category display_value="Matériel informatiques et réseau">729f1ca347e60110a06c690cd36d4385</category><checked_out/><cost>0</cost><custom_cart/><delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan><delivery_plan_script/><delivery_time>1970-01-03 00:00:00</delivery_time><description/><display_price_property>non_zero</display_price_property><entitlement_script/><flow_designer_flow/><group/><hide_sp>false</hide_sp><icon/><ignore_price>true</ignore_price><image/><location/><mandatory_attachment>false</mandatory_attachment><meta/><mobile_hide_price>false</mobile_hide_price><mobile_picture/><mobile_picture_type>use_desktop_picture</mobile_picture_type><model/><name>Matériel informatique</name><no_attachment_v2>false</no_attachment_v2><no_cart>false</no_cart><no_cart_v2>true</no_cart_v2><no_delivery_time_v2>true</no_delivery_time_v2><no_order>false</no_order><no_order_now>false</no_order_now><no_proceed_checkout>false</no_proceed_checkout><no_quantity>false</no_quantity><no_quantity_v2>true</no_quantity_v2><no_search>false</no_search><no_wishlist_v2>false</no_wishlist_v2><omit_price>false</omit_price><order>0</order><ordered_item_link/><owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner><picture/><preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=0f7bafd0477a0110a06c690cd36d4330&amp;sysparm_preview=true", "summary");</preview><price>0</price><published_ref/><recurring_frequency/><recurring_price>0</recurring_price><request_method>submit</request_method><roles/><sc_catalogs>037f9c2b47a60110a06c690cd36d43d9</sc_catalogs><sc_ic_item_staging/><sc_ic_version/><sc_template/><short_description/><show_variable_help_on_load>false</show_variable_help_on_load><start_closed>false</start_closed><state/><sys_class_name>sc_cat_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:23:31</sys_created_on><sys_id>0f7bafd0477a0110a06c690cd36d4330</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Matériel informatique</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_0f7bafd0477a0110a06c690cd36d4330</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:48:54</sys_updated_on><taxonomy_topic/><template/><template_manager_roles/><type>item</type><use_sc_layout>true</use_sc_layout><vendor/><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><workflow/></sc_cat_item><sys_translated_text action="delete_multiple" query="documentkey=0f7bafd0477a0110a06c690cd36d4330"/><fx_price action="delete_multiple" query="id=0f7bafd0477a0110a06c690cd36d4330"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price</field><id>0f7bafd0477a0110a06c690cd36d4330</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:23:31</sys_created_on><sys_id>b19b6b90477a0110a06c690cd36d4357</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:23:31</sys_updated_on><table>sc_cat_item</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>recurring_price</field><id>0f7bafd0477a0110a06c690cd36d4330</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:23:31</sys_created_on><sys_id>f99b6b90477a0110a06c690cd36d4357</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:23:31</sys_updated_on><table>sc_cat_item</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>904074169</payload_hash>
+<remote_update_set display_value="#STRY0010007-RHY-01">f59b23cd97111110a0a43d400153afdf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>b99ba3cd97111110a0a43d400153af01</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18006dab5610000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<table/>
+<target_name>Matériel informatique</target_name>
+<type>Catalog Item</type>
+<update_domain>global</update_domain>
+<update_guid>a961fbd47e7a01100fd88cb0694929ae</update_guid>
+<update_guid_history>a961fbd47e7a01100fd88cb0694929ae:904074169,684c2b148e7a0110c01eec1738f26633:1026777019,fd9befd0c17a011045ac48047622146e:736701054</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>question_choice_d5ad6754477a0110a06c690cd36d4301</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Request subtype">994d6354477a0110a06c690cd36d4355</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:32:58</sys_created_on><sys_id>d5ad6754477a0110a06c690cd36d4301</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Prêt</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_d5ad6754477a0110a06c690cd36d4301</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:32:58</sys_updated_on><text>Prêt</text><value>pret</value></question_choice><fx_price action="delete_multiple" query="id=d5ad6754477a0110a06c690cd36d4301"/></record_update>]]></payload>
+<payload_hash>2111215175</payload_hash>
+<remote_update_set display_value="#STRY0010007-RHY-01">f59b23cd97111110a0a43d400153afdf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>bd9ba3cd97111110a0a43d400153af00</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18006dab4fd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<table/>
+<target_name>Prêt</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>88cd6b54a47a011017ccbe55c1edbd48</update_guid>
+<update_guid_history>88cd6b54a47a011017ccbe55c1edbd48:2111215175</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>item_option_new_483e2f54477a0110a06c690cd36d43a7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Matériel informatique">0f7bafd0477a0110a06c690cd36d4330</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><enable_also_request_for>false</enable_also_request_for><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><hidden>false</hidden><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><macroponent/><mandatory>true</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>article</name><order>400</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><published_ref/><question_text>Article</question_text><read_only>false</read_only><read_roles/><read_script/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference>u_gamme</reference><reference_qual>javascript:"u_purchase_family.u_family_name=Matériel informatique"</reference_qual><reference_qual_condition table="u_gamme">u_purchase_family=e8ef160c477a4110a06c690cd36d43d4^EQ<item display_table="u_purchase_family" display_value="Matériel informatique" endquery="false" field="u_purchase_family" goto="false" newquery="false" operator="=" or="false" value="e8ef160c477a4110a06c690cd36d43d4"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></reference_qual_condition><rich_text/><roles_to_use_also_request_for/><save_script/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:37:13</sys_created_on><sys_id>483e2f54477a0110a06c690cd36d43a7</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Article</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_483e2f54477a0110a06c690cd36d43a7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 01:30:57</sys_updated_on><table/><tooltip/><type>8</type><ui_page/><unique>false</unique><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>advanced</use_reference_qualifier><validate_regex/><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=483e2f54477a0110a06c690cd36d43a7"/><fx_price action="delete_multiple" query="id=483e2f54477a0110a06c690cd36d43a7"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>483e2f54477a0110a06c690cd36d43a7</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:37:13</sys_created_on><sys_id>d6be2f54477a0110a06c690cd36d43b0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:37:13</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>483e2f54477a0110a06c690cd36d43a7</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:37:13</sys_created_on><sys_id>9ebe2f54477a0110a06c690cd36d43af</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:37:13</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1813356080</payload_hash>
+<remote_update_set display_value="#STRY0010007-RHY-01">f59b23cd97111110a0a43d400153afdf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>f19b23cd97111110a0a43d400153afe0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18006dab5770000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<table/>
+<target_name>Article</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>150bf3104dba0110c7eef2a7591b5056</update_guid>
+<update_guid_history>150bf3104dba0110c7eef2a7591b5056:1813356080,e49abfdcb57a0110d992aa894c316325:854904860,16523b58997a01109daf73ca7dc03d33:1883300509,a8efe7d4777a01106b5d113bc67eee80:-554957168,1abea794af7a0110c00a721f3ea591ab:232249126</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>question_choice_24cdab54477a0110a06c690cd36d43cf</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Request subtype">994d6354477a0110a06c690cd36d4355</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:33:24</sys_created_on><sys_id>24cdab54477a0110a06c690cd36d43cf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ad hoc</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_24cdab54477a0110a06c690cd36d43cf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:33:24</sys_updated_on><text>Ad hoc</text><value>ad_hoc</value></question_choice><fx_price action="delete_multiple" query="id=24cdab54477a0110a06c690cd36d43cf"/></record_update>]]></payload>
+<payload_hash>36737308</payload_hash>
+<remote_update_set display_value="#STRY0010007-RHY-01">f59b23cd97111110a0a43d400153afdf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>f19b63cd97111110a0a43d400153afff</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18006dab50e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<table/>
+<target_name>Ad hoc</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>1edde7548f7a0110b9511a90f0252c54</update_guid>
+<update_guid_history>1edde7548f7a0110b9511a90f0252c54:36737308</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>question_choice_e1dde714477a0110a06c690cd36d43f2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Request subtype">994d6354477a0110a06c690cd36d4355</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:33:39</sys_created_on><sys_id>e1dde714477a0110a06c690cd36d43f2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Perte</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_e1dde714477a0110a06c690cd36d43f2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:33:39</sys_updated_on><text>Perte</text><value>perte</value></question_choice><fx_price action="delete_multiple" query="id=e1dde714477a0110a06c690cd36d43f2"/></record_update>]]></payload>
+<payload_hash>-2091255010</payload_hash>
+<remote_update_set display_value="#STRY0010007-RHY-01">f59b23cd97111110a0a43d400153afdf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>f59ba3cd97111110a0a43d400153af01</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18006dab5160000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<table/>
+<target_name>Perte</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>8eed6354687a011037adc5d39e1b5a7e</update_guid>
+<update_guid_history>8eed6354687a011037adc5d39e1b5a7e:-2091255010</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>question_choice_c4ede754477a0110a06c690cd36d4359</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Request subtype">994d6354477a0110a06c690cd36d4355</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:33:49</sys_created_on><sys_id>c4ede754477a0110a06c690cd36d4359</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Vol</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_c4ede754477a0110a06c690cd36d4359</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:33:49</sys_updated_on><text>Vol</text><value>vol</value></question_choice><fx_price action="delete_multiple" query="id=c4ede754477a0110a06c690cd36d4359"/></record_update>]]></payload>
+<payload_hash>-1935781117</payload_hash>
+<remote_update_set display_value="#STRY0010007-RHY-01">f59b23cd97111110a0a43d400153afdf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>f99ba3cd97111110a0a43d400153af00</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18006dab51e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<table/>
+<target_name>Vol</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>e8fd6754737a01106f35d609ce928cde</update_guid>
+<update_guid_history>e8fd6754737a01106f35d609ce928cde:-1935781117</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>item_option_new_f97f2394477a0110a06c690cd36d4360</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Matériel informatique">0f7bafd0477a0110a06c690cd36d4330</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><enable_also_request_for>false</enable_also_request_for><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><hidden>false</hidden><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><macroponent/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>comments</name><order>700</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><published_ref/><question_text>Comments</question_text><read_only>false</read_only><read_roles/><read_script/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><rich_text/><roles_to_use_also_request_for/><save_script/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:41:10</sys_created_on><sys_id>f97f2394477a0110a06c690cd36d4360</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Comments</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_f97f2394477a0110a06c690cd36d4360</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:42:40</sys_updated_on><table/><tooltip/><type>2</type><ui_page/><unique>false</unique><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><validate_regex/><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=f97f2394477a0110a06c690cd36d4360"/><fx_price action="delete_multiple" query="id=f97f2394477a0110a06c690cd36d4360"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>f97f2394477a0110a06c690cd36d4360</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:41:10</sys_created_on><sys_id>88afef94477a0110a06c690cd36d43b6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:41:10</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>f97f2394477a0110a06c690cd36d4360</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:41:10</sys_created_on><sys_id>40afef94477a0110a06c690cd36d43b6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:41:10</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1046120885</payload_hash>
+<remote_update_set display_value="#STRY0010007-RHY-01">f59b23cd97111110a0a43d400153afdf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>fd9b23cd97111110a0a43d400153afe0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18006dab5570000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<table/>
+<target_name>Comments</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>02ff6f94ce7a01104adc7a76ae2b12cc</update_guid>
+<update_guid_history>02ff6f94ce7a01104adc7a76ae2b12cc:1046120885,dcafef94e37a01109ffc7107849f7abc:-696780344</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>question_choice_8e8de714477a0110a06c690cd36d43ea</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Request subtype">994d6354477a0110a06c690cd36d4355</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 00:32:27</sys_created_on><sys_id>8e8de714477a0110a06c690cd36d43ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Facturé</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_8e8de714477a0110a06c690cd36d43ea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 00:32:27</sys_updated_on><text>Facturé</text><value>facture</value></question_choice><fx_price action="delete_multiple" query="id=8e8de714477a0110a06c690cd36d43ea"/></record_update>]]></payload>
+<payload_hash>-1491130932</payload_hash>
+<remote_update_set display_value="#STRY0010007-RHY-01">f59b23cd97111110a0a43d400153afdf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:55:56</sys_created_on>
+<sys_id>fd9b63cd97111110a0a43d400153afff</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18006dab4ee0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:55:56</sys_updated_on>
+<table/>
+<target_name>Facturé</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>2cad2754b07a0110fbdd39c0fea84dfc</update_guid>
+<update_guid_history>2cad2754b07a0110fbdd39c0fea84dfc:-1491130932</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

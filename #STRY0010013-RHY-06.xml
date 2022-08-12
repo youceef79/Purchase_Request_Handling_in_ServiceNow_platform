@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-08-12 14:48:06">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>#STRY0010013-RHY-06</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>86671fd32f43c1102f8baa5df699b642</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:48:06</sys_created_on>
+<sys_id>0bc9ab4d97111110a0a43d400153afb8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:48:06</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>item_option_new_15d0dfb547320110a06c690cd36d43ac</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item/><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><enable_also_request_for>false</enable_also_request_for><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><hidden>false</hidden><include_none>true</include_none><instructions/><layout>normal</layout><list_table/><lookup_label>label</lookup_label><lookup_price/><lookup_table>sys_choice</lookup_table><lookup_unique>false</lookup_unique><lookup_value>value</lookup_value><macro/><macroponent/><mandatory>true</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>request_subtype</name><order>400</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><published_ref/><question_text>Request subtype</question_text><read_only>false</read_only><read_roles/><read_script/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual>javascript:"element=u_request_subtype^dependent_value="+current.variables.type_of_request</reference_qual><reference_qual_condition/><rich_text/><roles_to_use_also_request_for/><save_script/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-12 14:19:17</sys_created_on><sys_id>15d0dfb547320110a06c690cd36d43ac</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Request subtype</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_15d0dfb547320110a06c690cd36d43ac</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-29 16:48:46</sys_updated_on><table/><tooltip/><type>18</type><ui_page/><unique>false</unique><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>advanced</use_reference_qualifier><validate_regex/><variable_name/><variable_set display_value="Request for">8e8986e547320110a06c690cd36d431c</variable_set><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=15d0dfb547320110a06c690cd36d43ac"/><fx_price action="delete_multiple" query="id=15d0dfb547320110a06c690cd36d43ac"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>15d0dfb547320110a06c690cd36d43ac</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-12 14:19:17</sys_created_on><sys_id>df319ff547320110a06c690cd36d4315</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-12 14:19:17</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>15d0dfb547320110a06c690cd36d43ac</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-12 14:19:17</sys_created_on><sys_id>97319ff547320110a06c690cd36d4315</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-12 14:19:17</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-1675775365</payload_hash>
+<remote_update_set display_value="#STRY0010013-RHY-06">0bc9ab4d97111110a0a43d400153afb8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:48:06</sys_created_on>
+<sys_id>cbc9ab4d97111110a0a43d400153afb8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>180763d489d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:48:06</sys_updated_on>
+<table/>
+<target_name>Request subtype</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>b6769f5bfd430110f271a01a88d63089</update_guid>
+<update_guid_history>b6769f5bfd430110f271a01a88d63089:-1675775365,2c3efd23d03e0110beab979927a11e13:383635501,193db1230a3e01102d4ff0b069258f8e:314760466,ee8b8eaab33601101640a7445674d3b5:383635501,f24b4eaa59360110ca6eb9913dd8606b:698283043,3b615ff55a320110b1c7280bafa9fe95:-1573801170,d7319ff5153201109ebdf69403f1101a:-1295136808</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-08-12 14:40:45">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>#STRY0010027-RHY-01</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>bcd2df5b2f3301102f8baa5df699b68e</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:40:44</sys_created_on>
+<sys_id>03186fc997111110a0a43d400153afd8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:40:44</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sp_rel_widget_clone_3100171f47330110a06c690cd36d439b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone"><sp_rel_widget_clone action="DELETE"><child display_value="">7500171f47330110a06c690cd36d4397</child><cloned>2022-06-05 23:07:40</cloned><last_validated>2022-06-05 23:07:40</last_validated><parent display_value="Footer-Instance Security Center">30817eda53502300a699ddeeff7b1215</parent><payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function($scope) {
+  /* widget controller */
+  var c = this;
+	$scope.data.year = new Date().getFullYear(); 
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.isc-footer{&amp;#13;
+	background-color:#293D40;&amp;#13;
+  	padding:5px;&amp;#13;
+    color:white;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.isc-footer a:hover{&amp;#13;
+	color:white;&amp;#13;
+    cursor:pointer;&amp;#13;
+}&amp;#13;
+.isc-footer a:visited{&amp;#13;
+	color:white;&amp;#13;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;isc_footer&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]&gt;&lt;/link&gt;&lt;name&gt;Footer-Instance Security Center&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles&gt;admin,security_dashboard_user&lt;/roles&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_header_footer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-09-04 17:35:58&lt;/sys_created_on&gt;&lt;sys_id&gt;30817eda53502300a699ddeeff7b1215&lt;/sys_id&gt;&lt;sys_mod_count&gt;19&lt;/sys_mod_count&gt;&lt;sys_name&gt;Footer-Instance Security Center&lt;/sys_name&gt;&lt;sys_package display_value="Instance Security Center" source="com.glide.instance_sec_center"&gt;92142ea6a5f40110c0a0e1db2cdc9522&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_header_footer_30817eda53502300a699ddeeff7b1215&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-03 22:16:48&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="container-fluid isc-footer"&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="col-xs-6"&gt;
+      ${© &lt;span ng-bind-html="::data.year"&gt;&lt;/span&gt; ServiceNow, Inc. All rights reserved.}
+    &lt;/div&gt;
+    
+  &lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload><sys_class_name>sp_rel_widget_clone</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 23:07:40</sys_created_on><sys_id>3100171f47330110a06c690cd36d439b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>7500171f47330110a06c690cd36d4397</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_rel_widget_clone_3100171f47330110a06c690cd36d439b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:07:40</sys_updated_on></sp_rel_widget_clone></record_update>]]></payload>
+<payload_hash>1468239122</payload_hash>
+<remote_update_set display_value="#STRY0010027-RHY-01">03186fc997111110a0a43d400153afd8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:40:44</sys_created_on>
+<sys_id>07186fc997111110a0a43d400153afda</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181362af4320000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:40:44</sys_updated_on>
+<table/>
+<target_name>7500171f47330110a06c690cd36d4397</target_name>
+<type>Widget Clone</type>
+<update_domain>global</update_domain>
+<update_guid>c8201f1fa53301104ae5e6ff9cebbe16</update_guid>
+<update_guid_history>c8201f1fa53301104ae5e6ff9cebbe16:1468239122,fd00171fc3330110586df43adf36df9c:-628738268</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sp_instance_ais_07b998d7cb31120000f8d856634c9cb1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais"><sp_instance_ais action="INSERT_OR_UPDATE"><active>true</active><ai_search_source_filter/><class_name/><color>default</color><css>.input-group {
+  margin-bottom: 25px;
+}
+
+input, button {
+  background-color: rgba(138, 143, 160, 0.6);
+  color:#fff !important;
+  font-weight: 300;
+  border-color:rgba(255, 255, 255, 0.3);
+}
+
+input::-webkit-input-placeholder {
+  color: #fff !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+  color: #fff !important;  
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+  color: #fff !important;  
+}
+
+input:-ms-input-placeholder {  
+  color: #fff !important;  
+}</css><disable_all_suggestions>false</disable_all_suggestions><glyph>search</glyph><id/><order>1</order><placeholder/><roles/><search_application/><search_results_configuration/><short_description/><size>lg</size><sp_column display_value="2">728958d7cb31120000f8d856634c9cee</sp_column><sp_widget display_value="Typeahead Search">fa20ec02cb31020000f8d856634c9ce9</sp_widget><spell_check_font_size/><sys_class_name>sp_instance_ais</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2016-03-01 17:42:58</sys_created_on><sys_id>07b998d7cb31120000f8d856634c9cb1</sys_id><sys_mod_count>16</sys_mod_count><sys_name>Search the knowledge base</sys_name><sys_package display_value="Service Portal - Core" source="com.glide.service-portal">dc82a6a6a5b40110c0a0e1db2cdc95d2</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_instance_ais_07b998d7cb31120000f8d856634c9cb1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 01:51:29</sys_updated_on><title>Search the knowledge base</title><url/><widget_parameters/></sp_instance_ais><sys_translated_text action="delete_multiple" query="documentkey=07b998d7cb31120000f8d856634c9cb1"/><sys_translated_text action="INSERT_OR_UPDATE"><documentkey>07b998d7cb31120000f8d856634c9cb1</documentkey><fieldname>title</fieldname><language>fr</language><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 15:59:51</sys_created_on><sys_id>2de187a847328110a06c690cd36d4354</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 15:59:51</sys_updated_on><tablename>sp_instance</tablename><value>Rechercher dans la base de connaissances</value></sys_translated_text></record_update>]]></payload>
+<payload_hash>448211129</payload_hash>
+<remote_update_set display_value="#STRY0010027-RHY-01">03186fc997111110a0a43d400153afd8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:40:44</sys_created_on>
+<sys_id>0b186fc997111110a0a43d400153afd9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181362af3fd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:40:44</sys_updated_on>
+<table/>
+<target_name>Search the knowledge base</target_name>
+<type>Instance with Search</type>
+<update_domain>global</update_domain>
+<update_guid>abeb6ecf37330110aede71eda14c4e9c</update_guid>
+<update_guid_history>abeb6ecf37330110aede71eda14c4e9c:448211129,67eb6ecf353301107b8823c38efaa39a:1838770951</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sp_instance_10a9d4d7cb31120000f8d856634c9c97</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css&gt;@media (max-width: 767px) {
+  .wrapper-xl {
+    padding: 25px 15px !important;
+  }
+  .text-4x {
+    font-size: 3em;
+  }
+}&lt;/css&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;0&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;3e8958d7cb31120000f8d856634c9ced&lt;/sp_column&gt;&lt;sp_widget/&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-03-01 17:42:30&lt;/sys_created_on&gt;&lt;sys_id&gt;10a9d4d7cb31120000f8d856634c9c97&lt;/sys_id&gt;&lt;sys_mod_count&gt;20&lt;/sys_mod_count&gt;&lt;sys_name&gt;Welcome to Service Portal - Landing&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Core" source="com.glide.service-portal"&gt;dc82a6a6a5b40110c0a0e1db2cdc95d2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_10a9d4d7cb31120000f8d856634c9c97&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-06-05 01:29:47&lt;/sys_updated_on&gt;&lt;title&gt;Welcome to Service Portal - Landing&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=10a9d4d7cb31120000f8d856634c9c97"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;10a9d4d7cb31120000f8d856634c9c97&lt;/documentkey&gt;&lt;fieldname&gt;title&lt;/fieldname&gt;&lt;language&gt;fr&lt;/language&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-04-08 15:59:58&lt;/sys_created_on&gt;&lt;sys_id&gt;47e14ba847328110a06c690cd36d4305&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-04-08 15:59:58&lt;/sys_updated_on&gt;&lt;tablename&gt;sp_instance&lt;/tablename&gt;&lt;value&gt;Bienvenue dans le portail de services – Accueil&lt;/value&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-22336036</payload_hash>
+<remote_update_set display_value="#STRY0010027-RHY-01">03186fc997111110a0a43d400153afd8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:40:44</sys_created_on>
+<sys_id>0f186fc997111110a0a43d400153afd8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181362af3f50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:40:44</sys_updated_on>
+<table/>
+<target_name>Welcome to Service Portal - Landing</target_name>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>f1f6aecb7d3301103a67abf174f01ce5</update_guid>
+<update_guid_history>f1f6aecb7d3301103a67abf174f01ce5:-22336036,6bd3e64b86330110c3b446faab5f1bae:1832948616,e3d3ea0b49330110c2b5b533d98c2b3c:1726912215</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sp_portal_81b75d3147032100ba13a5554ee4902b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal"><sp_portal action="INSERT_OR_UPDATE"><css_variables>$brand-primary:#1F8476;
+$body-bg:#ffffff;
+$state-success-text:#1e4335;
+$sp-homepage-bg:#fff;
+$sp-navbar-divider-color:#5A7F71;
+$text-color:#2e2e2e;
+$sp-logo-margin-y:.5rem;
+$navbar-inverse-link-hover-color:#ffffff;
+$panel-bg:#fff;
+$brand-success:#48C891;
+$navbar-inverse-bg:#293e40;
+$brand-warning:#DFD139;
+$brand-danger:#C83C36;
+$sp-tagline-color:#ffffff;
+$navbar-inverse-link-color:#A7B0B2;
+$brand-info:#6ABECF;
+$link-color:#1F8476;
+$sp-logo-margin-x:15px;
+$btn-default-bg:#fff;
+$text-muted:#666666;
+$grid-gutter-width: 15px !default;</css_variables><default>true</default><enable_ais>true</enable_ais><enable_favorites>false</enable_favorites><hide_portal_name>false</hide_portal_name><homepage display_value="index">46cc384147532100ba13a5554ee49009</homepage><icon>119fd2795bd56300a9ad49ed5a62bc40</icon><kb_knowledge_base display_value="IT">a7e8a78bff0221009b20ffffffffff17</kb_knowledge_base><kb_knowledge_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</kb_knowledge_page><login_page display_value="landing">36c61807cb31120000f8d856634c9ca9</login_page><logo>e7efdac347330110a06c690cd36d43cd</logo><notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page><quick_start_config>[{
+	"tagline": {
+		"table" : "sp_instance",
+		"sys_id" : "34fe3d96cb20020000f8d856634c9cf4",
+		"field" : "title"
+	},
+	"hero_background": {
+		"table" : "sp_container",
+		"sys_id" : "be98a8d2cb20020000f8d856634c9c63",
+		"field" : "background_image"
+	},
+	"readonly_variable_editor": "false"
+}]</quick_start_config><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sc_catalog_page/><sc_category_page/><search_application display_value="Service Portal Default Search Application">00731b9d5b231010d9a5ce1a8581c7dd</search_application><search_results_configuration display_value="Service Portal Search">80eb579d53671010968addeeff7b1215</search_results_configuration><sp_chat_queue/><sp_rectangle_menu display_value="SP Header Menu">d150fd31cb10020000f8d856634c9ce6</sp_rectangle_menu><sys_class_name>sp_portal</sys_class_name><sys_created_by>fredex</sys_created_by><sys_created_on>2014-09-09 21:08:15</sys_created_on><sys_id>81b75d3147032100ba13a5554ee4902b</sys_id><sys_mod_count>195</sys_mod_count><sys_name>Service Portal </sys_name><sys_package display_value="Service Portal for Enterprise Service Management" source="com.glide.service-portal.esm">9082a6a6a5b40110c0a0e1db2cdc95d2</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_portal_81b75d3147032100ba13a5554ee4902b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 01:03:35</sys_updated_on><theme display_value="La Jolla">a7a6e78277002300a6e592718a10617a</theme><title>Service Portal </title><ts_index_group display_value="portal_index_group">2c3e7d1513c93300e618bfd63244b0d7</ts_index_group><url_suffix>sp</url_suffix></sp_portal><sys_translated_text action="delete_multiple" query="documentkey=81b75d3147032100ba13a5554ee4902b"/><sys_translated_text action="INSERT_OR_UPDATE"><documentkey>81b75d3147032100ba13a5554ee4902b</documentkey><fieldname>title</fieldname><language>fr</language><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 16:01:36</sys_created_on><sys_id>3a42cb2c47328110a06c690cd36d4352</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 16:01:36</sys_updated_on><tablename>sp_portal</tablename><value>Portail de services</value></sys_translated_text><sys_attachment action="INSERT_OR_UPDATE"><average_image_color>#0</average_image_color><chunk_size_bytes>2800</chunk_size_bytes><compressed>true</compressed><content_type>image/png</content_type><file_name>icon</file_name><hash/><image_height>256</image_height><image_width>256</image_width><size_bytes>13410</size_bytes><size_compressed>13229</size_compressed><state>available</state><sys_created_by>admin</sys_created_by><sys_created_on>2018-10-22 20:01:14</sys_created_on><sys_id>119fd2795bd56300a9ad49ed5a62bc40</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>guest</sys_updated_by><sys_updated_on>2022-04-07 22:31:07</sys_updated_on><table_name>ZZ_YYsp_portal</table_name><table_sys_id>81b75d3147032100ba13a5554ee4902b</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>H4sIAAAAAAAAAA==</data><length>16</length><position>0</position><sys_attachment display_value="icon" sys_id="119fd2795bd56300a9ad49ed5a62bc40">119fd2795bd56300a9ad49ed5a62bc40</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2018-10-22 20:01:14</sys_created_on><sys_id>519fd2795bd56300a9ad49ed5a62bc40</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>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</data><length>3736</length><position>1</position><sys_attachment display_value="icon" sys_id="119fd2795bd56300a9ad49ed5a62bc40">119fd2795bd56300a9ad49ed5a62bc40</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2018-10-22 20:01:14</sys_created_on><sys_id>d19fd2795bd56300a9ad49ed5a62bc40</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>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</data><length>3736</length><position>2</position><sys_attachment display_value="icon" sys_id="119fd2795bd56300a9ad49ed5a62bc40">119fd2795bd56300a9ad49ed5a62bc40</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2018-10-22 20:01:14</sys_created_on><sys_id>559fd2795bd56300a9ad49ed5a62bc40</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>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</data><length>3736</length><position>3</position><sys_attachment display_value="icon" sys_id="119fd2795bd56300a9ad49ed5a62bc40">119fd2795bd56300a9ad49ed5a62bc40</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2018-10-22 20:01:14</sys_created_on><sys_id>d59fd2795bd56300a9ad49ed5a62bc40</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>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</data><length>3736</length><position>4</position><sys_attachment display_value="icon" sys_id="119fd2795bd56300a9ad49ed5a62bc40">119fd2795bd56300a9ad49ed5a62bc40</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2018-10-22 20:01:14</sys_created_on><sys_id>599fd2795bd56300a9ad49ed5a62bc40</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>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</data><length>2692</length><position>5</position><sys_attachment display_value="icon" sys_id="119fd2795bd56300a9ad49ed5a62bc40">119fd2795bd56300a9ad49ed5a62bc40</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2018-10-22 20:01:14</sys_created_on><sys_id>d99fd2795bd56300a9ad49ed5a62bc40</sys_id></sys_attachment_doc><sys_attachment action="INSERT_OR_UPDATE"><average_image_color>#531f82</average_image_color><chunk_size_bytes>700000</chunk_size_bytes><compressed>true</compressed><content_type>image/png</content_type><file_name>logo</file_name><hash>bab54666b6db9e984a9a6dc4abab1b6cb7568f57c6bd8305b7586f91d5bc8b4c</hash><image_height>172</image_height><image_width>259</image_width><size_bytes>4491</size_bytes><size_compressed>4268</size_compressed><state>available</state><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 00:59:03</sys_created_on><sys_id>e7efdac347330110a06c690cd36d43cd</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 00:59:03</sys_updated_on><table_name>ZZ_YYsp_portal</table_name><table_sys_id>81b75d3147032100ba13a5554ee4902b</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>H4sIAAAAAAAAAA==</data><length>16</length><position>0</position><sys_attachment display_value="logo" sys_id="e7efdac347330110a06c690cd36d43cd">e7efdac347330110a06c690cd36d43cd</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 00:59:03</sys_created_on><sys_id>2befdac347330110a06c690cd36d43cd</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>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</data><length>5680</length><position>1</position><sys_attachment display_value="logo" sys_id="e7efdac347330110a06c690cd36d43cd">e7efdac347330110a06c690cd36d43cd</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 00:59:03</sys_created_on><sys_id>abefdac347330110a06c690cd36d43cd</sys_id></sys_attachment_doc></record_update>]]></payload>
+<payload_hash>1103596695</payload_hash>
+<remote_update_set display_value="#STRY0010027-RHY-01">03186fc997111110a0a43d400153afd8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:40:44</sys_created_on>
+<sys_id>43186fc997111110a0a43d400153afda</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181362af3d50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:40:44</sys_updated_on>
+<table/>
+<target_name>Service Portal </target_name>
+<type>Service Portal</type>
+<update_domain>global</update_domain>
+<update_guid>4ef022c7f1330110d45a7171adf3dd9c</update_guid>
+<update_guid_history>4ef022c7f1330110d45a7171adf3dd9c:1103596695,59e022c752330110a4c736705764bb94:-686015620,0ad0ee87e5330110b4563538d0aac6cc:1394509912,edd0ee87923301102ce102262cff738c:678664986,74c0ae8714330110709284579714b429:320742523,3f00668721330110102c409ab3bb5352:-395102403,21002247bc330110663850f3430ddb98:245242982,7befd2874a33011030dbcbb6bc72fd4e:-1013609765,e3efd2876d330110f469e836ee15db45:1600629801</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sp_instance_79e5205bcb31120000f8d856634c9c5e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css&gt;.form-signin {&amp;#13;
+  padding: 25px 50px !important;&amp;#13;
+  color: #fff !important;&amp;#13;
+  margin-top: 100px;&amp;#13;
+  max-width: 550px;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.forgot-pwd-link {&amp;#13;
+  color: #fff !important;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.set-login-type-link a {&amp;#13;
+  color: #fff !important;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.sp-self-registration {&amp;#13;
+    max-width: 550px;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.sp-self-registration,&amp;#13;
+.sp-self-registration a {&amp;#13;
+    color: #fff !important;&amp;#13;
+}&amp;#13;
+&lt;/css&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;3e8958d7cb31120000f8d856634c9ced&lt;/sp_column&gt;&lt;sp_widget display_value="Login"&gt;6506d341cb33020000f8d856634c9cdc&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-03-01 18:36:07&lt;/sys_created_on&gt;&lt;sys_id&gt;79e5205bcb31120000f8d856634c9c5e&lt;/sys_id&gt;&lt;sys_mod_count&gt;21&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Service Portal - Core" source="com.glide.service-portal"&gt;dc82a6a6a5b40110c0a0e1db2cdc95d2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_79e5205bcb31120000f8d856634c9c5e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-06-05 23:01:05&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"show_panel": {
+		"value": false,
+		"displayValue": false
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=79e5205bcb31120000f8d856634c9c5e"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1457964410</payload_hash>
+<remote_update_set display_value="#STRY0010027-RHY-01">03186fc997111110a0a43d400153afd8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:40:44</sys_created_on>
+<sys_id>47186fc997111110a0a43d400153afd9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181362af4260000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:40:44</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>6d8e43db3233011088da25c772a336fd</update_guid>
+<update_guid_history>6d8e43db3233011088da25c772a336fd:1457964410,9aad6243c973011006094fca86b252ca:410940668,4d2d2e0398730110154ac309248702c5:-1711003036,6feb6ecf73330110b147537c7a9fce92:410940668,ab2b2e8f683301100dfada226380acc6:1513224413,ef7aa68fb4330110e864f8ff0d7738da:-1734719141,373a668f78330110e3ffc62be18bf4eb:-783717958,c13aa68f903301101a01570e4d3383d3:-1734719141,35d9628f4b330110b6323e5a01d26ad2:756447568,8195aa8b79330110366fa86b55c41d4d:-1475617777,24456a4ba8330110f5a5223d81c4eb1f:-215140989,a4456a4b84330110297bca1af745a51d:-69481697</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sp_header_footer_ab61724347730110a06c690cd36d43f2</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_header_footer"&gt;&lt;sp_header_footer action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";&amp;#13;
+&amp;#13;
+.simple {&amp;#13;
+ background-color: #b5ebd4;&amp;#13;
+  display: flex;&amp;#13;
+  justify-content: space-around;&amp;#13;
+}&amp;#13;
+.logo_sec{&amp;#13;
+    padding-top: 2px;&amp;#13;
+}&amp;#13;
+.logo {&amp;#13;
+  height: 50px;&amp;#13;
+  width: 50%;&amp;#13;
+}&amp;#13;
+.copyright{&amp;#13;
+ padding-top: 20px;&amp;#13;
+ color: black; &amp;#13;
+}&amp;#13;
+&amp;#13;
+ul {&amp;#13;
+  display:flex;&amp;#13;
+  padding-bottom: 2px;&amp;#13;
+}&amp;#13;
+&amp;#13;
+ul li {&amp;#13;
+  list-style: none;&amp;#13;
+}&amp;#13;
+&amp;#13;
+ul li a {&amp;#13;
+  position: relative;&amp;#13;
+  width:30px;&amp;#13;
+  height:30px;&amp;#13;
+  display:block;&amp;#13;
+  text-align:center;&amp;#13;
+  margin: 0 10px;&amp;#13;
+  border-radius: 50%;&amp;#13;
+  padding: 6px;&amp;#13;
+  box-sizing: border-box;&amp;#13;
+  text-decoration: none;&amp;#13;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.3);&amp;#13;
+  background: linear-gradient(0deg, #ddd, #fff);&amp;#13;
+  transition: .5s;&amp;#13;
+}&amp;#13;
+&amp;#13;
+ul li a:hover {&amp;#13;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);&amp;#13;
+  text-decoration: none;&amp;#13;
+}&amp;#13;
+&amp;#13;
+ul li a .fa {&amp;#13;
+  width: 100%;&amp;#13;
+  height:100%;&amp;#13;
+  display:block;&amp;#13;
+  background: linear-gradient(0deg, #fff, #ddd);&amp;#13;
+  border-radius: 50%;&amp;#13;
+  font-size:16px;&amp;#13;
+  color: #262626;&amp;#13;
+  transition: .5s;&amp;#13;
+}&amp;#13;
+&amp;#13;
+ul li:nth-child(1) a:hover .fa {&amp;#13;
+  color: #3b5998;&amp;#13;
+}&amp;#13;
+&amp;#13;
+ul li:nth-child(2) a:hover .fa {&amp;#13;
+  color: #00aced;&amp;#13;
+}&amp;#13;
+&amp;#13;
+ul li:nth-child(3) a:hover .fa {&amp;#13;
+  color: #dd4b39;&amp;#13;
+}&amp;#13;
+&amp;#13;
+ul li:nth-child(4) a:hover .fa {&amp;#13;
+  color: #007bb6;&amp;#13;
+}&amp;#13;
+&amp;#13;
+ul li:nth-child(5) a:hover .fa {&amp;#13;
+  color: #e4405f;&amp;#13;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]&gt;&lt;/link&gt;&lt;name&gt;Brighten Footer &lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;static&gt;true&lt;/static&gt;&lt;sys_class_name&gt;sp_header_footer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-06-05 02:22:23&lt;/sys_created_on&gt;&lt;sys_id&gt;ab61724347730110a06c690cd36d43f2&lt;/sys_id&gt;&lt;sys_mod_count&gt;53&lt;/sys_mod_count&gt;&lt;sys_name&gt;Brighten Footer &lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_header_footer_ab61724347730110a06c690cd36d43f2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-06-05 23:17:27&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="simple"&gt;
+  &lt;div class="logo_sec"&gt;
+&lt;img class="logo" src="https://cdn.cdnlogo.com/logos/d/27/dxc-technology.svg"&gt;
+  &lt;/div&gt;
+   &lt;div class="copyright"&gt;
+      ${© ServiceNow, Inc. All rights reserved.}
+    &lt;/div&gt;
+  &lt;div class="social media"&gt;
+    &lt;ul&gt;
+  &lt;li&gt;&lt;a href="#"&gt;&lt;i class="fa fa-facebook" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;&lt;i class="fa fa-twitter" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;&lt;i class="fa fa-youtube" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;&lt;i class="fa fa-linkedin" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;&lt;i class="fa fa-instagram" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_header_footer&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-128523684</payload_hash>
+<remote_update_set display_value="#STRY0010027-RHY-01">03186fc997111110a0a43d400153afd8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:40:44</sys_created_on>
+<sys_id>4b186fc997111110a0a43d400153afd8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181362af4400000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:40:44</sys_updated_on>
+<table/>
+<target_name>Brighten Footer </target_name>
+<type>Header | Footer</type>
+<update_domain>global</update_domain>
+<update_guid>4942d79f0233011003e411625594f6cd</update_guid>
+<update_guid_history>4942d79f0233011003e411625594f6cd:-128523684,ef02179f75330110ce81fe3a6278712a:-557861863,d6711f5f9f33011005f7f66e81701842:1800522292,54619b1fb03301109d073f6b310330b9:-167078420,36d0975f4a3301106071d774d5967835:1715464190,c8c0535fe1330110ac6a84faaef4f946:-1899064840,f0a09b1f3c330110782c9b3c66258baf:1491846181,f3701b1f41330110da7966f27e74bf40:-1484969398,8450171fa43301108e1fe8419de904b6:729344472,533f4fdbdf3301107fd6d97995213f0e:1657170883,068947d7283301102fc4ea97745ec04b:251663847,64798f97ec330110ffe884cc71141c1d:-998765591,d06903d76c330110bfee71998e08e540:251663847,b829cf97db330110fbd86571c6d171b4:-998765591,3ef88b97a533011094a390658b29ab40:251663847,a4e887977e33011028cf383525983710:-122986804,58d8cb97d533011061bd7729d642f861:-521894491,c7b88797f13301108a943848a13b8dea:728534947,306883970a3301104c94945cbded5380:967323221,5e184397e4330110a29d43fa8bc9681a:-747135390,7508cb57e5330110cd997ea894a934b9:-1796020155,9eb7c757d73301108325793bc6c5a001:-1939296562,a3970357a0330110ba639f19461b73cb:1457723341,e467c357a833011049ddf185c3b7eb50:-1019720954,2947875727330110d051c98631293cf9:-578239483,0f278357203301106b97cfb73c166e18:1064660928,4407cb173e330110c7efac3caf7963b9:-1019720954,5be60f17ef3301107e753168633f43fa:1873663394,0dd60717f633011062c743396b965757:-2077951439,69760b1763330110c1a42ba6d68c0e80:-1019720954,283603174233011033882c2b28cf1ea9:-1876510859,1e060bd36833011055a163c91383ad00:133687490,55e503171f33011056894ad7b1ecb2a5:-1473765420,4f9503172333011000ee22113b437378:-10430664,0b654fd3dc330110aa0db644779c42da:1781382973,15e4c7d3ea330110a44bcde71e7f057c:-158953742,8db3c39397330110fc24c000d446f6ef:1119408694,be734793913301108b6fba4b2493f421:203544685,252b3acb1c730110417fbe7a87ad8e21:955126863,29aab2cb577301107399b2639da7a333:-288982743,ffa9b68b8c73011015f706f10f663a7d:1132063050,b589368b56730110cb202955a6f96659:-148615973,88697a0b83730110159602db1af6bd12:-101215562,a488360ba973011026f2da7d9b68fcdc:1552309184,3d07fec71a73011036e03cd0da156b53:587508190,88d67a474b730110526fbb7370d64b53:1088262502,65a6fec7a2730110e45b917007f2d362:-817001506,0a46ba871c73011089539ee0a3434b99:-1662392309,75e4ba87db73011029b141a3e7e733bc:-1042098055,2c647a47cb730110706f76de49c1d65c:1882678627,a8143e47b6730110d67189b2b92b1f2a:1771639788,acf37a47727301104409765d303af276:995809766,fa63fe83ff7301109db1176b696903fa:-308066463,98033a837d730110a91d61ea44fb205b:1748529391</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sp_instance_6beb6ecf47330110a06c690cd36d4394</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="DELETE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>3</order><roles/><short_description/><size>md</size><sp_column display_value="1">3e8958d7cb31120000f8d856634c9ced</sp_column><sp_widget display_value="Sample Footer">feb4f763df121200ba13a4836bf26320</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 01:51:29</sys_created_on><sys_id>6beb6ecf47330110a06c690cd36d4394</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_instance_6beb6ecf47330110a06c690cd36d4394</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 01:51:29</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=6beb6ecf47330110a06c690cd36d4394"/></record_update>]]></payload>
+<payload_hash>-1249454302</payload_hash>
+<remote_update_set display_value="#STRY0010027-RHY-01">03186fc997111110a0a43d400153afd8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:40:44</sys_created_on>
+<sys_id>83186fc997111110a0a43d400153afd9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181362af4040000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:40:44</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>b81caacf0f33011085acd3d8b242d357</update_guid>
+<update_guid_history>b81caacf0f33011085acd3d8b242d357:-1249454302,6beb6ecf3a330110e6f680afd9158b96:-1470601066</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sp_header_footer_7500171f47330110a06c690cd36d4397</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_header_footer"&gt;&lt;sp_header_footer action="DELETE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function($scope) {
+  /* widget controller */
+  var c = this;
+	$scope.data.year = new Date().getFullYear(); 
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.isc-footer{&amp;#13;
+	background-color:#293D40;&amp;#13;
+  	padding:5px;&amp;#13;
+    color:white;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.isc-footer a:hover{&amp;#13;
+	color:white;&amp;#13;
+    cursor:pointer;&amp;#13;
+}&amp;#13;
+.isc-footer a:visited{&amp;#13;
+	color:white;&amp;#13;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]&gt;&lt;/link&gt;&lt;name&gt;Copy of Footer-Instance Security Center&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles&gt;admin,security_dashboard_user&lt;/roles&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;static&gt;false&lt;/static&gt;&lt;sys_class_name&gt;sp_header_footer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-06-05 23:07:40&lt;/sys_created_on&gt;&lt;sys_id&gt;7500171f47330110a06c690cd36d4397&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Copy of Footer-Instance Security Center&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_header_footer_7500171f47330110a06c690cd36d4397&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-06-05 23:07:40&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="container-fluid isc-footer"&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="col-xs-6"&gt;
+      ${© &lt;span ng-bind-html="::data.year"&gt;&lt;/span&gt; ServiceNow, Inc. All rights reserved.}
+    &lt;/div&gt;
+    
+  &lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_header_footer&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1630228286</payload_hash>
+<remote_update_set display_value="#STRY0010027-RHY-01">03186fc997111110a0a43d400153afd8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:40:44</sys_created_on>
+<sys_id>87186fc997111110a0a43d400153afd8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181362af4390000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:40:44</sys_updated_on>
+<table/>
+<target_name>Copy of Footer-Instance Security Center</target_name>
+<type>Header | Footer</type>
+<update_domain>global</update_domain>
+<update_guid>4c201f1feb3301106df7645d4f004f1c</update_guid>
+<update_guid_history>4c201f1feb3301106df7645d4f004f1c:-1630228286,7900171f72330110625e54ada197ac99:-1000401586</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sp_page_36c61807cb31120000f8d856634c9ca9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>other</category><css>main.page, main.body {&#13;
+  min-height: 100%;&#13;
+  padding-top: 0px !important;&#13;
+}&#13;
+&#13;
+@media(max-width: 767px) {&#13;
+  main.page, main.body {&#13;
+    height: auto;&#13;
+  }&#13;
+}&#13;
+&#13;
+section.page {&#13;
+  background-image: url('https://dxc.scene7.com/is/image/dxc/DXC-logo-mosaic:banner_desktop');&#13;
+  background-position: center center;&#13;
+  background-size: cover;&#13;
+  background-repeat: no-repeat;&#13;
+  background-color: #3A3F50;&#13;
+}&#13;
+&#13;
+section.page main.body:before {&#13;
+  display: block;&#13;
+  background-color: #3A3F50;&#13;
+  opacity: 0.75;&#13;
+}</css><draft>false</draft><dynamic_title_structure/><id>landing</id><internal>false</internal><omit_watcher>false</omit_watcher><public>true</public><roles/><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2016-02-29 22:51:57</sys_created_on><sys_id>36c61807cb31120000f8d856634c9ca9</sys_id><sys_mod_count>36</sys_mod_count><sys_name>landing</sys_name><sys_package display_value="Service Portal - Core" source="com.glide.service-portal">dc82a6a6a5b40110c0a0e1db2cdc95d2</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_page_36c61807cb31120000f8d856634c9ca9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 23:01:26</sys_updated_on><title>Service Portal</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=36c61807cb31120000f8d856634c9ca9"/><sys_translated_text action="INSERT_OR_UPDATE"><documentkey>36c61807cb31120000f8d856634c9ca9</documentkey><fieldname>title</fieldname><language>fr</language><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-08 16:00:35</sys_created_on><sys_id>841247e847328110a06c690cd36d4326</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-08 16:00:35</sys_updated_on><tablename>sp_page</tablename><value>Portail de services</value></sys_translated_text></record_update>]]></payload>
+<payload_hash>-1834578830</payload_hash>
+<remote_update_set display_value="#STRY0010027-RHY-01">03186fc997111110a0a43d400153afd8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:40:44</sys_created_on>
+<sys_id>8f186fc997111110a0a43d400153afd9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181362af42c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:40:44</sys_updated_on>
+<table/>
+<target_name>landing</target_name>
+<type>Page</type>
+<update_domain>global</update_domain>
+<update_guid>6e9e87dbdb3301105483077d41a3a5cb</update_guid>
+<update_guid_history>6e9e87dbdb3301105483077d41a3a5cb:-1834578830,3c9ec3db03330110400aa33621f8f289:80335518,465e8f9bbf33011080cf18fb6abda150:-1834578830,1a4e43dbd23301109fe94012ebca7ad4:1692728825,b2fd0f9b2d330110632da9303d77c079:-1834578830,7c9dc79b2d3301100922df91c9c83848:131125325,41d2aa0ba1330110fc9edc7a269e996b:534365042,c9d2a20bde3301104c866c16c7efbd19:-1388645837</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sp_column_568c220347730110a06c690cd36d43b5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>3</order><size>1</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">f68958d7cb31120000f8d856634c9ced</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 01:54:07</sys_created_on><sys_id>568c220347730110a06c690cd36d43b5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>3</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_column_568c220347730110a06c690cd36d43b5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 01:54:07</sys_updated_on></sp_column></record_update>]]></payload>
+<payload_hash>914228540</payload_hash>
+<remote_update_set display_value="#STRY0010027-RHY-01">03186fc997111110a0a43d400153afd8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:40:44</sys_created_on>
+<sys_id>c3186fc997111110a0a43d400153afd8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181362af4180000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:40:44</sys_updated_on>
+<table/>
+<target_name>3</target_name>
+<type>Column</type>
+<update_domain>global</update_domain>
+<update_guid>928c220384730110104890ea6162c6b7</update_guid>
+<update_guid_history>928c220384730110104890ea6162c6b7:914228540</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sp_theme_a7a6e78277002300a6e592718a10617a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme"><sp_theme action="INSERT_OR_UPDATE"><css_variables>// Grays&#13;
+$gray-base: #000000;&#13;
+$gray-dark: lighten($gray-base, 18.04%);&#13;
+$gray-darker: lighten($gray-base, 8.24%);&#13;
+$gray-light: lighten($gray-base, 40%);&#13;
+$gray-lighter: lighten($gray-base, 94.51%);&#13;
+$gray: lighten($gray-base, 29.02%);&#13;
+&#13;
+////// Branding variables //////&#13;
+// should always end with !default and no other variable should have !default&#13;
+$brand-primary: #1F8476 !default;&#13;
+$body-bg: #ffffff !default;&#13;
+$brand-success: #48C891 !default;&#13;
+$state-success-text: darken(desaturate(adjust-hue($brand-success, 3), 15.64%), 34.31) !default;&#13;
+$sp-navbar-divider-color: #5A7F71 !default;&#13;
+$text-color: $gray-dark !default;&#13;
+$navbar-inverse-link-hover-color: #ffffff !default;&#13;
+$navbar-inverse-bg: #293e40 !default;&#13;
+$brand-warning: #DFD139 !default;&#13;
+$brand-danger: #C83C36 !default;&#13;
+$sp-tagline-color: #ffffff !default;&#13;
+$navbar-inverse-link-color: #A7B0B2 !default;&#13;
+$brand-info: #6ABECF !default;&#13;
+$link-color: $brand-primary !default;&#13;
+$sp-logo-margin-x: 15px !default;&#13;
+$text-muted: $gray-light !default;&#13;
+////////////////////////////////////&#13;
+&#13;
+// Link hover decoration&#13;
+$link-hover-decoration: underline !default;&#13;
+&#13;
+// La Jolla variables&#13;
+$brand-primary-dark: #1F8476 !default;&#13;
+$brand-primary-darker: #165C53 !default;&#13;
+$brand-primary-light: #5FBAA4 !default;&#13;
+$brand-primary-lighter: #B8E0D7 !default;&#13;
+$brand-primary-lightest: #EEF8F8 !default;&#13;
+$dropdown-link-disabled-color: $gray-light;&#13;
+$link-hover-color: darken(desaturate(adjust-hue($link-color, 1), 0.42%), 16.67);&#13;
+$navbar-inverse-link-active-bg: #213234;&#13;
+$navbar-inverse-link-hover-bg: $brand-primary;&#13;
+$panel-primary-border: $brand-primary ;&#13;
+$panel-primary-heading-bg: $brand-primary ;&#13;
+$panel-primary-text: #ffffff;&#13;
+$primary: $brand-primary;&#13;
+$input-border-focus: #1f8476;&#13;
+$quicklinks-background: #EDF7F5;&#13;
+$btn-success-bg: $brand-success;&#13;
+$btn-default-color: #2e2e2e;&#13;
+$btn-primary-color: #ffffff;&#13;
+$btn-primary-bg: $brand-primary;&#13;
+$btn-primary-border: darken($btn-primary-bg, 5%);&#13;
+$btn-success-bg: $brand-success;&#13;
+$btn-success-border: darken($btn-success-bg, 5%);&#13;
+$btn-success-color: darken(desaturate(adjust-hue($brand-success, 3), 15.64%), 34.31);&#13;
+$component-active-color: $gray;&#13;
+$component-active-bg: #f5f5f5;&#13;
+$state-danger-bg: lighten(saturate(adjust-hue($brand-danger, 354), 42.52%), 42.94);&#13;
+$state-danger-border: #C83C36;&#13;
+$state-danger-text: #64201A;&#13;
+$state-info-bg: lighten(desaturate($brand-info, 3.27%), 19.02);&#13;
+$state-info-border: $brand-info;&#13;
+$state-info-text: darken(desaturate(adjust-hue($brand-info, 1), 2.75%), 41.57);&#13;
+$state-success-bg: lighten(saturate($brand-success, 3.67%), 28.24);&#13;
+$state-success-border: $brand-success;&#13;
+$state-warning-bg: lighten(saturate(adjust-hue($brand-warning, -3), 17.70%), 29.61);&#13;
+$state-warning-border: $brand-warning;&#13;
+$state-warning-text: darken(desaturate(adjust-hue($brand-warning, -4), 20.32%), 44.31);&#13;
+$alert-danger-bg: $state-danger-bg;&#13;
+$alert-danger-border: $state-danger-border;&#13;
+$alert-danger-text: $state-danger-text;&#13;
+$alert-info-bg: $state-info-bg;&#13;
+$alert-info-border: $state-info-border;&#13;
+$alert-info-text: $state-info-text;&#13;
+$alert-success-bg: $state-success-bg;&#13;
+$alert-success-border: $state-success-border;&#13;
+$alert-success-text: $state-success-text;&#13;
+$alert-warning-bg: $state-warning-bg;&#13;
+$alert-warning-border: $state-warning-border;&#13;
+$alert-warning-text: $state-warning-text;&#13;
+&#13;
+// To get service status messages consistent with brand colors&#13;
+$primary: $brand-primary;&#13;
+$warning: $brand-warning;&#13;
+$success: $brand-success;&#13;
+$info: $brand-info;&#13;
+$danger: $brand-danger;&#13;
+$input-border-placeholder: white;&#13;
+&#13;
+&#13;
+// Service Catalog panel hover highlight&#13;
+$panel-list-item: lighten(desaturate(adjust-hue($panel-primary-heading-bg, -6), 20.79%), 58.04);&#13;
+$panel-primary-heading-bg: #47a992;&#13;
+&#13;
+$multiple-issues-color: #7070B3;&#13;
+$no-issue-color: lighten($brand-success, 40%);&#13;
+$planned-maintenance-color: lighten($brand-info, 35%);&#13;
+$service-degredation-color: lighten($brand-warning, 40%);&#13;
+$service-outage-color: lighten($brand-danger, 45%);&#13;
+&#13;
+$no-issue-border-color: $brand-success;&#13;
+$planned-maintenance-border-color: $brand-info;&#13;
+$service-degredation-border-color: $brand-warning;&#13;
+$service-outage-border-color: $brand-danger;&#13;
+&#13;
+$no-issues-text: $state-success-text;&#13;
+$planned-maintenance-text: $state-info-text;&#13;
+$service-degredation-text: $state-info-text;&#13;
+$service-outage-text: $state-danger-bg;&#13;
+&#13;
+$login-btn-bg: $btn-primary-bg;&#13;
+$login-btn-border: $btn-primary-border;&#13;
+&#13;
+$qa-tag-color: $state-info-text;&#13;
+$qa-tag-bg: $state-info-bg;&#13;
+$qa-tag-border: $state-info-bg;&#13;
+$qa-tag-hover-color: darken($qa-tag-color, 10%);&#13;
+$qa-tag-hover-bg: darken($qa-tag-bg, 10%);&#13;
+&#13;
+$qa-thread-tag-color: $state-info-text;&#13;
+$qa-thread-tag-bg: $state-info-bg;&#13;
+$qa-thread-tag-hover-color: darken($qa-thread-tag-color, 10%);&#13;
+$qa-thread-tag-hover-bg: darken($qa-thread-tag-bg, 10%);&#13;
+&#13;
+$qa-panel-link-color: $link-color;&#13;
+$select2-container-active: $input-border-focus;&#13;
+&#13;
+$not-webkit-outline-color: $input-border-focus;&#13;
+$webkit-outline-color: $input-border-focus;&#13;
+&#13;
+$label-success-bg: lighten(saturate($brand-success, 3.67%), 28.24);&#13;
+$label-info-bg: lighten(desaturate($brand-info, 3.27%), 19.02);&#13;
+$label-warning-bg: lighten(saturate(adjust-hue($brand-warning, -3), 17.70%), 29.61);&#13;
+$label-danger-bg: lighten(saturate(adjust-hue($brand-danger, 354), 42.52%), 42.94);&#13;
+$label-primary-bg : #C83C36;&#13;
+$data-table-selected: $brand-primary;&#13;
+&#13;
+$button-selected-color: $btn-primary-bg;&#13;
+$dropdown-link-active-bg: $brand-primary;&#13;
+$dropdown-link-active-color: #ffffff;&#13;
+$widget-editor-fa-bg: $brand-primary;&#13;
+&#13;
+$input-border-tab-focus: $input-border-focus;&#13;
+&#13;
+$fav-star-color: darken($brand-warning, 20%);&#13;
+$fav-star-color-off: #ffffff;&#13;
+$fav-star-outline-color: #6b611f;&#13;
+$fav-star-outline: -1px 0 $fav-star-outline-color, 0 1px $fav-star-outline-color, 1px 0$fav-star-outline-color, 0 -1px $fav-star-outline-color;&#13;
+&#13;
+$sc-field-error-color: #1a424b;&#13;
+$qa-star-color-on: $brand-warning;&#13;
+$qa-star-color-off: #ffffff;&#13;
+&#13;
+$list-group-link-color: $brand-primary;&#13;
+$list-group-hover-bg: lighten($panel-primary-heading-bg, 40%);&#13;
+&#13;
+$accessible-placeholder-gray: #565656;&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+</css_variables><footer display_value="Brighten Footer ">ab61724347730110a06c690cd36d43f2</footer><footer_fixed>true</footer_fixed><header display_value="Stock Header">bf5ec2f2cb10120000f8d856634c9c0c</header><name>La Jolla</name><navbar_fixed>true</navbar_fixed><sys_class_name>sp_theme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-08-22 16:34:59</sys_created_on><sys_id>a7a6e78277002300a6e592718a10617a</sys_id><sys_mod_count>118</sys_mod_count><sys_name>La Jolla</sys_name><sys_package display_value="Service Portal La Jolla Branding" source="com.glide.service-portal.themes.la-jolla">93b26e6aa5b40110c0a0e1db2cdc95e8</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_theme_a7a6e78277002300a6e592718a10617a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 02:24:34</sys_updated_on></sp_theme></record_update>]]></payload>
+<payload_hash>1362415060</payload_hash>
+<remote_update_set display_value="#STRY0010027-RHY-01">03186fc997111110a0a43d400153afd8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:40:44</sys_created_on>
+<sys_id>c7186fc997111110a0a43d400153afda</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181362af41f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:40:44</sys_updated_on>
+<table/>
+<target_name>La Jolla</target_name>
+<type>Theme</type>
+<update_domain>global</update_domain>
+<update_guid>9c83f2470d7301104b176f709457ee29</update_guid>
+<update_guid_history>9c83f2470d7301104b176f709457ee29:1362415060,5083f247637301106ddfece678b9c828:404636181</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sp_instance_d71ce2cf47330110a06c690cd36d432e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="DELETE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>3</order><roles/><short_description/><size>md</size><sp_column display_value="1">3e8958d7cb31120000f8d856634c9ced</sp_column><sp_widget display_value="Footer-Instance Security Center">30817eda53502300a699ddeeff7b1215</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 01:52:16</sys_created_on><sys_id>d71ce2cf47330110a06c690cd36d432e</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_instance_d71ce2cf47330110a06c690cd36d432e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 01:52:16</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=d71ce2cf47330110a06c690cd36d432e"/></record_update>]]></payload>
+<payload_hash>-841824024</payload_hash>
+<remote_update_set display_value="#STRY0010027-RHY-01">03186fc997111110a0a43d400153afd8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:40:44</sys_created_on>
+<sys_id>cb186fc997111110a0a43d400153afd9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181362af40b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:40:44</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>e22ceecfff33011003089e47e74492c5</update_guid>
+<update_guid_history>e22ceecfff33011003089e47e74492c5:-841824024,971ce2cfd43301107e0d07bfa8f65b30:-1057594020</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sp_instance_2f2c26cf47330110a06c690cd36d432e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="DELETE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>3</order><roles/><short_description/><size>md</size><sp_column display_value="1">3e8958d7cb31120000f8d856634c9ced</sp_column><sp_widget display_value="LegalFooter">64407ec3532332000d620d0323dc3436</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-05 01:52:34</sys_created_on><sys_id>2f2c26cf47330110a06c690cd36d432e</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_instance_2f2c26cf47330110a06c690cd36d432e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-05 01:52:34</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=2f2c26cf47330110a06c690cd36d432e"/></record_update>]]></payload>
+<payload_hash>-1314357023</payload_hash>
+<remote_update_set display_value="#STRY0010027-RHY-01">03186fc997111110a0a43d400153afd8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:40:44</sys_created_on>
+<sys_id>cf186fc997111110a0a43d400153afd8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>181362af4110000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:40:44</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>793c6e8fec33011090494d5d1a4ccdda</update_guid>
+<update_guid_history>793c6e8fec33011090494d5d1a4ccdda:-1314357023,a32c2203497301102dfcbd88820cf6ad:853008213</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-08-12 14:50:17">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>#STRY0010003_RHY_03</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>0b9f33342f4341102f8baa5df699b653</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:50:17</sys_created_on>
+<sys_id>474a238d97111110a0a43d400153af86</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:50:17</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_ui_list_u_purchase_family_sys_ref_list</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="u_purchase_family" version="2" view="sys_ref_list"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_family_name</element><list_id display_value="u_purchase_family" element="NULL" name="u_purchase_family" parent="NULL" relationship="NULL" sys_domain="global" view="6badd262a5300110c0a0e1db2cdc950c">e51883242f3281102f8baa5df699b6f9</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-22 01:10:54</sys_created_on><sys_id>50bc37f047030110a06c690cd36d4332</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-22 01:10:54</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>u_purchase_family</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-22 01:10:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e51883242f3281102f8baa5df699b6f9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_purchase_family</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_list_u_purchase_family_sys_ref_list</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-22 01:10:54</sys_updated_on><sys_user/><view display_value="Reference List" name="sys_ref_list">6badd262a5300110c0a0e1db2cdc950c</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>-2053503335</payload_hash>
+<remote_update_set display_value="#STRY0010003_RHY_03">474a238d97111110a0a43d400153af86</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:50:17</sys_created_on>
+<sys_id>0b4a238d97111110a0a43d400153af86</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1804ede199f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:50:17</sys_updated_on>
+<table>u_purchase_family</table>
+<target_name>Purchase family</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid>58bc37f0f9030110cb45c847dfe9ef33</update_guid>
+<update_guid_history>58bc37f0f9030110cb45c847dfe9ef33:-1625797444,ef2e1a88617a4110c8493e007b582a9f:1936428986,43ad9288587a411096df61ddc80bc128:-1156118724,d19a96c42d7a4110f822185f7d8e16fb:-1497738453,ff593c4c44364110fa5947cb3d21ae71:-1922860523,04fad93bfb6a0110bc57c690948ea625:368571658</update_guid_history>
+<update_set display_value=""/>
+<view>sys_ref_list</view>
+</sys_update_xml>
+</unload>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-08-12 14:48:29">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>#STRY0010015-RHY-02</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>d4a2749b2f4b81102f8baa5df699b6bc</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:48:28</sys_created_on>
+<sys_id>ace92f4d97111110a0a43d400153af1c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:48:28</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_script_include_8c418016470b0110a06c690cd36d4388</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.GammeFilter&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;GammeFilter&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var GammeFilter = Class.create();
+GammeFilter.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+    type: 'GammeFilter',
+    getResponses: function() {
+
+        var requested_for_id = this.getParameter('requested_for');
+        var type_of_request = this.getParameter('type_of_request');
+        var request_subtype = this.getParameter('request_subtype');
+		
+		var answer = {
+			requested_for_ids: "",
+			type_subtype_ids: "" 			
+		};
+		
+		// requested for filter
+		
+       var gr_member = new GlideRecord('sys_user_grmember');
+		
+        var user_groups = [];
+
+        gr_member.addQuery('user', requested_for_id);
+
+        gr_member.query();
+
+        while (gr_member.next()) {
+            user_groups.push(gr_member.group + "");
+        }
+
+      if(user_groups.length != 0){
+			
+       var query = "";
+		
+        for (var i = 0; i &lt; user_groups.length; i++) {
+          query += 'u_hr_classCONTAINS'+user_groups[i]+'^OR';
+        }
+		
+        var gr_gamme = new GlideRecord('u_gamme');
+
+        gr_gamme.addEncodedQuery(query);
+        
+		gr_gamme.query();
+		
+         while (gr_gamme.next()) {
+            answer.requested_for_ids += gr_gamme.sys_id+",";
+         }
+       }
+        // type of request &amp; request subtype filter
+		
+		gr_gamme = new GlideRecord('u_gamme');
+		
+		query = "u_type_of_request="+type_of_request+"^u_request_subtype="+request_subtype;
+		
+		gr_gamme.addEncodedQuery(query);
+		
+		gr_gamme.query();
+		
+		while (gr_gamme.next()) {
+            answer.type_subtype_ids += gr_gamme.sys_id+",";
+         }
+		
+        return JSON.stringify(answer);
+    }
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-04-25 23:13:26&lt;/sys_created_on&gt;&lt;sys_id&gt;8c418016470b0110a06c690cd36d4388&lt;/sys_id&gt;&lt;sys_mod_count&gt;65&lt;/sys_mod_count&gt;&lt;sys_name&gt;GammeFilter&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_8c418016470b0110a06c690cd36d4388&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-04-29 04:35:48&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1279827373</payload_hash>
+<remote_update_set display_value="#STRY0010015-RHY-02">ace92f4d97111110a0a43d400153af1c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:48:28</sys_created_on>
+<sys_id>60e92f4d97111110a0a43d400153af1d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18073aa2a7a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:48:28</sys_updated_on>
+<table/>
+<target_name>GammeFilter</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>0abe209f6fcb01101db374521e4b53f1</update_guid>
+<update_guid_history>0abe209f6fcb01101db374521e4b53f1:-1279827373,1a7d6c9beecb0110676a21281793ffc1:210510260,f5caec9b09cb0110120ff4381e609a17:-523255834,6de1a8d3eccb011052087f122094e239:-1899319881,330cb70bd74b0110b809aa25cb1bc419:-523255834,087641668ac74110b56e79c5d910a7bc:210510260,d4120d2269c741102c75d80fb3fd612b:-408946240,22d10d22f3c741109161f03b671d7260:353170903,7b718dee248741103cd17067ad17a4c5:991857607,eeef7ceed287411045808b848286b5b8:-927562678,3a7ff4eec387411006d22fa224551f98:193284882,335e78aeb2874110f62470cb56f54bfc:-1268084923,44fd706a62874110377e6e2f3c8e9902:1854415675,29ecbcea44874110cc3732d85dcd78f4:-1075362641,1a4cfc2e01874110a4e51cb715366f6a:1367318363,a7da302a28474110075d8eae0148fbda:1401691753,af6318ae3907411073f75e1945c02b08:1631212142,3682d02e920741109ea67380a66eff51:380851707,4c01146e460741100759d59c7c90f0ba:-2035923602,5fc094ea3607411037f54aad81f62273:-1286871644,fa40502e7c0741109b73b8a287063c3b:651300332,5f6f402e7f074110171f6c9a5abc8935:-1282232906,1f3f00eaa6074110237f2b03b0d20ae9:-1506426033,cdee40eaf4074110f710c384b577dce9:-373808273,4c6e8caa29074110a8f1b172b64ec455:79969911,18ad8c6a770741102b36cf5710423cd7:-421927281,523d44aa8807411046e49946d3de02d9:-1036639948,439c8c6af90741109cb5c80a4c97ea2c:-421927281,354c486a8f0741101904c64d1cbb88a6:566351250,4adb0ca6e10741105090bcf791ba90bd:-1753858577,38fa00e6f3074110ccc92912b49702f6:339752959,c76908e670074110282d77e9993ceb51:-673236438,9759c8a6870741106e702154a577ee21:1076929274,13c800a6580741101b9c162122422150:-666435686,b15884e2f30741101d13ed912aa2b156:560991919,d78700a6d0074110ff94da25b06da77b:-1524126760,0f6700a6c1074110e4ebc1f7b9ade344:-1237089978,e53708e2f9074110fc92e0a3d7d21e54:-401814747,eec64826e707411019e9cce30d3e1242:-740557377,fa7504e21e07411031863aa4bc5c7d32:96121934,b5944c26fac341109d0f2ed0376781b5:1470550981,4629c55a2dcb011079bae716a5540209:1147166431,265805d6dccb0110c5575c6df622b1c3:1423341247,4d57411a27cb01104e5d429d381c019a:1559295807,57f64dd655cb01104cbab14eafa6ff47:-2090546758,62c685d6cfcb01102289883aab194a40:-1654955025,6e26819680cb0110cc6eb66b26cf41f9:113905090,c0d5459602cb011033deb3e574e31519:-947596766,24544516aecb0110989bd872bd19abf8:2002013757,1ef2c91628cb0110966debab85fa014b:1803824859,1dd14dd22dcb01109dd822de98f201d9:728067546,3b28bcda968b0110cdb6ce6adc12d392:-1796958743,cfe6789adc4b011050fd6b28e0728ae0:-1790776205,85fedc5a5e4b0110a0f64b35e4797bae:-2029988950,096e501a264b01100623b4615eccc7cd:-1480023701,483edc5a944b011032a6ec49f4e0288c:163265103,ecfd90d6cb4b01107f63b38826709ee3:-232895152,b4cb501aa04b0110ca18720750ec34a2:929826767,65ba5c96ef4b0110c47fe9cb3c942d64:-548712097,6b8a5c96be4b0110b6546c802c6d7541:853657026,123a9496cb4b0110686d4b1f5678f864:684946648,bf0a5856fe4b011049d68a79222d6509:-2048915665,b3489456094b0110ad195942631c786e:684946648,73e794d2774b0110d54f5f9ff6cc6996:-1288700407,e4f598d22d4b0110efd85e8c919a208b:-586742656,f3759c92aa4b01106fb2d9e83a1340c4:-1381772696,3f04d0929c4b011016f127e5d78f8079:486780922,a33ec41ece0b0110d789fc8e76262b95:-1346223505,883c441e630b0110ba1d84f4abfc56ff:2062294388,aa28c05aa60b0110cb05b778a3db62f3:-424372715</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

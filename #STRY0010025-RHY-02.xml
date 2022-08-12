@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-08-12 14:38:23">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>#STRY0010025-RHY-02</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>caf701df2f8011102f8baa5df699b6e5</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:38:23</sys_created_on>
+<sys_id>2897afc997111110a0a43d400153afb1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:38:23</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>item_option_new_90a9a01d47801110a06c690cd36d439e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Déclaration Perte / Vol">7246284947001110a06c690cd36d4389</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><enable_also_request_for>false</enable_also_request_for><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><hidden>false</hidden><include_none>false</include_none><instructions/><layout>normal</layout><list_table>cmdb_ci</list_table><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><macroponent/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>articles_perdus</name><order>300</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><published_ref/><question_text>Article(s) perdu(s) ou volé(s)</question_text><read_only>false</read_only><read_roles/><read_script/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual>javascript:"assigned_to!=^assigned_to="+current.variables.requested_for+"^install_status!=8^ORinstall_status="</reference_qual><reference_qual_condition/><rich_text/><roles_to_use_also_request_for/><save_script/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-11 16:11:21</sys_created_on><sys_id>90a9a01d47801110a06c690cd36d439e</sys_id><sys_mod_count>10</sys_mod_count><sys_name>Article(s) perdu(s) ou volé(s)</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_90a9a01d47801110a06c690cd36d439e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-17 20:15:45</sys_updated_on><table/><tooltip/><type>21</type><ui_page/><unique>false</unique><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>advanced</use_reference_qualifier><validate_regex/><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=90a9a01d47801110a06c690cd36d439e"/><fx_price action="delete_multiple" query="id=90a9a01d47801110a06c690cd36d439e"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>90a9a01d47801110a06c690cd36d439e</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-11 16:11:21</sys_created_on><sys_id>4a4aa81d47801110a06c690cd36d430d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-11 16:11:21</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>90a9a01d47801110a06c690cd36d439e</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-11 16:11:21</sys_created_on><sys_id>024aa81d47801110a06c690cd36d430d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-11 16:11:21</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1336565480</payload_hash>
+<remote_update_set display_value="#STRY0010025-RHY-02">2897afc997111110a0a43d400153afb1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:38:23</sys_created_on>
+<sys_id>ac97afc997111110a0a43d400153afb1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18173ff88ed0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:38:23</sys_updated_on>
+<table/>
+<target_name>Article(s) perdu(s) ou volé(s)</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>74cbd4d3cc401110ccc6e8b620ce4ceb</update_guid>
+<update_guid_history>74cbd4d3cc401110ccc6e8b620ce4ceb:1336565480,24ab94d3a2401110dafc84b9ca21ac50:-1947085764,7e5b90d33e4011108207ffe4266151c3:1336565480,d33bd893f8401110877e58ac27eb49f3:-503798925,d8ba1093c340111061daeb1078e5e232:1878860834,2a5a9493fb401110a2a49bdfeec3a155:-169603861,c3685c13144011105669f08b339d52a9:1878860834,ba0c609dd5801110bf4018c2c64cc7b6:2110383992,39fb209d13801110b466ec956a86b99b:-1367934548,0a9aac1d7b80111078aa825d0b8ce08a:2110383992,8a4aa81d2c801110d89ea4a26c3a2212:1588713091</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>retrieved</category>
+<comments/>
+<name>item_option_new_14e52c1947801110a06c690cd36d4303</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Déclaration Perte / Vol">7246284947001110a06c690cd36d4389</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><enable_also_request_for>false</enable_also_request_for><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><hidden>false</hidden><include_none>false</include_none><instructions/><layout>normal</layout><list_table>cmdb_ci</list_table><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><macroponent/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>articles_perdus_passe</name><order>200</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><published_ref/><question_text>Article(s) perdu(s) ou volé (s) dans le passé</question_text><read_only>false</read_only><read_roles/><read_script/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual>javascript:"assigned_to!=^assigned_to="+current.variables.requested_for+"^install_status=8"</reference_qual><reference_qual_condition/><rich_text/><roles_to_use_also_request_for/><save_script/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-11 15:56:27</sys_created_on><sys_id>14e52c1947801110a06c690cd36d4303</sys_id><sys_mod_count>7</sys_mod_count><sys_name>Article(s) perdu(s) ou volé (s) dans le passé</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_14e52c1947801110a06c690cd36d4303</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-17 20:17:33</sys_updated_on><table/><tooltip/><type>21</type><ui_page/><unique>false</unique><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>advanced</use_reference_qualifier><validate_regex/><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=14e52c1947801110a06c690cd36d4303"/><fx_price action="delete_multiple" query="id=14e52c1947801110a06c690cd36d4303"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>14e52c1947801110a06c690cd36d4303</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-11 15:56:27</sys_created_on><sys_id>6bd6a81947801110a06c690cd36d4386</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-11 15:56:27</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>14e52c1947801110a06c690cd36d4303</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-11 15:56:27</sys_created_on><sys_id>63d6a81947801110a06c690cd36d4385</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-11 15:56:27</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>524693095</payload_hash>
+<remote_update_set display_value="#STRY0010025-RHY-02">2897afc997111110a0a43d400153afb1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-08-12 14:38:23</sys_created_on>
+<sys_id>e897afc997111110a0a43d400153afb1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18173ff89140000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-08-12 14:38:23</sys_updated_on>
+<table/>
+<target_name>Article(s) perdu(s) ou volé (s) dans le passé</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>7e2c54d39f4011101a11300a7830442f</update_guid>
+<update_guid_history>7e2c54d39f4011101a11300a7830442f:524693095,063ce09d6d801110215f569b8de483ce:89684989,992ca09db98011105f2c782e5bdfe1e2:-152252111,a97a2c1d8a80111092617681f013b6a3:89684989,5e8820d9338011104d7220c098010011:-974264824,f2586c993e80111056d5c41ac59b5666:1378622560,6628a899e98011103ff84c8fe2b458ba:-1299764624,abd6e459d280111059c1970dc5e8b890:1502296870</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
