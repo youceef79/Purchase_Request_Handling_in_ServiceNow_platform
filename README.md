@@ -1,4 +1,4 @@
-# Purchase_management_in_ServiceNow_platform
+# Purchase_Request_Handling_in_ServiceNow_platform
 
  **********    <h2> This project focus on implementation of a purchase handling portal application within ServiceNow platform </h2>  **********  
  
